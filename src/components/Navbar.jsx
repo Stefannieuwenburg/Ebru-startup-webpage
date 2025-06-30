@@ -17,7 +17,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', id: 'home' },
     { name: 'About', id: 'cta' },
-    { name: 'Coaching', id: 'coaching' },
+    { name: 'Group Coaching', id: 'Group Coaching' },
     { name: 'Workshops', id: 'workshops' },
     { name: 'Trainings', id: 'trainings' },
     { name: 'Contact', id: 'contact' },

@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
-import CoachingsPage from './pages/CoachingsPage';
-import TrainingsPage from './pages/TrainingsPage';
+import CoachingsGroup from './pages/CoachingsGroup';
+import EventsPage from './pages/EventsPage';
 import FeaturesPage from './pages/FeaturesPage';
 import ServicePage from './pages/ServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
@@ -13,6 +13,7 @@ import CallToActionPage from './pages/CallToActionPage';
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
 import NewsLetterPage from './pages/NewsLetterPage';
+import CoachingsPrivate from './pages/CoachingsPrivate';
 function App() {
 
   const Layout = lazy(() => import('./layout/Layout'));
@@ -36,9 +37,10 @@ function App() {
                 <NewsLetterPage /> {/* Newsletter */}
               {/* Themp pages belwow are not linked to the main page, but can be accessed directly via their URLs. */}
                 <ContactPage /> {/* Contact page with form */}
-                <CoachingsPage />
+                <CoachingsPrivate/>
+                <CoachingsGroup />
                 <WorkshopsPage />
-                <TrainingsPage />
+                <EventsPage />
               </Layout>
             }
           />

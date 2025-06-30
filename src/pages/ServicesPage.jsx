@@ -1,85 +1,70 @@
-import React from 'react';
 
+const categories = {
+  Mentally: [
+    'Stress and Anxiety Management',
+    'Clarity and Concentration',
+    'Deep Awareness',
+    'Thought Patterns',
+    'Creativity Boost',
+  ],
+  Physically: [
+    'Improve Sleep',
+    'Elevate Energy',
+    'Physical Performance',
+    'Enhances Organ Vitality',
+    'Immune Support',
+    'Feeling Free and Light',
+  ],
+  Emotionally: [
+    'Release Blocked Energies',
+    'Liberation from Past Memories',
+    'Emotional Liberation',
+    'Clearing Past Wounds',
+    'Release of Fears and Limitations',
+    'Emotional Subconscious Mind Reframing',
+  ],
+  Spiritually: [
+    'Intuition and Insights',
+    'Mind-Body Connection',
+    'Higher Vibrational State',
+    'Alignment with Purpose',
+    'Divine Connections with Self & Others',
+  ],
+};
 const ServicesPage = () => {
   return (
-    <section className="min-h-screen bg-[#b4b29a] py-20 px-6 md:px-12 lg:px-24">
-      <div className="max-w-6xl mx-auto text-center">
-        {/* Top Heading and Description */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          How breathandbodymovement can help you
-        </h2>
-        <p className="text-gray-700 text-lg mb-12">
-          Dit is een beschrijving van de missie en visie van breathandbodymovement. 
-          We zijn toegewijd aan het verbeteren van de kwaliteit van leven door middel van coaching, training en workshops.
-          Onze aanpak is uniek en gericht op het bevorderen van persoonlijke groei en welzijn.
-        </p>
-
-        {/* Grid with Cards and Center Image */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Top Left Card */}
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Mentally</h3>
-            <ul className="text-gray-600">
-              <li>Coaching</li>
-              <li>Training</li>
-              <li>Workshops</li> 
-              <li>Training</li>
-              <li>Workshops</li>
-              <li>Coaching</li>
+    <>
+      <section className="min-h-screen bg-[#b4b29a] text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#3b3a2e] mb-6">
+              How breathandbodymovement can help you
+            </h1>
+            <p className="text-xl text-gray-700">
+              Dit is een beschrijving van de missie en visie van breathandbodymovement. 
+              We zijn toegewijd aan het verbeteren van de kwaliteit van leven door middel van coaching, training en workshops.
+              Onze aanpak is uniek en gericht op het bevorderen van persoonlijke groei en welzijn.
+            </p>
+          </div>
+ <div className="min-h-screen  p-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {Object.entries(categories).map(([category, items]) => (
+          <div key={category} className="bg-white rounded-lg shadow-md p-6">
+            <h2 className="text-xl font-semibold  mb-4  md:text-2xl  text-[#3b3a2e] ">{category}</h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              {items.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
-
-          {/* Top Right Card */}
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Physically</h3>
-           <ul className="text-gray-600">
-              <li>Coaching</li>
-              <li>Training</li>
-              <li>Workshops</li> 
-              <li>Training</li>
-              <li>Workshops</li>
-              <li>Coaching</li>
-            </ul>
-          </div>
-
-          {/* Center Image */}
-          <div className="md:col-span-2 flex justify-center">
-            <img
-              src="https://via.placeholder.com/300x200"
-              alt="rotationg ying yang symbol illustration"
-              className="rounded-lg shadow-lg"
-            />
-          </div>
-
-          {/* Bottom Left Card */}
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Emotionally</h3>
-          <ul className="text-gray-600">
-              <li>Coaching</li>
-              <li>Training</li>
-              <li>Workshops</li> 
-              <li>Training</li>
-              <li>Workshops</li>
-              <li>Coaching</li>
-            </ul>
-          </div>
-
-          {/* Bottom Right Card */}
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Spiritually</h3>
-           <ul className="text-gray-600">
-              <li>Coaching</li>
-              <li>Training</li>
-              <li>Workshops</li> 
-              <li>Training</li>
-              <li>Workshops</li>
-              <li>Coaching</li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
-    </section>
+    </div>
+         </div>
+         </section>
+    </>
   );
 };
 
 export default ServicesPage;
+

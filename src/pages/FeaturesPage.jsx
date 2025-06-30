@@ -4,59 +4,70 @@ import image3 from "../assets/image/sundresblack.jpg";
 
 import { Link } from "react-router-dom";
 
-
 function FeaturesPage() {
   const services = [
     {
-      title: "Coaching",
-      description: "Personalized one-on-one sessions to help you discover your inner strength and achieve your wellness goals through mindful movement and breathwork.",
+      title: "Private Coaching",
+      description:
+        "Personalized one-on-one sessions to help you discover your inner strength and achieve your wellness goals through mindful movement and breathwork.",
       image: image1,
-      link: "/coaching"
+      link: "/coaching",
+    },
+    {
+      title: "Group Coaching",
+      description:
+        "Interactive group sessions where you'll learn practical techniques for stress relief, mindfulness, and body awareness in a supportive community setting.",
+      image: image2,
+      link: "/workshops",
     },
     {
       title: "Workshops",
-      description: "Interactive group sessions where you'll learn practical techniques for stress relief, mindfulness, and body awareness in a supportive community setting.",
-      image: image2,
-      link: "/workshops"
+      description:
+        "Comprehensive training programs for professionals looking to integrate breathwork and movement practices into their own practice or teaching.",
+      image: image3,
+      link: "/trainings",
     },
     {
-      title: "Trainings",
-      description: "Comprehensive training programs for professionals looking to integrate breathwork and movement practices into their own practice or teaching.",
+      title: "Events",
+      description:
+        "Comprehensive training programs for professionals looking to integrate breathwork and movement practices into their own practice or teaching.",
       image: image3,
-      link: "/trainings"
-    }
+      link: "/trainings",
+    },
   ];
 
   return (
-  <>
-      <section className="bg-[#f5f3ef] py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6">
-              Breathe. Move. Transform.
-            </h1>
-            <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-             Reconnect with your body’s innate wisdom through conscious movement and breath, and cultivate deep, lasting well-being from within.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/contact"
-                className="bg-[#6e6c50] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
-              >
-                Start Your Journey
-              </Link>
-              <Link
-                to="/about"
-                className="border-2 border-[#6e6c50] text-[#6e6c50] px-8 py-4 rounded-lg font-semibold hover:bg-[#6e6c50] hover:text-white transition-colors"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+    <>
+      {/* Hero Section - Full Screen */}
+      <section className="bg-[#f5f3ef] h-screen flex items-center">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+    <div className="text-center">
+      <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6">
+        Breathe. Move. Transform.
+      </h1>
+      <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+        Reconnect with your body’s innate wisdom through conscious movement and breath, and cultivate deep, lasting well-being from within.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <Link
+          to="/contact"
+          className="bg-[#6e6c50] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
+        >
+          Start Your Journey
+        </Link>
+        <Link
+          to="/about"
+          className="border-2 border-[#6e6c50] text-[#6e6c50] px-8 py-4 rounded-lg font-semibold hover:bg-[#6e6c50] hover:text-white transition-colors"
+        >
+          Learn More
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
-   
+
+      {/* Intro Section */}
       <section className="bg-[#d9cbb8] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -88,7 +99,7 @@ function FeaturesPage() {
         </div>
       </section>
 
-     
+      {/* Services Section */}
       <section className="bg-[#b4b29a] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -99,25 +110,27 @@ function FeaturesPage() {
               Choose the path that resonates with your current needs and wellness goals
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <div
+                key={index}
+                className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+              >
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-96 object-cover"
                 />
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-[#3b3a2e] mb-3">
+                <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
+                  <h3 className="text-2xl font-bold text-white mb-3 drop-shadow-lg">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-white mb-32 drop-shadow-md text-sm max-w-xs">
                     {service.description}
                   </p>
                   <Link
                     to={service.link}
-                    className="bg-[#6e6c50] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors inline-block"
+                    className="bg-white bg-opacity-80 text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-opacity-100 transition"
                   >
                     Learn More
                   </Link>
@@ -128,7 +141,7 @@ function FeaturesPage() {
         </div>
       </section>
 
-    
+      {/* Call to Action */}
       <section className="bg-[#3b3a2e] py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
@@ -145,9 +158,8 @@ function FeaturesPage() {
           </Link>
         </div>
       </section>
-   </>
+    </>
   );
 }
 
 export default FeaturesPage;
-
