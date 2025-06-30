@@ -10,9 +10,9 @@ import ServicePage from './pages/ServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import WorkshopsPage from './pages/WorkshopsPage';
 import CallToActionPage from './pages/CallToActionPage';
-import NewsLetterPage from './pages/NewsLetterPage';
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
+import NewsLetterPage from './pages/NewsLetterPage';
 function App() {
 
   const Layout = lazy(() => import('./layout/Layout'));
@@ -33,7 +33,7 @@ function App() {
                 <TestimonialsPage />
                 <FAQPage /> {/* Frequently Asked Questions */}
                 <CallToActionPage /> {/* AboutPage white action */}
-                <NewsLetterPage />
+                <NewsLetterPage /> {/* Newsletter */}
               {/* Themp pages belwow are not linked to the main page, but can be accessed directly via their URLs. */}
                 <ContactPage /> {/* Contact page with form */}
                 <CoachingsPage />
