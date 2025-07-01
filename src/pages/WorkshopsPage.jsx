@@ -15,17 +15,23 @@ const WorkshopsPage = () => {
               />
             </div>
             <div>
-              <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6">
-                WorkshopsPage 
+              <h2 className="text-lg text-[#3b3a2e] mb-6">
+                Workshops
               </h2>
-              <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6">
-                Your Journey to Wellness Starts Here
+              <h2 className="text-lg  text-[#3b3a2e] mb-6">
+                A collective journey into presence, connection, and embodied transformation. These workshops are an invitation to return to your body — together.
+                In each session, we create a safe, inspiring space where you can move, feel, express, and reconnect — not just with yourself, but with others in a shared field of authenticity and trust. Whether it’s a women’s circle, somatic movement journey, or a team-building experience, these gatherings awaken a deeper sense of community, emotional expression, and inner strength.
+                Through a powerful blend of embodied practices, you'll be guided to:
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                I believe that true wellness comes from the harmony between breath, body, and mind. Through personalized coaching, transformative workshops, and comprehensive training programs, I guide you on a journey of self-discovery and healing.
+                Somatic Movement – to ground into your body, release tension, and awaken felt presence
+                Breathwork – to open energetic flow and deepen self-awareness
+                Relational & Creative Exercises – to foster connection, trust, and meaningful interaction
+                Embodiment Rituals – to ignite your inner power, sensuality, and emotional freedom
               </p>
               <p className="text-lg text-gray-700 mb-8">
-               Ready to Start Your Journey?
+               These workshops are open to all genders (unless otherwise specified) and can be adapted for retreats, festivals, conscious communities, or team environments — in any country.
+               This is a space to feel seen, supported, and celebrated — as your most embodied self.
               </p>
               <Link
                 to="/about"

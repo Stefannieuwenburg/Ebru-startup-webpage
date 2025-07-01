@@ -9,28 +9,28 @@ function FeaturesPage() {
     {
       title: "Private Coaching",
       description:
-        "Personalized one-on-one sessions to help you discover your inner strength and achieve your wellness goals through mindful movement and breathwork.",
+        "A sacred space to reconnect with your body, breath, and truth. One-on-one sessions for deep healing and embodied transformation.",
       image: image1,
       link: "/coaching",
     },
     {
       title: "Group Coaching",
       description:
-        "Interactive group sessions where you'll learn practical techniques for stress relief, mindfulness, and body awareness in a supportive community setting.",
+        "You’re not alone on this journey. Join a powerful circle of growth, movement, and breath.",
       image: image2,
       link: "/workshops",
     },
     {
       title: "Workshops",
       description:
-        "Comprehensive training programs for professionals looking to integrate breathwork and movement practices into their own practice or teaching.",
+        "A shared journey into presence and expression. Workshops to reconnect with yourself and others.",
       image: image3,
       link: "/trainings",
     },
     {
       title: "Events",
       description:
-        "Comprehensive training programs for professionals looking to integrate breathwork and movement practices into their own practice or teaching.",
+        "Come as you are. Leave transformed. Events designed for healing, connection, and presence.",
       image: image3,
       link: "/trainings",
     },
@@ -125,7 +125,7 @@ function FeaturesPage() {
                   <h3 className="text-2xl font-bold text-white mb-3 drop-shadow-lg">
                     {service.title}
                   </h3>
-                  <p className="text-white mb-32 drop-shadow-md text-sm max-w-xs">
+                  <p className="text-white text-start font-stretch-normal font-semibold mb-32 drop-shadow-md text-sm max-w-xs">
                     {service.description}
                   </p>
                   <Link

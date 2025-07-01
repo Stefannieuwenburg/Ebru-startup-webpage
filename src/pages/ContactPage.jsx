@@ -1,3 +1,6 @@
+import { CiInstagram } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+import { CiLinkedin } from "react-icons/ci";
 function Contact() {
   return (
     
@@ -20,8 +23,9 @@ function Contact() {
             </div>
             <div>
               <h2 className="text-2xl font-semibold text-[#3b3a2e] mb-4">Contact Information</h2>
-              <p className="mb-2">Email: info@example.com</p>
-              <p className="mb-2">Instagram: @breathandbodymovement</p>
+              <p className="mb-2 flex items-center"><MdOutlineEmail className="mr-2" /> Email: info@example.com</p>
+              <p className="mb-2 flex items-center"><CiInstagram className="mr-2"/> Instagram: @breathandbodymovement</p>
+              <p className="mb-2 flex items-center"><CiLinkedin className="mr-2"/> Linkedin: @breathandbodymovement</p>
               <p className="mb-2"></p>
               <div className="mt-6">
               </div>

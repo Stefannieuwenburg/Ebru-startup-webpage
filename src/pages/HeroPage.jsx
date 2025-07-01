@@ -1,4 +1,4 @@
-import DanceVideo from "../assets/video/video.mp4";
+import SlowDance from "../assets/video/SlowVideo.mp4";
 const HeroPage = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const HeroPage = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src={DanceVideo} type="video/mp4" />
+        <source src={SlowDance} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       {/* Overlay voor betere leesbaarheid */}
