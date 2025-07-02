@@ -6,7 +6,7 @@ const AboutPage = () => {
         <div className="max-w-48xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-[#3b3a2e] mb-6">
-              About breat&bodymovement
+              About breath&bodymovement
             </h1>
             <p className="text-xl text-gray-700">
               Your guide to holistic wellness through mindful movement and conscious breathing

@@ -26,9 +26,9 @@ const PrivateCoaching = () => {
                                 transform from within.
                             </p>
 
-                            <ul className="text-lg text-gray-700 mb-6">
+                            <ul className="text-lg text-[#3b3a2e] mb-6">
                                 <li>
-                                    <strong>Tools</strong>
+                                  <h3 className="mb-4 mt-4"><strong >Tools</strong></h3>  
                                     <ul>
                                         <li>Co-Active Coaching — explore your inner landscape and evoke insight</li>
                                         <li>Conscious Movement — awaken body awareness and release tension</li>
@@ -37,7 +37,7 @@ const PrivateCoaching = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <strong>Benefits</strong>
+                                  <h3 className="mb-4 mt-4"><strong>Benefits</strong></h3>  
                                     <ul>
                                         <li>Emotional release and integration</li>
                                         <li>Nervous system regulation and stress relief</li>
@@ -50,7 +50,7 @@ const PrivateCoaching = () => {
                             <ul>
                                 <li></li>
                             </ul>
-                            <p className="text-lg text-gray-700 mb-8">
+                            <p className="text-lg text-[#3b3a2e]  mb-8">
                                 This is your time — to feel, explore, and transform at your own pace, with compassionate
                                 support every step of the way.
                             </p>

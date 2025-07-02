@@ -78,7 +78,7 @@ function Footer() {
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-300">
-            © 2025 breat&bodymovement. All rights reserved.
+            © 2025 breath&bodymovement. All rights reserved.
           </p>
         </div>
       </div>

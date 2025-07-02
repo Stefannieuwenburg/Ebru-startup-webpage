@@ -25,7 +25,7 @@ const GroupCoaching= () => {
                                       <ul className="mb-4 mt-4 ">
   <li><strong>Tools</strong></li>
 </ul>
-<ul>
+<ul className="text-lg text-[#3b3a2e] ">
   <li>Co-Active Coaching — explore your inner landscape and evoke insight</li>
   <li>Conscious Movement — awaken body awareness and release tension</li>
   <li>Breathwork — regulate your nervous system and open energy flow</li>
@@ -35,7 +35,7 @@ const GroupCoaching= () => {
 <ul className="mb-4 mt-4 ">
   <li><strong>Benefits</strong></li>
 </ul>
-<ul>
+<ul className="text-lg text-[#3b3a2e]"> 
   <li>Emotional release and integration</li>
   <li>Nervous system regulation and stress relief</li>
   <li>Deepened connection to body and intuition</li>
@@ -43,7 +43,7 @@ const GroupCoaching= () => {
 </ul>
           
                                    
-                                      <p className="text-lg text-gray-700 mb-8  mt-4 ">
+                                      <p className="text-lg text-[#3b3a2e] mb-8  mt-4 ">
                                           This is your time — to feel, explore, and transform at your own pace, with compassionate
                                           support every step of the way.
                                       </p>

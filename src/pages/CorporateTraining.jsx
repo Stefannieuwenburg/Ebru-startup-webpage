@@ -21,7 +21,7 @@ const CorporateTraining = () => {
                                                   Empower your team with embodiment-based trainings designed to build emotional intelligence, resilience, and presence in the workplace. Through somatic awareness, breathwork, and conscious movement, these sessions help teams manage stress, improve focus, and foster authentic leadership in fast-paced environments.
                                                  </p>
                    <h3 className="mb-4 mt-4" ><strong>Tools</strong></h3>
-<ul>
+<ul className="text-lg text-[#3b3a2e] ">
   <li>Somatic Movement — ground and release tension</li>
   <li>Breathwork & Qigong — open energy flow and calm the nervous system</li>
   <li>Embodiment Rituals — ignite inner power and emotional freedom</li>
@@ -29,7 +29,7 @@ const CorporateTraining = () => {
 </ul>
 
 <h3 className="mb-4 mt-4 "><strong>Benefits </strong></h3>
-<ul>
+<ul className="text-lg text-[#3b3a2e] ">
   <li>Deepen body, emotional, and intuitive connection</li>
   <li>Release held tension and stress</li>
   <li>Regulate nervous system for ease and clarity</li>
@@ -37,7 +37,7 @@ const CorporateTraining = () => {
   <li>Access subconscious awareness and inner vitality</li>
 </ul>
                                                 
-                                                 <p className="text-lg text-gray-700 mb-8 mt-4">
+                                                 <p className="text-lg text-[#3b3a2e] mb-8 mt-4">
                                                     These trainings are adaptable for team offsites, leadership retreats, and can be offered globally, both in-person and online.
                                                     Let’s co-create a more conscious, connected, and thriving workplace — one breath, one body, one leader at a time.
                                                  </p>
