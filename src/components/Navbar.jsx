@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import {scroller} from "react-scroll";
-import Logo from "../assets/image/LogoNoText.png";
+import Logo from "../assets/image/Logo.png";
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
