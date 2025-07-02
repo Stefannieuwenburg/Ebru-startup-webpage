@@ -38,7 +38,7 @@ const ServicesPage = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-4xl md:text-5xl font-bold text-[#3b3a2e] mb-6">
-              How breathandbodymovement can help you
+              How breat&bodymovement can help you
             </h1>
             <p className="text-xl text-gray-700">
               Dit is een beschrijving van de missie en visie van breathandbodymovement. 

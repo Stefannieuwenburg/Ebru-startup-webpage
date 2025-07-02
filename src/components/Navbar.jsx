@@ -18,8 +18,9 @@ const Navbar = () => {
         {name: "Home", id: "home"},
         {name: "About", id: "cta"},
         {name: "Group Coaching", id: "Group Coaching"},
+        {name: "Private Coaching", id: "Group Coaching"},
+        {name: "Corporate Trainings", id: "Corporate Trainings"},
         {name: "Workshops", id: "workshops"},
-        {name: "Trainings", id: "trainings"},
         {name: "Contact", id: "contact"},
     ];
 
@@ -32,7 +33,7 @@ const Navbar = () => {
                     className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
                     onClick={() => scrollToSection("hero")}
                     >
-                    breat&handbodymovement
+                    breat&bodymovement
                     </button>
 
                   

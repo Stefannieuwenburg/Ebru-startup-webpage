@@ -4,7 +4,7 @@ const NewsLetterPage = () => {
       <section className="min-h-[50vh] flex items-center justify-center bg-[#f0eae2] py-16 px-6 md:px-12 lg:px-24">
          {/* Newsletter */}
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-[#3b3a2e]  text-3xl md:text-4xl font-semibold mb-6">Subscribe to Life Coaching van breathandbodymovement for Our Newsletter</h1>
+          <h1 className="text-[#3b3a2e]  text-3xl md:text-4xl font-semibold mb-6">Subscribe to Life Coaching van breat&bodymovement for Our Newsletter</h1>
           <p className="text-gray-600 mb-8">Stay updated with the latest news and exclusive offers.</p>
           <form className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
             <input

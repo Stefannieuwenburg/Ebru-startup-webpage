@@ -12,7 +12,7 @@ const CallToActionPage = () => {
               Meet Ebru
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              The heart and soul behind breathandbodymovement
+              The heart and soul behind breat&bodymovement
             </p>
           </div>
         </div>

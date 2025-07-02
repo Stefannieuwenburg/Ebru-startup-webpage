@@ -1,6 +1,7 @@
-import image1 from "../assets/image/arenameeting.jpg";
-import image2 from "../assets/image/arenastanding.jpg";
-import image3 from "../assets/image/sundresblack.jpg";
+import image1 from "../assets/image/PrivateCoaching.jpg";
+import image2 from "../assets/image/GroupCoaching.jpg";
+import image3 from "../assets/image/WorkShops.jpg";
+import image4 from "../assets/image/CorporateTrainings.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -9,29 +10,29 @@ function FeaturesPage() {
     {
       title: "Private Coaching",
       description:
-        "A sacred space to reconnect with your body, breath, and truth. One-on-one sessions for deep healing and embodied transformation.",
+        "Unlock Your Personalized Journey",
       image: image1,
       link: "/coaching",
     },
     {
       title: "Group Coaching",
       description:
-        "You’re not alone on this journey. Join a powerful circle of growth, movement, and breath.",
+        "A Collective Journey to Embodied Empowerment",
       image: image2,
       link: "/workshops",
     },
     {
       title: "Workshops",
       description:
-        "A shared journey into presence and expression. Workshops to reconnect with yourself and others.",
+        "Breathe, Move, and Reconnect with Your Body's Wisdom",
       image: image3,
       link: "/trainings",
     },
     {
-      title: "Events",
+      title: "Corporate Trainings",
       description:
-        "Come as you are. Leave transformed. Events designed for healing, connection, and presence.",
-      image: image3,
+        "Strengthen Resilience and Cultivate Balance",
+      image: image4,
       link: "/trainings",
     },
   ];
@@ -122,10 +123,10 @@ function FeaturesPage() {
                   className="w-full h-96 object-cover"
                 />
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
-                  <h3 className="text-2xl font-bold text-white mb-3 drop-shadow-lg">
+                  <h3 className="text-2xl font-bold text-white mb-28 drop-shadow-lg">
                     {service.title}
                   </h3>
-                  <p className="text-white text-start font-stretch-normal font-semibold mb-32 drop-shadow-md text-sm max-w-xs">
+                  <p className="text-white text-start font-stretch-normal font-bold mb-32 drop-shadow-md text-sm max-w-xs">
                     {service.description}
                   </p>
                   <Link

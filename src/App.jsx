@@ -4,7 +4,7 @@ import { Suspense, lazy } from 'react';
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
 import CoachingsGroup from './pages/CoachingsGroup';
-import EventsPage from './pages/EventsPage';
+import CorporateTrainings from './pages/CorporateTrainings';
 import FeaturesPage from './pages/FeaturesPage';
 import ServicePage from './pages/ServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
@@ -13,7 +13,7 @@ import CallToActionPage from './pages/CallToActionPage';
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
 import NewsLetterPage from './pages/NewsLetterPage';
-import CoachingsPrivate from './pages/CoachingsPrivate';
+import PrivateCoaching from './pages/PrivateCoaching';  
 function App() {
 
   const Layout = lazy(() => import('./layout/Layout'));
@@ -37,10 +37,10 @@ function App() {
                 <NewsLetterPage /> {/* Newsletter */}
               {/* Themp pages belwow are not linked to the main page, but can be accessed directly via their URLs. */}
                 <ContactPage /> {/* Contact page with form */}
-                <CoachingsPrivate/>
+                <PrivateCoaching />
                 <CoachingsGroup />
                 <WorkshopsPage />
-                <EventsPage />
+                <CorporateTrainings/>
               </Layout>
             }
           />

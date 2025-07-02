@@ -7,24 +7,24 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">breathandbodymovement</h3>
+            <h3 className="text-2xl font-bold mb-4">breat&bodymovement</h3>
             <p className="text-gray-300 mb-6">
               Transform your life through mindful movement, breathwork, and holistic wellness practices.
             </p>
             
             {/* Newsletter */}
-            <div className="bg-[#f0eae2] p-6 rounded-lg">
-              <h4 className="text-[#3b3a2e] font-semibold mb-3">Subscribe to Life Coaching van breathandbodymovement for Our Newsletter</h4>
+            <div className="bg-[#f0eae2] p-4 rounded-lg">
+              <h4 className="text-[#3b3a2e] font-semibold mb-3">Subscribe to Life Coaching van breat&bodymovement <br/> for Our Newsletter</h4>
               <p className="text-[#3b3a2e] text-sm mb-4">
                 Stay updated with the latest news and exclusive offers.
               </p>
-              <div className="flex">
+              <div className="flex ">
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="flex-1 px-4 py-2 rounded-l-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#6e6c50]"
+                  className="flex-1 px-8 py-2 rounded-l-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#6e6c50]"
                 />
-                <button className="bg-[#6e6c50] text-white px-6 py-2 rounded-r-md hover:bg-[#5a5840] transition-colors">
+                <button className="bg-[#6e6c50] text-white px-2 py-2 rounded-r-md hover:bg-[#5a5840] transition-colors">
                   Subscribe
                 </button>
               </div>
@@ -37,17 +37,22 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link to="/coaching" className="text-gray-300 hover:text-white transition-colors">
-                  Personal Coaching
+                  Privite Coaching
                 </Link>
               </li>
               <li>
                 <Link to="/workshops" className="text-gray-300 hover:text-white transition-colors">
-                  Workshops
+                  Group Coaching
                 </Link>
               </li>
               <li>
                 <Link to="/trainings" className="text-gray-300 hover:text-white transition-colors">
-                  Training Programs
+                  Corporate Coaching
+                </Link>
+              </li>
+               <li>
+                <Link to="/trainings" className="text-gray-300 hover:text-white transition-colors">
+                  Workshops
                 </Link>
               </li>
             </ul>
@@ -73,7 +78,7 @@ function Footer() {
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-300">
-            © 2025 breathandbodymovement. All rights reserved.
+            © 2025 breat&bodymovement. All rights reserved.
           </p>
         </div>
       </div>
