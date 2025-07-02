@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import {scroller} from "react-scroll";
-import Logo from "../assets/image/Logo.png";
+import Logo from "../assets/image/LogoNoText.png";
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -28,6 +28,13 @@ const Navbar = () => {
             <div className="flex items-center gap-6 text-gray-500 backdrop-blur-lg rounded-md">
                 <div className="text-2xl font-bold flex items-center">
                     <img src={Logo} alt="Logo" className="w-24 h-24" />
+                    <button
+                    className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
+                    onClick={() => scrollToSection("hero")}
+                    >
+                    breat&handbodymovement
+                    </button>
+
                   
                 </div>
                 <div className="hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">

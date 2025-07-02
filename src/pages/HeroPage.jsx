@@ -25,7 +25,7 @@ const HeroPage = () => {
         </p>
         <a
           href="#contact"
-         className=" text-white px-6 py-3 rounded-3xl border-1 border-white hover:bg-gray-950 transition"
+         className=" text-white px-6 py-4 rounded-3xl border-1 border-white hover:bg-[#6e6c50] transition"
         rel="noopener noreferrer">
           Start your journey
         </a>
