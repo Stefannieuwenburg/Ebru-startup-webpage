@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import CorporateTraining  from "../assets/image/CorporateTrainings.jpg";
-const CorporateTrainings = () => {
+import CorporateTrainings  from "../assets/image/CorporateTrainings.jpg";
+const CorporateTraining = () => {
   return (
      <>
        <section className="bg-[#f0eae2] py-16">
@@ -8,7 +8,7 @@ const CorporateTrainings = () => {
                                          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                                              <div className="relative">
                                                  <img
-                                                     src={CorporateTraining}
+                                                     src={CorporateTrainings}
                                                      alt="Wellness and movement"
                                                      className="rounded-lg shadow-lg w-full h-full object-cover"
                                                  />
@@ -55,4 +55,4 @@ const CorporateTrainings = () => {
    
   );
 }   
-export default CorporateTrainings;
+export default CorporateTraining;

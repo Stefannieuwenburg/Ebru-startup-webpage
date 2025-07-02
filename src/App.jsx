@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
-import CoachingsGroup from './pages/CoachingsGroup';
-import CorporateTrainings from './pages/CorporateTrainings';
+import GroupCoaching from './pages/GroupCoaching';
+import CorporateTraining from './pages/CorporateTraining';
 import FeaturesPage from './pages/FeaturesPage';
 import ServicePage from './pages/ServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
@@ -38,9 +38,9 @@ function App() {
               {/* Themp pages belwow are not linked to the main page, but can be accessed directly via their URLs. */}
                 <ContactPage /> {/* Contact page with form */}
                 <PrivateCoaching />
-                <CoachingsGroup />
+                <GroupCoaching />
                 <WorkshopsPage />
-                <CorporateTrainings/>
+                <CorporateTraining/>
               </Layout>
             }
           />
