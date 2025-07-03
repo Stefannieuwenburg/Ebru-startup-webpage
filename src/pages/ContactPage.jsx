@@ -6,7 +6,9 @@ function Contact() {
     
       <div id="contact" className="bg-[#d4d2c3] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold text-center text-[#3b3a2e] mb-8"> Contact breath&bodymovement</h1>
+          <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
+              Contact breath&<span className="italic">Body Movement</span>
+            </h1>
            <p className="text-lg text-gray-700 mb-8">
           We would love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.
         </p>

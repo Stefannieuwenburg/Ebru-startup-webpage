@@ -37,8 +37,9 @@ const ServicesPage = () => {
       <section className="min-h-screen bg-[#b4b29a] text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#3b3a2e] mb-6">
-              How breath&bodymovement can help you
+            
+            <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
+              How breath&<span className="italic">Body Movement</span> can help you
             </h1>
             <p className="text-xl text-gray-700">
               Dit is een beschrijving van de missie en visie van breathandbodymovement. 

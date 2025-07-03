@@ -71,7 +71,9 @@ const TestimonialsPage = () => {
     <section className="min-h-screen bg-[#e8d5c0] flex items-center justify-center text-gray-600 body-font mt-24">
       
       <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-4xl font-bold text-[#3b3a2e] mb-8 text-center">Testimonials</h1>
+        <h1 className="text-4xl md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
+              Testimonals for breath&<span className="italic">Body Movement</span>
+            </h1>
            <p className="text-lg text-center  text-[#3b3a2e] mb-8">
           We would love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.
         </p>
@@ -85,7 +87,7 @@ const TestimonialsPage = () => {
                   src={t.image}
                 />
                 <p className="leading-relaxed text-center">{t.text}</p>
-                <span className="inline-block h-1 w-10 rounded bg-[#7BA962] mt-6 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm text-center">{t.name}</h2>
                 <p className="text-gray-500 text-center">{t.role}</p>
               </div>

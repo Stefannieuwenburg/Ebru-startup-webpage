@@ -8,8 +8,9 @@ const CallToActionPage = () => {
       <section  id="about" className="bg-[#d4d2c3] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6">
-              Meet Ebru
+            
+            <h1 className="text-5xl md:text-6xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
+              <span className="italic">Meet Ebru</span>
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               The heart and soul behind breath&bodymovement

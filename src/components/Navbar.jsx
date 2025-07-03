@@ -1,3 +1,4 @@
+
 import {useState} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import {scroller} from "react-scroll";
@@ -32,8 +33,12 @@ const Navbar = () => {
                     <button
                     className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
                     onClick={() => scrollToSection("hero")}
-                    ><p className="text-red-400">breath&<span className="italic text-red-400">BodyMovement</span></p>
-                   
+                    ><p
+  className="text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] font-playfair text-center drop-shadow-sm"
+  style={{ fontFamily: '"Playfair Display", serif' }}
+>
+  Breath & <span className="italic">Body Movement</span>
+</p>
                     </button>
 
                   
@@ -87,3 +92,9 @@ export default Navbar;
                     // >
                     //     breathandbodymovement
                     //  </button>
+{/* <p
+  className="text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] font-playfair text-center drop-shadow-sm"
+  style={{ fontFamily: '"Playfair Display", serif' }}
+>
+  Breath & <span className="italic">Body Movement</span>
+</p> */}
