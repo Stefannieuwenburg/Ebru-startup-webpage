@@ -32,7 +32,7 @@ const Navbar = () => {
                     <button
                     className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
                     onClick={() => scrollToSection("hero")}
-                    ><p className="text-2xl font-bold">breath&<span className="italic">bodymovement</span></p>
+                    ><p className="text-red-400">breath&<span className="italic text-red-400">BodyMovement</span></p>
                    
                     </button>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                         <button
                             key={id}
                             onClick={() => scrollToSection(id)}
-                            className="hover:-translate-y-1 hover:text-gray-300 transition duration-200"
+                            className="text-gray-600 hover:text-red-400 hover:-translate-y-1 duration-500 transition"
                         >
                             {name}
                         </button>
@@ -69,7 +69,7 @@ const Navbar = () => {
                         <button
                             key={id}
                             onClick={() => scrollToSection(id)}
-                            className="text-left text-shadow-gray-50 text-lg hover:text-gray-300 transition"
+                            className="text-left text-gray-600 text-lg hover:text-red-400 transition"
                         >
                             {name}
                         </button>
