@@ -1,4 +1,4 @@
- import AboutImage from "../assets/image/aboutimage.jpg";
+import About from "../assets/image/AboutBreed.jpg";
 import { Link } from "react-router-dom";
 
 const CallToActionPage = () => {
@@ -12,7 +12,7 @@ const CallToActionPage = () => {
               Meet Ebru
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              The heart and soul behind breat&bodymovement
+              The heart and soul behind breath&bodymovement
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ const CallToActionPage = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src={AboutImage}
+                src={About}
                 alt="Founder portrait"
                 className="rounded-lg shadow-lg w-full h-full object-cover"
               />

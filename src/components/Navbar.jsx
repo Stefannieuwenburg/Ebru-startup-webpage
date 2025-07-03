@@ -16,10 +16,10 @@ const Navbar = () => {
 
     const navItems = [
         {name: "Home", id: "home"},
-        {name: "About", id: "cta"},
-        {name: "Group Coaching", id: "Group Coaching"},
-        {name: "Private Coaching", id: "Group Coaching"},
-        {name: "Corporate Trainings", id: "Corporate Trainings"},
+        {name: "About", id: "about"},
+        {name: "Group Coaching", id: "groupcoaching"},
+        {name: "Private Coaching", id: "privatecoaching"},
+        {name: "Corporate Trainings", id: "corporatetraining"},
         {name: "Workshops", id: "workshops"},
         {name: "Contact", id: "contact"},
     ];
