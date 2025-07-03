@@ -2,7 +2,7 @@ import image1 from "../assets/image/PrivateCoaching.jpg";
 import image2 from "../assets/image/GroupCoaching.jpg";
 import image3 from "../assets/image/WorkShops.jpg";
 import image4 from "../assets/image/CorporateTrainings.jpg";
-
+import ArenaSmal from "../assets/image/ArenaSmal.jpg";
 import { Link } from "react-router-dom";
 
 function FeaturesPage() {
@@ -91,7 +91,7 @@ function FeaturesPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src={ArenaSmal}
                 alt="Wellness and movement"
                 className="rounded-lg shadow-lg w-full h-full object-cover"
               />

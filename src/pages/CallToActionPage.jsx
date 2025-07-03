@@ -5,7 +5,7 @@ const CallToActionPage = () => {
   return (
   <>
       {/* Founder Section */}
-      <section  id="cta" className="bg-[#d4d2c3] py-20">
+      <section  id="about" className="bg-[#d4d2c3] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6">
