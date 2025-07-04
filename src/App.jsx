@@ -14,42 +14,76 @@ import ContactPage from './pages/ContactPage';
 import NewsLetterPage from './pages/NewsLetterPage';
 import PrivateCoaching from './pages/PrivateCoaching';  
 import BannerPage from './pages/BannerPage';
-function App() {
 
-  const Layout = lazy(() => import('./layout/Layout'));
- 
+const Layout = lazy(() => import('./layout/Layout'));
+
+function App() {
   return (
-    <>
-     <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Loading...</div>}>
       <Router>
         <Routes>
+          {/* Home route with multiple sections */}
           <Route
             path="/"
             element={
               <Layout>
                 <HeroPage />
-                <AboutPage /> {/* HomePage  Welkom bij Life Coaching van breathandbodymovement*/}
+                <AboutPage />
                 <BannerPage />
-                <FeaturesPage /> {/*it has links to TrainingPage, CoachingPage, WorkshopsPage */}
+                <FeaturesPage />
                 <TestimonialsPage />
-                <FAQPage /> {/* Frequently Asked Questions */}
-                <CallToActionPage /> {/* AboutPage white action */}
-                <NewsLetterPage /> {/* Newsletter */}
-              {/* Themp pages belwow are not linked to the main page, but can be accessed directly via their URLs. */}
-                <ContactPage /> {/* Contact page with form */}
-                <PrivateCoaching />
-                <GroupCoaching />
-                <WorkshopsPage />
-                <CorporateTraining/>
+                <FAQPage />
+                <CallToActionPage />
+                <NewsLetterPage />
               </Layout>
             }
           />
-          {/* Add more routes as needed */}
+
+          {/* Other individual pages wrapped in Layout */}
+          <Route
+            path="/contact"
+            element={
+              <Layout>
+                <ContactPage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/private-coaching"
+            element={
+              <Layout>
+                <PrivateCoaching />
+              </Layout>
+            }
+          />
+          <Route
+            path="/group-coaching"
+            element={
+              <Layout>
+                <GroupCoaching />
+              </Layout>
+            }
+          />
+          <Route
+            path="/workshops"
+            element={
+              <Layout>
+                <WorkshopsPage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/corporate-training"
+            element={
+              <Layout>
+                <CorporateTraining />
+              </Layout>
+            }
+          />
         </Routes>
       </Router>
-     </Suspense>
-    </>
-  )
+    </Suspense>
+  );
 }
 
 export default App;

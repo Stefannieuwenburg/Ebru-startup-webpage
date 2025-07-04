@@ -25,7 +25,7 @@ function Contact() {
             </div>
             <div>
               <h2 className="text-2xl font-semibold text-[#3b3a2e] mb-4">Contact Information</h2>
-              <a href="ebru.dargan@gmail.com" className="mb-2 flex items-center"><MdOutlineEmail className="mr-2" />Email</a>
+              <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center"><MdOutlineEmail className="mr-2" />Email</a>
               <a href="https://www.instagram.com/ebruuudrgn/" className="mb-2 flex items-center"><CiInstagram className="mr-2"/>instagram  </a>
               <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center"><CiLinkedin className="mr-2"/>linkedin </a>
               <p className="mb-2"></p>

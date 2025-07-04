@@ -79,7 +79,7 @@ function Footer() {
                 </Link>
               </li>
               <div className="flex justify-start"> 
-            <a href="ebru.dargan@gmail.com" className="mb-2 flex items-center"><MdOutlineEmail className="mr-2" /> </a>
+                     <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center"><MdOutlineEmail className="mr-2" /> </a>
                           <a href="https://www.instagram.com/ebruuudrgn/" className="mb-2 flex items-center"><CiInstagram className="mr-2"/>  </a>
                           <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center"><CiLinkedin className="mr-2"/> </a>
                           </div>

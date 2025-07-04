@@ -2,7 +2,7 @@ import MyMission from "../assets/image/MyMission.jpg";
 
 const AboutPage = () => {
   return (
-   <div id="home" className="bg-[#d9cbb8] min-h-screen py-16">
+   <div id="about" className="bg-[#d9cbb8] min-h-screen py-16">
         <div className="max-w-48xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
