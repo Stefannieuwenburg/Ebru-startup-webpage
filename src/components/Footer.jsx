@@ -1,3 +1,6 @@
+import { CiInstagram } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+import { CiLinkedin } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -58,6 +61,7 @@ function Footer() {
                 </Link>
               </li>
             </ul>
+                        
           </div>
 
           {/* Quick Links */}
@@ -74,10 +78,14 @@ function Footer() {
                   Contact
                 </Link>
               </li>
+              <div className="flex justify-start"> 
+            <a href="ebru.dargan@gmail.com" className="mb-2 flex items-center"><MdOutlineEmail className="mr-2" /> </a>
+                          <a href="https://www.instagram.com/ebruuudrgn/" className="mb-2 flex items-center"><CiInstagram className="mr-2"/>  </a>
+                          <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center"><CiLinkedin className="mr-2"/> </a>
+                          </div>
             </ul>
           </div>
         </div>
-
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-300">
             © 2025 breath&bodymovement. All rights reserved.

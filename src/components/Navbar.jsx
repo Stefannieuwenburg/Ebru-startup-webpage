@@ -29,7 +29,7 @@ const Navbar = () => {
         <nav className="w-full fixed top-0 items-center z-50 justify-center">
             <div className="flex items-center gap-6 text-gray-500 backdrop-blur-lg rounded-md">
                 <div className="text-2xl font-bold flex items-center">
-                    <img src={Logo} alt="Logo" className="w-24 h-24" />
+                    <img src={Logo} alt="Logo" className="w-14 h-14" />
                     <button
                     className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
                     onClick={() => scrollToSection("hero")}

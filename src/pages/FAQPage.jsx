@@ -24,30 +24,30 @@ const FAQPage = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="What does 'alignment' mean in this coaching?"
+              text="Alignment is about finding balance between your body, mind, emotions, and spirit. When you’re aligned, your energy flows freely, you feel grounded and present, and your actions reflect your true self and purpose. Coaching helps you discover and maintain this harmony"
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="What is somatic and breathwork coaching?"
+              text="Somatic and breathwork coaching combines movement, breath, and awareness to help you reconnect with your body, emotions, and mind. It supports healing, stress relief, and personal growth by working directly with your body’s natural intelligence."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="How can your coaching help with mental clarity or stress?"
+              text="Through somatic and embodiment practices, we gently guide the nervous system into regulation, helping manage stress and anxiety. This fosters deeper awareness, clears thought patterns, enhances mental clarity, and boosts creativity. "
             />
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Will I be able to focus better?"
+              text="Clients often report improved concentration and decision-making as they reconnect to their bodies and access calm, present states of mind."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="Can this work improve my physical health or energy levels?"
+              text="Absolutely. Somatic coaching supports better sleep, boosts energy, and enhances physical performance by releasing tension and optimizing your body’s natural rhythms."
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="What about immune health or organ vitality?"
+              text="By activating the parasympathetic nervous system and releasing stored stress, your body can function more freely—supporting immune strength and overall vitality."
             />
           </div>
         </div>

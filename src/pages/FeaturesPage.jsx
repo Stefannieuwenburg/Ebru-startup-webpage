@@ -39,33 +39,7 @@ function FeaturesPage() {
 
   return (
     <>
-      {/* Hero Section - Full Screen */}
-      <section className="bg-[#f5f3ef] h-screen flex items-center">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-    <div className="text-center">
-      <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6">
-        Breathe. Move. Transform.
-      </h1>
-      <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-        Reconnect with your body’s innate wisdom through conscious movement and breath, and cultivate deep, lasting well-being from within.
-      </p>
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Link
-          to="/contact"
-          className="bg-[#6e6c50] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
-        >
-          Start Your Journey
-        </Link>
-        <Link
-          to="/about"
-          className="border-2 border-[#6e6c50] text-[#6e6c50] px-8 py-4 rounded-lg font-semibold hover:bg-[#6e6c50] hover:text-white transition-colors"
-        >
-          Learn More
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
+     
 
 
       {/* Intro Section */}
@@ -101,8 +75,8 @@ function FeaturesPage() {
       </section>
 
       {/* Services Section */}
-      <section className="bg-[#b4b29a] py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#b4b29a] w-full min-h-screen py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-[#3b3a2e] mb-4">
               How I Can Support You
@@ -111,32 +85,46 @@ function FeaturesPage() {
               Choose the path that resonates with your current needs and wellness goals
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <div
-                key={index}
-                className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-              >
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-96 object-cover"
-                />
-                <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4">
-                  <h3 className="text-2xl font-bold text-white mb-28 drop-shadow-lg">
-                    {service.title}
-                  </h3>
-                  <p className="text-white text-start font-stretch-normal font-bold mb-32 drop-shadow-md text-sm max-w-xs">
-                    {service.description}
-                  </p>
-                  <Link
-                    to={service.link}
-                    className="bg-white bg-opacity-80 text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-opacity-100 transition"
-                  >
-                    Learn More
-                  </Link>
-                </div>
-              </div>
+  key={index}
+  className="relative bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow h-[500px] w-full"
+>
+  {/* Image fully visible */}
+  <img
+    src={service.image}
+    alt={service.title}
+    className="w-full h-full object-cover"
+  />
+
+  {/* Overlay content */}
+  <div className="absolute inset-0 flex flex-col justify-between text-center p-4 bg-gradient-to-b from-black/60 via-black/30 to-black/60">
+    {/* Title at the top */}
+    <h3 className="text-2xl font-bold text-white drop-shadow-lg">
+      {service.title}
+    </h3>
+
+    {/* Description in the middle */}
+    <div className="flex-grow flex items-center justify-center">
+      <p className="text-white font-medium text-sm tracking-wide max-w-[90%]">
+        {service.description}
+      </p>
+    </div>
+
+    {/* Button at the bottom */}
+    <div>
+      <a
+        href={service.link}
+        className="bg-white bg-opacity-80 text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-opacity-100 transition"
+      >
+        Learn More
+      </a>
+    </div>
+  </div>
+</div>
+
+
             ))}
           </div>
         </div>

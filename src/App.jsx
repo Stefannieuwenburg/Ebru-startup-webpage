@@ -6,7 +6,6 @@ import AboutPage from './pages/AboutPage';
 import GroupCoaching from './pages/GroupCoaching';
 import CorporateTraining from './pages/CorporateTraining';
 import FeaturesPage from './pages/FeaturesPage';
-import ServicePage from './pages/ServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import WorkshopsPage from './pages/WorkshopsPage';
 import CallToActionPage from './pages/CallToActionPage';
@@ -14,6 +13,7 @@ import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
 import NewsLetterPage from './pages/NewsLetterPage';
 import PrivateCoaching from './pages/PrivateCoaching';  
+import BannerPage from './pages/BannerPage';
 function App() {
 
   const Layout = lazy(() => import('./layout/Layout'));
@@ -29,7 +29,7 @@ function App() {
               <Layout>
                 <HeroPage />
                 <AboutPage /> {/* HomePage  Welkom bij Life Coaching van breathandbodymovement*/}
-                <ServicePage /> {/* a card page how we can help */}
+                <BannerPage />
                 <FeaturesPage /> {/*it has links to TrainingPage, CoachingPage, WorkshopsPage */}
                 <TestimonialsPage />
                 <FAQPage /> {/* Frequently Asked Questions */}
