@@ -1,4 +1,4 @@
-
+import "../Styles.css";
 const categories = {
   Mentally: [
     'Stress and Anxiety Management',

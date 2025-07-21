@@ -1,3 +1,4 @@
+import "../Styles.css";
 import {Link} from "react-router-dom";
 import GroupCoachings from "../assets/image/GroupCoaching.jpg";
 

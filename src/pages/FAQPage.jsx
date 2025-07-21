@@ -1,3 +1,4 @@
+import "../Styles.css";
 import { useState } from "react";
 
 const FAQPage = () => {

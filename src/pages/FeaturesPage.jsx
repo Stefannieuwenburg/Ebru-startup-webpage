@@ -1,3 +1,4 @@
+import "../Styles.css";
 import image1 from "../assets/image/PrivateCoaching.jpg";
 import image2 from "../assets/image/GroupCoaching.jpg";
 import image3 from "../assets/image/WorkShops.jpg";
@@ -39,9 +40,6 @@ function FeaturesPage() {
 
   return (
     <>
-     
-
-
       {/* Intro Section */}
       <section id="intro" className="bg-[#d9cbb8] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

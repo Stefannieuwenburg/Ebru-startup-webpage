@@ -1,3 +1,4 @@
+import "../Styles.css";
 import { CiInstagram } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";

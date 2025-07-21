@@ -1,3 +1,4 @@
+import "../Styles.css";
 import { Link } from 'react-router-dom';
 import WorkShops from "../assets/image/WorkShops.jpg";
 

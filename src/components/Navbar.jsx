@@ -1,4 +1,4 @@
-
+import "../Styles.css";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { scroller } from "react-scroll";
@@ -55,8 +55,7 @@ const Navbar = () => {
             onClick={() => handleNavClick({ type: "scroll", id: "hero" })}
           >
             <p
-              className="text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] font-playfair text-center drop-shadow-sm"
-              style={{ fontFamily: '"Playfair Display", serif' }}
+              className="font-playfair text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] text-center drop-shadow-sm"
             >
               Breath & <span className="italic">Body Movement</span>
             </p>
@@ -64,7 +63,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">
+        <div className="font-playfair hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">
           {navItems.map((item) => (
             <button
               key={item.name}
@@ -97,7 +96,7 @@ const Navbar = () => {
             <button
               key={item.name}
               onClick={() => handleNavClick(item)}
-              className="text-left text-gray-600 text-lg hover:text-red-400 transition"
+              className="font-fairplay text-left text-gray-600 text-lg hover:text-red-400 transition"
             >
               {item.name}
             </button>
@@ -112,15 +111,4 @@ export default Navbar;
 
 
 
-                    //   <button
-                    //     className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
-                    //     onClick={() => scrollToSection("hero")}
-                    // >
-                    //     breathandbodymovement
-                    //  </button>
-{/* <p
-  className="text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] font-playfair text-center drop-shadow-sm"
-  style={{ fontFamily: '"Playfair Display", serif' }}
->
-  Breath & <span className="italic">Body Movement</span>
-</p> */}
+    
