@@ -1,4 +1,4 @@
-import "../Styles.css";
+
 import SlowDance from "../assets/video/SlowVideo.mp4";
 const HeroPage = () => {
   return (
