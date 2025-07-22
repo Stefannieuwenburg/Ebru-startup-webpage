@@ -1,4 +1,4 @@
-import '../../Styles.css';
+
 import MyMission from "../assets/image/MyMission.jpg";
 
 const AboutPage = () => {

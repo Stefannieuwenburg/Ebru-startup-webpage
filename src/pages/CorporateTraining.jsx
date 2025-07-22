@@ -1,4 +1,4 @@
-import '../../Styles.css';
+
 import { Link } from 'react-router-dom';
 import CorporateTrainings  from "../assets/image/CorporateTrainings.jpg";
 const CorporateTraining = () => {

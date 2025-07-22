@@ -1,4 +1,4 @@
-import '../../Styles.css';
+
 const NewsLetterPage = () => {
   return (
     <>

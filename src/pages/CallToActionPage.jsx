@@ -1,4 +1,4 @@
-import '../../Styles.css';
+
 import About from "../assets/image/AboutBreed.jpg";
 import { Link } from "react-router-dom";
 

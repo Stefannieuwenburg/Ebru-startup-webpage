@@ -1,4 +1,4 @@
-import '../../Styles.css';
+
 import {Link} from "react-router-dom";
 import PrivateCoachings from "../assets/image/PrivateCoaching.jpg";
 
