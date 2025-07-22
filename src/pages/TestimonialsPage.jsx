@@ -1,4 +1,4 @@
-import "../Styles.css";
+import "Styles.css"; // Assuming you have a stylesheet for custom styles
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

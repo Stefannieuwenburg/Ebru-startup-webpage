@@ -1,4 +1,4 @@
-import "../Styles.css";
+import "Styles.css"; // Assuming you have a stylesheet for custom styles
 import { useState } from "react";
 
 const FAQPage = () => {
