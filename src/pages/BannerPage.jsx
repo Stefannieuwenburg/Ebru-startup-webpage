@@ -1,4 +1,4 @@
-import "Styles.css"; // Assuming you have a stylesheet for custom styles
+import '../../Styles.css';
 import { Link } from 'react-router-dom';
 
 const BannerPage = () => {

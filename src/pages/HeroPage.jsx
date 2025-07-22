@@ -1,4 +1,4 @@
-import "Styles.css"; // Assuming you have a stylesheet for custom styles
+import '../../Styles.css';
 import SlowDance from "../assets/video/SlowVideo.mp4";
 const HeroPage = () => {
   return (

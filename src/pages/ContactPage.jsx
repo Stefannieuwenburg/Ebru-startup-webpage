@@ -1,4 +1,4 @@
-import "Styles.css"; // Assuming you have a stylesheet for custom styles
+import '../../Styles.css';
 import { CiInstagram } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";

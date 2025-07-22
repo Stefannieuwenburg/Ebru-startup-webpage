@@ -1,4 +1,4 @@
-import "Styles.css"; // Assuming you have a stylesheet for custom styles
+import '../../Styles.css';
 import image1 from "../assets/image/PrivateCoaching.jpg";
 import image2 from "../assets/image/GroupCoaching.jpg";
 import image3 from "../assets/image/WorkShops.jpg";
