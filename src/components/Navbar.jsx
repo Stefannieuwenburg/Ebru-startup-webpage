@@ -1,4 +1,4 @@
-import "../Styles.css";
+
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { scroller } from "react-scroll";
