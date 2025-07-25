@@ -83,7 +83,7 @@ const sliderSettings = {
   ],
 };
 
-// ✅ Extract into a separate component with local state
+
 const TestimonialCard = ({ testimonial }) => {
   const [expanded, setExpanded] = useState(false);
 
