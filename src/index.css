@@ -1,23 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Satoshi:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+/* ✅ Consolidated font imports */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400&family=Playfair+Display:ital,wght@0,700;1,700&family=Satoshi:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
 
+/* ✅ Tailwind integration */
 @import "tailwindcss";
 
+/* ✅ Custom theme settings */
 @theme {
-  --font-oswald: "Oswald", "sans-serif"; 
-  --font-playfair: "Playfair Display";
-  --font-Karla: "Karla";
-  --font-Satoshi: "Satoshi";
-  
-  --color-about-100: #d9cbb8;
-  
-  
+  --font-oswald: "Oswald", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-karla: "Karla", sans-serif;
+  --font-satoshi: "Satoshi", sans-serif;
+
+  --color-about-500: #d9cbb8;
 }
 
+/* ✅ Global base layer */
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 }
+/* ✅ Global utility layer */
+@layer utilities {
+  .text-hero {
+    @apply text-4xl font-bold text-center;
+  }
+
+  .text-subtitle {
+    @apply text-2xl font-semibold text-center;
+  }
+
+  .text-body {
+    @apply text-base leading-relaxed;
+  }
+
+  .bg-primary {
+    @apply bg-gray-100;
+  }
+
+  .bg-secondary {
+    @apply bg-white;
+  }
+} 
