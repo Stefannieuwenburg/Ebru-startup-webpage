@@ -40,7 +40,7 @@ const AboutPage = () => {
               Whether you're new to wellness practices or looking to deepen your existing journey, I'm here to support you every step of the way.
             </p>
             <a
-              href="/contact"
+              href="contact"
               className="bg-[#6e6c50] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
             >
               Get in Touch
