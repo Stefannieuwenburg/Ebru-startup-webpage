@@ -1,6 +1,6 @@
 
 import { useRef, useEffect } from "react";
-import SlowDance from "../assets/video/Video.mp4";
+import SlowDance from "../assets/video/SlowVideo.mp4";
 
 const HeroPage = () => {
   const videoRef = useRef(null);
