@@ -15,7 +15,7 @@ const BannerPage = () => {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="contact"
+              to="/contact"
               className="bg-[#6e6c50] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
             >
               Book Free Call

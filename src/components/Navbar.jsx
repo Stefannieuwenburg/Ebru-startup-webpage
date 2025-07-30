@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const navItems = [
    
-    
+    { name: "Home", type: "scroll", id: "hero" },
     { name: "For Individuals", type: "route", path: "/group-coaching" },
     { name: "For Business", type: "route", path: "/private-coaching" },
     { name: "Testimonials", type: "scroll", id: "testimonials" },

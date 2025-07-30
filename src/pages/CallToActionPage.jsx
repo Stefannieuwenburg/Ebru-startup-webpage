@@ -85,12 +85,11 @@ const CallToActionPage = () => {
             >
               Start your Journey
             </Link>
-            <Link
-              to="/coaching"
+            <a href="#about"
               className="border-2 border-[#f5f3ef] text-[#f5f3ef] px-8 py-4 rounded-lg font-semibold hover:bg-[#f5f3ef] hover:text-[#3b3a2e] transition-colors"
             >
               Learn More
-            </Link>
+            </a>
           </div>
         </div>
       </section>

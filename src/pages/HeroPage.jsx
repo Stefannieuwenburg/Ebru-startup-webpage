@@ -36,7 +36,7 @@ const HeroPage = () => {
           Reconnect with your body’s innate wisdom through conscious movement and breath and discover your inner strength.
         </p>
         <a
-          href="#contact"
+          href="#intro"
           className="text-white px-6 py-4 rounded-3xl border-1 border-white hover:bg-[#6e6c50] transition"
           rel="noopener noreferrer"
         >
