@@ -11,12 +11,13 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: "Home", type: "scroll", id: "hero" },
+   
+    
+    { name: "For Individuals", type: "route", path: "/group-coaching" },
+    { name: "For Business", type: "route", path: "/private-coaching" },
+    { name: "Testimonials", type: "scroll", id: "testimonials" },
     { name: "About", type: "scroll", id: "about" },
-    { name: "Group Coaching", type: "route", path: "/group-coaching" },
-    { name: "Private Coaching", type: "route", path: "/private-coaching" },
-    { name: "Corporate Trainings", type: "route", path: "/corporate-training" },
-    { name: "Workshops", type: "route", path: "/workshops" },
+    { name: "FAQ", type: "scroll", id: "faq" },
     { name: "Contact", type: "route", path: "/contact" },
   ];
 

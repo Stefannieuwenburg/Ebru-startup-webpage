@@ -17,23 +17,6 @@ function Footer() {
               Transform your life through mindful movement, breathwork, and holistic wellness practices.
             </p>
             
-            {/* Newsletter */}
-            <div className="bg-[#f0eae2] p-4 rounded-lg">
-              <h4 className="text-[#3b3a2e] font-semibold mb-3">Subscribe to Life Coaching van breat&bodymovement <br/> for Our Newsletter</h4>
-              <p className="text-[#3b3a2e] text-sm mb-4">
-                Stay updated with the latest news and exclusive offers.
-              </p>
-              <div className="flex ">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-8 py-2 rounded-l-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#6e6c50]"
-                />
-                <button className="bg-[#6e6c50] text-white px-2 py-2 rounded-r-md hover:bg-[#5a5840] transition-colors">
-                  Subscribe
-                </button>
-              </div>
-            </div>
           </div>
 
           {/* Services */}

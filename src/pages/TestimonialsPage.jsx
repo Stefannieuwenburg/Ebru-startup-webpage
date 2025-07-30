@@ -95,7 +95,7 @@ const TestimonialCard = ({ testimonial }) => {
   const isLong = testimonial.text.split('. ').length > 2;
 
   return (
-    <div className="p-4">
+    <div id="testimonials" className="p-4">
       <div className="h-full flex flex-col items-center justify-center bg-white rounded-lg p-6 shadow-md">
         <p className="text-gray-900 font-medium tracking-wider text-sm text-center">
           {expanded ? testimonial.text : getShortText(testimonial.text)}

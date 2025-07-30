@@ -9,30 +9,16 @@ import { Link } from "react-router-dom";
 function FeaturesPage() {
   const services = [
     {
-      title: "Private Coaching",
+      title: "For Individual",
       description:
-        "Unlock Your Personalized Journey",
+        "Reconnect to your body, Unlock your potential",
       image: image1,
       link: "/coaching",
     },
     {
-      title: "Group Coaching",
+      title: "For Business",
       description:
-        "A Collective Journey to Embodied Empowerment",
-      image: image2,
-      link: "/workshops",
-    },
-    {
-      title: "Workshops",
-      description:
-        "Breathe, Move, and Reconnect with Your Body's Wisdom",
-      image: image3,
-      link: "/trainings",
-    },
-    {
-      title: "Corporate Trainings",
-      description:
-        "Strengthen Resilience and Cultivate Balance",
+        "Empower your leaders, Strengthen your teams",
       image: image4,
       link: "/trainings",
     },
@@ -83,7 +69,7 @@ function FeaturesPage() {
               Choose the path that resonates with your current needs and wellness goals
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {services.map((service, index) => (
               <div
   key={index}

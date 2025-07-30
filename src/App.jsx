@@ -11,7 +11,7 @@ import WorkshopsPage from './pages/WorkshopsPage';
 import CallToActionPage from './pages/CallToActionPage';
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
-import NewsLetterPage from './pages/NewsLetterPage';
+import BookFreeCallPage from './pages/BookFreeCallPage';
 import PrivateCoaching from './pages/PrivateCoaching';  
 import BannerPage from './pages/BannerPage';
 
@@ -34,7 +34,7 @@ function App() {
                 <TestimonialsPage />
                 <FAQPage />
                 <CallToActionPage />
-                <NewsLetterPage />
+                <BookFreeCallPage />
               </Layout>
             }
           />
