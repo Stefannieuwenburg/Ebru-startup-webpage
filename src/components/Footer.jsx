@@ -11,7 +11,7 @@ function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl  font-bold font-playfair mb-4"   style={{ fontFamily: '"Playfair Display", serif' }}>
-              About breath&<span className="italic">Body Movement</span>
+              About Breath&<span className="italic">Body Movement</span>
             </h3>
             <p className="text-gray-300 mb-6">
               Transform your life through mindful movement, breathwork, and holistic wellness practices.
