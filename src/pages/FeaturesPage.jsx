@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function FeaturesPage() {
     const services = [
         {
-            title: "For Individual",
+            title: "For Individuals",
             description: "Reconnect to your body, Unlock your potential",
             image: image1,
             link: "/individual",
