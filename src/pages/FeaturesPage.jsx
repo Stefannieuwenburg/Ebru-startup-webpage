@@ -77,15 +77,15 @@ function FeaturesPage() {
                                 {/* Overlay content */}
                                 <div className="absolute inset-0 flex flex-col justify-between text-center p-4 bg-gradient-to-b from-black/60 via-black/30 to-black/60">
                                     {/* Title at the top */}
-                                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">{service.title}</h3>
+                                    <h3 className="text-2xl font-bold text-white drop-shadow-lg" style={{ fontFamily: '"Playfair Display", serif' }}>{service.title}</h3>
 
                                     {/* Description in the middle */}
                                     <div className="flex-grow flex items-center justify-center">
-                                        <p className="text-white font-medium text-sm tracking-wide max-w-[90%]">
+                                        <p className="text-white font-medium text-lg tracking-wide max-w-[90%]" style={{ fontFamily: '"Playfair Display", serif' }}>
                                             {service.description}
                                         </p>
                                     </div>
-
+                                    
                                     {/* Button at the bottom */}
                                     <div>
                                         <a
