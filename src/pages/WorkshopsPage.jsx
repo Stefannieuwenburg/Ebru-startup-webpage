@@ -22,7 +22,7 @@ const WorkshopsPage = () => {
                             <p className="text-lg text-[#3b3a2e] mb-6">
                                 Join a shared space to move, feel, and awaken your body’s wisdom. These workshops use
                                 somatic movement, breathwork, and embodiment practices to cultivate presence and
-                                transformation — whether in women’s circles, retreats, or conscious community
+                                transformation; whether in women’s circles, retreats, or conscious community
                                 gatherings.
                             </p>
                             <h3 className="mb-4 mt-4">
@@ -48,7 +48,7 @@ const WorkshopsPage = () => {
                             </ul>
 
                             <p className="text-lg text-[#3b3a2e] mt-4 mb-8  ">
-                                This is your time — to feel, explore, and transform at your own pace, with compassionate
+                                This is your time; to feel, explore, and transform at your own pace, with compassionate
                                 support every step of the way.
                             </p>
                             <Link

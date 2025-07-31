@@ -39,7 +39,7 @@ function FeaturesPage() {
                                 connection, my holistic approach will help you unlock your body's natural wisdom and
                                 create lasting positive change.
                             </p>
-                            <a href="#about"
+                            <a href="#story"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 My Story
