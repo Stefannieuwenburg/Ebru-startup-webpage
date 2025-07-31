@@ -4,7 +4,6 @@ import { Suspense, lazy } from 'react';
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
 import GroupCoaching from './pages/GroupCoaching';
-import CorporateTraining from './pages/CorporateTraining';
 import FeaturesPage from './pages/FeaturesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import WorkshopsPage from './pages/WorkshopsPage';
@@ -73,15 +72,7 @@ function App() {
                 <WorkshopsPage />
               </Layout>
             }
-          />
-          <Route
-            path="/corporate-training"
-            element={
-              <Layout>
-                <CorporateTraining />
-              </Layout>
-            }
-          />
+          /> 
           <Route
             path="/business"
             element={

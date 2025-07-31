@@ -35,28 +35,13 @@ function Footer() {
                                   For Business
                                 </Link>
                             </li>
-                            <li>
-                                <a href="testimonials" className="text-gray-300 hover:text-white transition-colors">
-                                Testimonials
-                                </a>
-                            </li>
-                            <li>
-                                <a href="faq" className="text-gray-300 hover:text-white transition-colors">
-                                    FAQ
-                                </a>
-                            </li>
                         </ul>
                     </div>
 
                     {/* Quick Links */}
                     <div>
                         <h4 className="font-semibold mb-4">Quick Links</h4>
-                        <ul className="space-y-2">
-                            <li>
-                                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
-                                    About
-                                </Link>
-                            </li>
+                        <ul className="space-y-2">     
                             <li>
                                 <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
                                     Contact

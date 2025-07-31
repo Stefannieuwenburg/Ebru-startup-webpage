@@ -15,7 +15,7 @@ const BookFreeCallPage = () => {
               to="contact"
               className="bg-[#6e6c50] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
             >
-              Book Free Call
+              Book a Free Call
             </Link>
            
           </div>
