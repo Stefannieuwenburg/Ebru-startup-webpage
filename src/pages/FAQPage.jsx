@@ -12,7 +12,8 @@ const FAQPage = () => {
                 Frequently Asked Questions
               </h1>
               <p className="text-base text-body-color dark:text-dark-6">
-                Here are some common questions about my coaching services. If you have more questions, feel free to reach out!
+                Here are some common questions about my coaching services.<br />
+                If you have more questions, feel free to reach out!
               </p>
             </div>
           </div>
