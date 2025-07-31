@@ -46,7 +46,12 @@ const individualPage = () => {
                                     </ul>
                                 </li>
                             </ul>
-
+                            <Link
+                                to="/contact"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
+                            >
+                                Contact Us
+                            </Link>
                             <ul>
                                 <li></li>
                             </ul>
