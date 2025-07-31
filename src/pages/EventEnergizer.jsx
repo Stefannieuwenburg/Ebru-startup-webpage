@@ -1,11 +1,10 @@
-
 import {Link} from "react-router-dom";
 import WorkShops from "../assets/image/WorkShops.jpg";
 
-const WorkshopsPage = () => {
+const EventEnergizerPage = () => {
     return (
         <>
-            <section id="workshops" className="bg-[#f0eae2] py-16">
+            <section id="EventEnergizer" className="bg-[#f0eae2] py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
@@ -17,7 +16,7 @@ const WorkshopsPage = () => {
                         </div>
                         <div>
                             <h2 className="text-lg text-[#3b3a2e] mb-6">
-                                <strong>Workshops </strong>
+                                <strong>Event Energizer</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
                                 Join a shared space to move, feel, and awaken your body’s wisdom. These workshops use
@@ -65,4 +64,4 @@ const WorkshopsPage = () => {
     );
 };
 
-export default WorkshopsPage;
+export default EventEnergizerPage;

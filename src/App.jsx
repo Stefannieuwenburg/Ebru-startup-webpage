@@ -1,12 +1,13 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
+// Importing pages
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
 import GroupCoaching from './pages/GroupCoaching';
 import FeaturesPage from './pages/FeaturesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
-import WorkshopsPage from './pages/WorkshopsPage';
+import WorkShops from './pages/WorkShops';
 import CallToActionPage from './pages/CallToActionPage';
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
@@ -15,6 +16,11 @@ import PrivateCoaching from './pages/PrivateCoaching';
 import BannerPage from './pages/BannerPage';
 import BusinessPage from './pages/BusinessPage';
 import IndividualPage from './pages/IndividualPage';
+import WorkShopMB from './pages/WorkShopMB';
+import TeamBuildingWorkShops from './pages/TeamBuildingWorkShops';
+import ExecutiveCoaching from './pages/ExecutiveCoaching';
+import EventEnergizer from './pages/EventEnergizer';
+
 
 const Layout = lazy(() => import('./layout/Layout'));
 
@@ -69,10 +75,42 @@ function App() {
             path="/workshops"
             element={
               <Layout>
-                <WorkshopsPage />
+                <WorkShops />
               </Layout>
             }
           /> 
+          <Route
+            path="/workshopmb"
+            element={
+              <Layout>
+                <WorkShopMB />
+              </Layout>
+            }
+          /> 
+          <Route
+            path="/team-building-workshops"
+            element={
+              <Layout>
+                <TeamBuildingWorkShops />
+              </Layout>
+            }
+          />
+          <Route
+            path="/executive-coaching"
+            element={
+              <Layout>
+                <ExecutiveCoaching />
+              </Layout>
+            }
+          />
+          <Route
+            path="/event-energizer"
+            element={
+              <Layout>
+                <EventEnergizer />
+              </Layout>
+            }
+          />
           <Route
             path="/business"
             element={
