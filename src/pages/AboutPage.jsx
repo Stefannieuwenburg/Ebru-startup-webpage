@@ -6,10 +6,10 @@ const AboutPage = () => {
    <div id="about" className="bg-[#d9cbb8] min-h-screen py-16">
         <div className="max-w-48xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-           <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
+           <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
               <span className="italic">About</span>
             </h1>
-            <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
+            <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
               Breath&<span className="italic">Body Movement</span>
             </h1>
             <p className="text-xl text-gray-700">
@@ -27,7 +27,7 @@ const AboutPage = () => {
               />
             </div>
             <div>
-              <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6">
+              <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
                  My Mission
               </h2>
               <p className="text-lg text-gray-700 mb-6">
@@ -36,7 +36,7 @@ const AboutPage = () => {
               <p className="text-lg text-gray-700 mb-8">
                 My integrative approach embraces emotional, physical, mental, and spiritual well-being—supporting authentic embodiment and lasting transformation.
               </p>
-              <h3 className="text-2xl font-bold text-[#3b3a2e] mb-4">
+              <h3 className="text-2xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
               Ready to Start Your Journey?
             </h3>
             <p className="text-gray-700 mb-6">

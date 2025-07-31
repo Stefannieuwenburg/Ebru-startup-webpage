@@ -26,7 +26,7 @@ function Footer() {
                         <h4 className="font-semibold mb-4">Links</h4>
                         <ul className="space-y-2">
                             <li>
-                                <Link to="/individuals" className="text-gray-300 hover:text-white transition-colors">
+                                <Link to="/individual" className="text-gray-300 hover:text-white transition-colors">
                                     For Individuals
                                 </Link>
                             </li>
@@ -36,14 +36,14 @@ function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/testimonials" className="text-gray-300 hover:text-white transition-colors">
+                                <a href="testimonials" className="text-gray-300 hover:text-white transition-colors">
                                 Testimonials
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to="/faq" className="text-gray-300 hover:text-white transition-colors">
+                                <a href="faq" className="text-gray-300 hover:text-white transition-colors">
                                     FAQ
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>
