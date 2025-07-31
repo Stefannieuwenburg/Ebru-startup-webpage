@@ -29,16 +29,16 @@ const CallToActionPage = () => {
                 A Journey of Transformation
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-               I’m Ebru — an ICF-accredited Co-Active Coach, certified feminine embodiment and somatic coach, breathwork coach, and Qigong teacher. My work weaves together conscious movement, breathwork, somatic practices, and Qigong to guide individuals into deeper connection with their bodies, emotions, and inner wisdom.
+               I’m Ebru Dargan, an ICF accredited Co Active Coach, certified feminine embodiment and somatic coach, breathwork coach, and Qigong teacher. My work weaves together conscious movement, breathwork, somatic practices, and Qigong to guide individuals into deeper connection with their bodies, emotions, and inner wisdom.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                With a background in dance and extensive experience in somatic coaching, I create safe and nurturing spaces where you can explore your authentic self — Whether you're navigating emotional blocks, physical tension, or seeking clarity and alignment, I support you to release what no longer serves and reconnect with your authentic self.
+                With a background in dance and extensive experience in somatic coaching, I create safe and nurturing spaces where you can explore your authentic self Whether you're navigating emotional blocks, physical tension, or seeking clarity and alignment, I support you to release what no longer serves and reconnect with your authentic self.
               </p>
               <p className="text-lg text-gray-700">
-                Through gentle yet powerful tools — including somatic movement, breathwork, and Qigong for nervous system regulation and pain release — I help you cultivate resilience, presence, and a renewed sense of aliveness.
+                Through gentle yet powerful tools including somatic movement, breathwork, and Qigong for nervous system regulation and pain release I help you cultivate resilience, presence, and a renewed sense of aliveness.
               </p>
               <p className="text-lg text-gray-700">
-              My mission is to guide you home to your body — where clarity, strength, and freedom reside.
+              My mission is to guide you home to your body where clarity, strength, and freedom reside.
               </p>
             </div>
             <div className="order-1 lg:order-2">
