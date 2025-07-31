@@ -9,13 +9,13 @@ function FeaturesPage() {
             title: "For Individuals",
             description: "Reconnect to your body, Unlock your potential",
             image: image1,
-            link: "individual",
+            link: "/individual",
         },
         {
             title: "For Business",
             description: "Empower your leaders, Strengthen your teams",
             image: image4,
-            link: "business",
+            link: "/business",
         },
     ];
 
@@ -88,12 +88,11 @@ function FeaturesPage() {
                                     
                                     {/* Button at the bottom */}
                                     <div>
-                                        <a
-                                            href={service.link}
+                                         <Link to={service.link}
                                             className="bg-white bg-opacity-80 text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-opacity-100 transition"
                                         >
                                             Learn More
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
