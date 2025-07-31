@@ -25,7 +25,7 @@ const CallToActionPage = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="order-2 lg:order-1">
-              <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6">
+              <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
                 A Journey of Transformation
               </h2>
               <p className="text-lg text-gray-700 mb-6">
@@ -54,7 +54,7 @@ const CallToActionPage = () => {
       {/* Philosophy */}
       <section className="bg-[#d9cbb8] py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-[#3b3a2e] mb-8">
+          <h2 className="text-4xl font-bold text-[#3b3a2e] mb-8" style={{ fontFamily: '"Playfair Display", serif' }}>
             My Philosophy
           </h2>
           <blockquote className="text-2xl text-gray-700 italic mb-8 leading-relaxed">
@@ -73,7 +73,7 @@ const CallToActionPage = () => {
       {/* Call to Action */}
       <section className="bg-[#3b3a2e] py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
+          <h2 className="text-4xl font-bold text-white mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
             Ready to Begin Your Journey?
           </h2>
           <p className="text-xl text-gray-300 mb-8">

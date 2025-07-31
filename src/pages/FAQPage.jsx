@@ -8,7 +8,7 @@ const FAQPage = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-              <h1 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+              <h1 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]" style={{ fontFamily: '"Playfair Display", serif' }}>
                 Frequently Asked Questions
               </h1>
               <p className="text-base text-body-color dark:text-dark-6">
