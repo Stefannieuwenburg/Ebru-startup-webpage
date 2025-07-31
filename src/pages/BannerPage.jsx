@@ -11,7 +11,9 @@ const BannerPage = () => {
             Breathe. Move. Transform.
           </h1>
           <h2 className="text-3xl text-gray-700 mb-10 max-w-3xl mx-auto">
-            You whant to have more clarity in your life, reconnect with your energy, and calm within. Let your body lead you home
+            You want to have more clarity in your life, reconnect with your energy, and calm within? 
+            You don’t need to do more. You need to feel more — let your body lead you home.
+
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
