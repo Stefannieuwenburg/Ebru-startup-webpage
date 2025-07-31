@@ -14,6 +14,8 @@ import ContactPage from './pages/ContactPage';
 import BookFreeCallPage from './pages/BookFreeCallPage';
 import PrivateCoaching from './pages/PrivateCoaching';  
 import BannerPage from './pages/BannerPage';
+import BusinessPage from './pages/BusinessPage';
+import IndividualPage from './pages/IndividualPage';
 
 const Layout = lazy(() => import('./layout/Layout'));
 
@@ -77,6 +79,22 @@ function App() {
             element={
               <Layout>
                 <CorporateTraining />
+              </Layout>
+            }
+          />
+          <Route
+            path="/business"
+            element={
+              <Layout>
+                <BusinessPage />
+              </Layout>
+            }
+          />
+          <Route
+            path="/individual"
+            element={
+              <Layout>
+                <IndividualPage />
               </Layout>
             }
           />

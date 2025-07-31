@@ -9,13 +9,13 @@ function FeaturesPage() {
             title: "For Individual",
             description: "Reconnect to your body, Unlock your potential",
             image: image1,
-            link: "/coaching",
+            link: "/individual",
         },
         {
             title: "For Business",
             description: "Empower your leaders, Strengthen your teams",
             image: image4,
-            link: "/trainings",
+            link: "/business",
         },
     ];
 

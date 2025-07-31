@@ -13,8 +13,8 @@ const Navbar = () => {
   const navItems = [
    
     { name: "Home", type: "scroll", id: "hero" },
-    { name: "For Individuals", type: "route", path: "/group-coaching" },
-    { name: "For Business", type: "route", path: "/private-coaching" },
+    { name: "For Individuals", type: "route", path: "/individual" },
+    { name: "For Business", type: "route", path: "/business" },
     { name: "Testimonials", type: "scroll", id: "testimonials" },
     { name: "About", type: "scroll", id: "about" },
     { name: "FAQ", type: "scroll", id: "faq" },
