@@ -31,22 +31,35 @@ const AboutPage = () => {
                  My Mission
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                I am dedicated to awakening the innate power within each person to heal, transform, and embody their fullest potential. Through the intentional blend of breathwork, conscious movement, and qigong, I guide individuals to reconnect deeply with their body’s wisdom—cultivating alignment, presence, and a profound sense of feeling at home within themselves.
+               I am dedicated to awakening the innate power within each person to heal, transform, and embody their fullest potential.
+               Through the intentional blend of breathwork, conscious movement, and qigong, I guide individuals to reconnect deeply with their body’s wisdom; cultivating alignment, presence, and a profound sense of feeling at home within themselves.
               </p>
-              <p className="text-lg text-gray-700 mb-8">
-                My integrative approach embraces emotional, physical, mental, and spiritual well-being—supporting authentic embodiment and lasting transformation.
+              <p className="text-lg text-gray-700 mb-6">
+               My integrative approach embraces emotional, physical, mental, and spiritual well-being, supporting authentic embodiment and lasting transformation.
               </p>
-              <h3 className="text-2xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
-              Ready to Start Your Journey?
-            </h3>
+              <p className="text-lg text-gray-700 mb-8">'
+               I believe our bodies hold the key to deep healing.
+               When we move, breathe, and feel, we don’t just release tension; we open the doorway to clarity, freedom, and inner power. This is not about doing more, but about coming back to who we truly are beneath the noise. 
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+               Because movement isn’t just wellness; it’s medicine.
+               And breath isn’t just calming; it’s a path home.
+              </p>
+              
             <p className="text-gray-700 mb-6">
               Whether you're new to wellness practices or looking to deepen your existing journey, I'm here to support you every step of the way.
             </p>
+             <p className="text-gray-700 mb-6">
+             My mission is to create a world where we feel more, not less; so we can live, lead, and love with truth, joy, and presence.
+            </p>
+            <h3 className="text-2xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
+              Ready to Start Your Journey?
+            </h3>
             <a
               href="contact"
               className="bg-[#6e6c50] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
             >
-              Get in Touch
+              Book a Free call
             </a>
             </div>
           </div>
