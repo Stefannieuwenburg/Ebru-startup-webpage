@@ -11,10 +11,11 @@ const CallToActionPage = () => {
           <div className="text-center">
             
             <h1 className="text-5xl md:text-6xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
-              <span className="italic">Meet Ebru</span>
+              <span className="italic">Meet Ebru Dargan</span>
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              The heart and soul behind breath&bodymovement
+              Movement is my language. Dance is my medicine. <br /> 
+              My mission is to hold a space where you can move with power, embody your truth, and live with presence; fully and freely.
             </p>
           </div>
         </div>
