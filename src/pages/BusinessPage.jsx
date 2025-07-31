@@ -18,9 +18,9 @@ const BusinessPage = () => {
                                 <strong>Event Energizer</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Step into a safe, supportive space created just for you. Rooted in Co-Active coaching,
-                                these tailored sessions integrate somatic tools, breathwork, and conscious movement to
-                                meet you exactly where you are. Whether you’re navigating emotional blocks, seeking
+                            Energize your event with a 15–30 minute breath and movement reset.
+                            Help your group release tension and return refreshed and focused.
+
                             </p>
                             <Link
                                 to="/contact"
@@ -32,9 +32,8 @@ const BusinessPage = () => {
                                 <strong>Workshops (Movement & Breathwork)</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Step into a safe, supportive space created just for you. Rooted in Co-Active coaching,
-                                these tailored sessions integrate somatic tools, breathwork, and conscious movement to
-                                meet you exactly where you are. Whether you’re navigating emotional blocks, seeking
+                            Want your team to connect deeper and handle stress better?
+                            These breath and movement workshops build trust, presence, and clear communication. 
                                
                             </p>
                             <Link
@@ -47,10 +46,8 @@ const BusinessPage = () => {
                                 <strong>Team Building Workshop</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Step into a safe, supportive space created just for you. Rooted in Co-Active coaching,
-                                these tailored sessions integrate somatic tools, breathwork, and conscious movement to
-                                meet you exactly where you are. Whether you’re navigating emotional blocks, seeking
-                                
+                            Your team’s wellbeing powers your success: let’s help them feel happier, healthier, and more connected.
+                            These immersive breath and movement workshops recharge your group and deepen their bonds.
                             </p>
                             <Link
                                 to="/contact"
@@ -62,10 +59,8 @@ const BusinessPage = () => {
                                 <strong>Executive Coaching</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Step into a safe, supportive space created just for you. Rooted in Co-Active coaching,
-                                these tailored sessions integrate somatic tools, breathwork, and conscious movement to
-                                meet you exactly where you are. Whether you’re navigating emotional blocks, seeking
-                                
+                            Is your organization ready to develop leaders who lead with presence and authenticity?
+                            Discover coaching that unlocks deeper layers of strength and resilience.  
                             </p>
                             <Link
                                 to="/contact"
