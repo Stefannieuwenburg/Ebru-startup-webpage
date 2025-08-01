@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
-// Importing pages
+// Importing pages wrapped in Layout
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
 import GroupCoaching from './pages/GroupCoaching';

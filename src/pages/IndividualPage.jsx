@@ -23,7 +23,7 @@ const individualPage = () => {
                             It’s time to pause, reconnect, and realign with what truly matters to you.
                             </p>
                             <Link
-                                to="/contact"
+                                to="/private-coaching"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
@@ -37,7 +37,7 @@ const individualPage = () => {
                                
                             </p>
                             <Link
-                                to="/contact"
+                                to="/group-coaching"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
@@ -51,7 +51,7 @@ const individualPage = () => {
                                 
                             </p>
                             <Link
-                                to="/contact"
+                                to="/workshops"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more

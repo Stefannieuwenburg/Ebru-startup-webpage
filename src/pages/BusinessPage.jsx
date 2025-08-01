@@ -23,7 +23,7 @@ const BusinessPage = () => {
 
                             </p>
                             <Link
-                                to="/contact"
+                                to="/event-energizer"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
@@ -37,7 +37,7 @@ const BusinessPage = () => {
                                
                             </p>
                             <Link
-                                to="/contact"
+                                to="/workshopmb"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
@@ -50,7 +50,7 @@ const BusinessPage = () => {
                             These immersive breath and movement workshops recharge your group and deepen their bonds.
                             </p>
                             <Link
-                                to="/contact"
+                                to="/team-building-workshops"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
@@ -63,7 +63,7 @@ const BusinessPage = () => {
                             Discover coaching that unlocks deeper layers of strength and resilience.  
                             </p>
                             <Link
-                                to="/contact"
+                                to="/executive-coaching"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
