@@ -23,7 +23,7 @@ function Footer() {
 
                     {/* Links */}
                     <div>
-                        <h4 className="font-semibold mb-4">Links</h4>
+                        <h4 className="font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">
                             <li>
                                 <Link to="/individual" className="text-gray-300 hover:text-white transition-colors">
@@ -32,7 +32,7 @@ function Footer() {
                             </li>
                             <li>
                                 <Link to="/business" className="text-gray-300 hover:text-white transition-colors">
-                                  For Business
+                                    For Business
                                 </Link>
                             </li>
                         </ul>
@@ -40,23 +40,24 @@ function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="font-semibold mb-4">Quick Links</h4>
-                        <ul className="space-y-2">     
-                            <li>
-                                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
-                                    Contact
-                                </Link>
-                            </li>
-                            <div className="flex justify-start">
-                                <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center">
-                                    <MdOutlineEmail className="mr-2" />{" "}
-                                </a>
-                                <a href="https://www.instagram.com/ebruuudrgn/" className="mb-2 flex items-center">
-                                    <CiInstagram className="mr-2" />{" "}
-                                </a>
-                                <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center">
-                                    <CiLinkedin className="mr-2" />{" "}
-                                </a>
+                        <h4 className="font-semibold mb-4">Socials</h4>
+                        <ul className="space-y-2">
+                            <div className="">
+                                <li>
+                                    <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center">
+                                        <MdOutlineEmail className="mr-2" />Email
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/ebruuudrgn/" className="mb-2 flex items-center">
+                                        <CiInstagram className="mr-2" />Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center">
+                                        <CiLinkedin className="mr-2" />LinkedIn
+                                    </a>
+                                </li>
                             </div>
                         </ul>
                     </div>

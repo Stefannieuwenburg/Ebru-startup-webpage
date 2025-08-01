@@ -19,43 +19,45 @@ const WorkShopMB = () => {
                                 <strong>Workshops (Movement & Breathwork) </strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Join a shared space to move, feel, and awaken your body’s wisdom. These workshops use
-                                somatic movement, breathwork, and embodiment practices to cultivate presence and
-                                transformation; whether in women’s circles, retreats, or conscious community
-                                gatherings.
+                                Is your team striving for deeper connection, resilience, and collaboration?
+                            </p>
+                            <p className="text-lg text-[#3b3a2e] mb-6">
+                                These experiential workshops use breathwork and movement to help your team:
+                            </p>
+
+                            <ul className="text-lg text-[#3b3a2e] ">
+                                <li>Recharge and regulate stress</li>
+                                <li>Increase self-awareness and presence</li>
+                                <li>Improve communication and trust</li>
+                                <li>Access collective intelligence for better decisions</li>
+                            </ul>
+                            <p className="text-lg text-[#3b3a2e] mt-4 mb-8">
+                                Walk away with practical tools to reduce overwhelm and foster a conscious,
+                                well-connected team culture.
                             </p>
                             <h3 className="mb-4 mt-4">
-                                <strong>Tools</strong>
+                                <strong>Corporate Wellness with Nervous System Approach</strong>
                             </h3>
+                            <p className="text-lg text-[#3b3a2e] mt-4 mb-8">
+                                Stress and burnout are common but don’t have to be normal. We offer somatic,
+                                movement-based workshops to help your teams and leaders
+                            </p>
                             <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Somatic Movement — ground and release tension</li>
-                                <li>Breathwork & Qigong — open energy flow and calm the nervous system</li>
-                                <li>Embodiment Rituals — ignite inner power and emotional freedom</li>
-                                <li>Relational Exercises — foster trust and authentic connection</li>
-                            </ul>
-
-                            <h3 className="mb-4 mt-4">
-                                <strong>Benefits</strong>
-                            </h3>
-
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Deepen body, emotional, and intuitive connection</li>
-                                <li>Release held tension and stress</li>
-                                <li>Regulate nervous system for ease and clarity</li>
-                                <li>Feel supported in a safe collective space</li>
-                                <li>Access subconscious awareness and inner vitality</li>
+                                <li>Reconnect with their bodies</li>
+                                <li>Regulate their nervous systems</li>
+                                <li>Respond to pressure with calm and clarity</li>
                             </ul>
 
                             <p className="text-lg text-[#3b3a2e] mt-4 mb-8  ">
-                                This is your time; to feel, explore, and transform at your own pace, with compassionate
-                                support every step of the way.
+                                Customized wellbeing workshops; from one-off sessions to retreats; promote long-term
+                                mental fitness, emotional regulation, and authentic workplace connection.
                             </p>
-                            <Link
-                                to="/contact"
+                            <a
+                                href="mailto:ebru.dargan@gmail.com"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

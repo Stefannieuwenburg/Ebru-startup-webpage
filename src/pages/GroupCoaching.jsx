@@ -19,46 +19,45 @@ const GroupCoaching = () => {
                                 <strong> Group Coaching</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Harness the power of community in a supportive group setting where you cheer,
-                                strengthen, and empower each other to access embodied presence. Rooted in Co-Active
-                                coaching, somatic tools, and breathwork, these sessions blend personal growth with
-                                collective healing — helping you move through life with flow, joy, and passion.
+                                Ignite Your Next Chapter
                             </p>
-
+                            <p className="text-lg text-[#3b3a2e] mb-6">
+                                Are you feeling stuck in one phase of life, ready for change but unsure how?
+                                This group program offers a supportive community, practical tools, and somatic techniques to help you regulate emotions, release blocks, and reclaim your inner fire.
+                            </p>
                             <ul className="mb-4 mt-4 ">
                                 <li>
-                                    <strong>Tools</strong>
+                                    <strong>Join if you</strong>
                                 </li>
                             </ul>
                             <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Co-Active Coaching — explore your inner landscape and evoke insight</li>
-                                <li>Conscious Movement — awaken body awareness and release tension</li>
-                                <li>Breathwork — regulate your nervous system and open energy flow</li>
-                                <li>Somatic Inquiry — access deeper emotional layers and memories</li>
+                                <li>Feel trapped in a chapter that no longer serves you</li>
+                                <li>Want connection with others committed to growth</li>
+                                <li>Need body-based tools to manage stress and overwhelm</li>
+                                <li>Crave an empowering space to share and be seen</li>
                             </ul>
 
                             <ul className="mb-4 mt-4 ">
                                 <li>
-                                    <strong>Benefits</strong>
+                                    <strong>You’ll receive</strong>
                                 </li>
                             </ul>
                             <ul className="text-lg text-[#3b3a2e]">
-                                <li>Emotional release and integration</li>
-                                <li>Nervous system regulation and stress relief</li>
-                                <li>Deepened connection to body and intuition</li>
-                                <li>Increased clarity, vitality, and presence</li>
+                                <li>Weekly live coaching, movement, and sharing sessions</li>
+                                <li>Guided somatic and embodiment practices to reset your nervous system</li>
+                                <li>Tools to release stuck energy and cultivate resilience</li>
+                                <li>Ongoing community support to celebrate your progress</li>
                             </ul>
 
                             <p className="text-lg text-[#3b3a2e] mb-8  mt-4 ">
-                                This is your time — to feel, explore, and transform at your own pace, with compassionate
-                                support every step of the way.
+                                Together, we’ll ignite your spark and launch your next chapter with clarity and courage.
                             </p>
-                            <Link
-                                to="/contact"
+                            <a
+                                href="mailto:ebru.dargan@gmail.com"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

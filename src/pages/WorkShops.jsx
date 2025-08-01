@@ -1,8 +1,7 @@
-
 import {Link} from "react-router-dom";
 import WorkShop from "../assets/image/WorkShops.jpg";
 
-const WorkShops= () => {
+const WorkShops = () => {
     return (
         <>
             <section id="workshops" className="bg-[#f0eae2] py-16">
@@ -16,47 +15,40 @@ const WorkShops= () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-lg text-[#3b3a2e] mb-6">
-                                <strong>Workshops </strong>
-                            </h2>
+                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6">Workshops</h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Join a shared space to move, feel, and awaken your body’s wisdom. These workshops use
-                                somatic movement, breathwork, and embodiment practices to cultivate presence and
-                                transformation; whether in women’s circles, retreats, or conscious community
-                                gatherings.
+                                I am passionate about bringing embodiment, movement, and breathwork workshops to
+                                communities worldwide. These spaces are sacred invitations to step fully into your
+                                body’s intelligence, awaken your inner wisdom, and embrace transformation.
                             </p>
-                            <h3 className="mb-4 mt-4">
-                                <strong>Tools</strong>
-                            </h3>
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Somatic Movement — ground and release tension</li>
-                                <li>Breathwork & Qigong — open energy flow and calm the nervous system</li>
-                                <li>Embodiment Rituals — ignite inner power and emotional freedom</li>
-                                <li>Relational Exercises — foster trust and authentic connection</li>
+                            <h3 className="text-xl font-semibold text-[#3b3a2e] mb-4">Workshop Options:</h3>
+                            <ul className="list-disc pl-6 text-[#3b3a2e] mb-6 space-y-2">
+                                <li>
+                                    Somatic Movement: Gentle, conscious movement to increase body awareness and release
+                                    tension
+                                </li>
+                                <li>
+                                    Feminine Embodiment: Embrace your feminine strength, sensuality, and grace with
+                                    breath and presence
+                                </li>
+                                <li>
+                                    Breathwork: Use the power of breath to calm the mind, regulate emotions, and
+                                    energize your being
+                                </li>
+                                <li>
+                                    Nervous System Regulation with Qigong: Learn techniques to reduce stress and
+                                    cultivate vitality
+                                </li>
                             </ul>
-
-                            <h3 className="mb-4 mt-4">
-                                <strong>Benefits</strong>
-                            </h3>
-
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Deepen body, emotional, and intuitive connection</li>
-                                <li>Release held tension and stress</li>
-                                <li>Regulate nervous system for ease and clarity</li>
-                                <li>Feel supported in a safe collective space</li>
-                                <li>Access subconscious awareness and inner vitality</li>
-                            </ul>
-
-                            <p className="text-lg text-[#3b3a2e] mt-4 mb-8  ">
-                                This is your time; to feel, explore, and transform at your own pace, with compassionate
-                                support every step of the way.
+                            <p className="text-lg text-[#3b3a2e] mb-8">
+                                Interested in hosting a workshop or joining upcoming sessions? Reach out anytime.
                             </p>
-                            <Link
-                                to="/contact"
+                            <a
+                                href="mailto:ebru.dargan@gmail.com"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

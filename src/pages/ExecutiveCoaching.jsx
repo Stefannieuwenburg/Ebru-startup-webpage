@@ -19,43 +19,21 @@ const ExecutiveCoachingPage = () => {
                                 <strong>Executive Coaching </strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Join a shared space to move, feel, and awaken your body’s wisdom. These workshops use
-                                somatic movement, breathwork, and embodiment practices to cultivate presence and
-                                transformation; whether in women’s circles, retreats, or conscious community
-                                gatherings.
+                                Empower your leaders and teams with coaching that integrates embodiment, somatic tools,
+                                and the essential practice of embodied leadership; leading with presence, awareness, and
+                                authenticity.
+                                <br /> Cultivate resilience, deeper connection, and lasting impact from the inside out.
                             </p>
-                            <h3 className="mb-4 mt-4">
-                                <strong>Tools</strong>
-                            </h3>
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Somatic Movement — ground and release tension</li>
-                                <li>Breathwork & Qigong — open energy flow and calm the nervous system</li>
-                                <li>Embodiment Rituals — ignite inner power and emotional freedom</li>
-                                <li>Relational Exercises — foster trust and authentic connection</li>
-                            </ul>
-
-                            <h3 className="mb-4 mt-4">
-                                <strong>Benefits</strong>
-                            </h3>
-
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Deepen body, emotional, and intuitive connection</li>
-                                <li>Release held tension and stress</li>
-                                <li>Regulate nervous system for ease and clarity</li>
-                                <li>Feel supported in a safe collective space</li>
-                                <li>Access subconscious awareness and inner vitality</li>
-                            </ul>
 
                             <p className="text-lg text-[#3b3a2e] mt-4 mb-8  ">
-                                This is your time; to feel, explore, and transform at your own pace, with compassionate
-                                support every step of the way.
+                               Contact us to explore tailored coaching packages designed to elevate your leadership and team dynamics.
                             </p>
-                            <Link
-                                to="/contact"
+                            <a
+                                href="mailto:ebru.dargan@gmail.com"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
