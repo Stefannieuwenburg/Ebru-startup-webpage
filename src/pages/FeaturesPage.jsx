@@ -61,10 +61,10 @@ function FeaturesPage() {
             <section className="bg-[#b4b29a] w-full min-h-screen py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6">
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
+                        <h2 className="text-4xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }}>
                             How I Can Support You
                         </h2>
-                        <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+                        <p className="text-lg text-gray-700 max-w-2xl mx-auto" style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }}>
                             Choose the path that resonates with your current needs and wellness goals
                         </p>
                     </div>
@@ -83,15 +83,15 @@ function FeaturesPage() {
 
                                 {/* Bottom-left overlay */}
                                 <div className="absolute inset-0 flex flex-col justify-end items-start p-6 bg-gradient-to-b from-black/60 via-black/30 to-black/60">
-                                    <h3 className="text-2xl font-bold text-white mb-2" style={{ fontFamily: '"Playfair Display", serif' }}>
+                                    <h3 className="text-2xl font-bold text-white mb-2" style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }}>
                                         {service.title}
                                     </h3>
-                                    <p className="text-white font-medium text-lg mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
+                                    <p className="text-white font-medium text-lg mb-4" style={{ fontFamily: '"Playfair Display", serif' , fontStyle: 'italic'}}>
                                         {service.description}
                                     </p>
                                     <Link
                                         to={service.link}
-                                        className="bg-white bg-opacity-80 text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-opacity-100 transition"
+                                        className="bg-[#f7f7f7] text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-[#e5e5e5] transition duration-300 ease-in-out"
                                     >
                                         Learn More
                                     </Link>

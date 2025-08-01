@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="font-playfair hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">
+        <div className="font-playfair italic hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">
           {navItems.map((item) => (
             <button
               key={item.name}
@@ -97,7 +97,7 @@ const Navbar = () => {
             <button
               key={item.name}
               onClick={() => handleNavClick(item)}
-              className="font-fairplay text-left text-gray-600 text-lg hover:text-red-400 transition"
+              className="font-fairplay italic text-left text-gray-600 text-lg hover:text-red-400 transition"
             >
               {item.name}
             </button>

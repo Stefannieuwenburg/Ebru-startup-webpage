@@ -4,7 +4,7 @@ const BookFreeCallPage = () => {
     <>
       <section className="min-h-[50vh] flex items-center justify-center bg-[#f0eae2] py-16 px-6 md:px-12 lg:px-24">
          <div className="max-w-7xl w-full text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6 leading-tight" style={{ fontFamily: '"Playfair Display", serif' }}>
+          <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6 leading-tight"style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }} >
             Breathe. Move. Transform.
           </h1>
           <h2 className="text-3xl text-gray-700 mb-10 max-w-3xl mx-auto">
