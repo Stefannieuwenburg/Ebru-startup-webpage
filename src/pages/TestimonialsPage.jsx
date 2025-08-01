@@ -145,4 +145,3 @@ export default TestimonialsPage;
 
 
 //<section class="min-h-screen bg-[#e8d5c0] flex items-center justify-center text-gray-600 body-font mt-24">
-//const TestimonialsPage = () =>
