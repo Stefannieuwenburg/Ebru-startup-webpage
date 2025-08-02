@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import WorkShops from "../assets/image/WorkShops.jpg";
 
-const WorkShopMB = () => {
+const WorkShopB = () => {
     return (
         <>
             <section id="workshopmb" className="bg-[#f0eae2] py-16">
@@ -16,7 +16,7 @@ const WorkShopMB = () => {
                         </div>
                         <div>
                             <h2 className="text-lg text-[#3b3a2e] mb-6">
-                                <strong>Workshops (Movement & Breathwork) </strong>
+                                <strong>Workshops</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
                                 Is your team striving for deeper connection, resilience, and collaboration?
@@ -66,4 +66,4 @@ const WorkShopMB = () => {
     );
 };
 
-export default WorkShopMB;
+export default WorkShopB;

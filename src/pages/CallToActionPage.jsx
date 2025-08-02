@@ -32,7 +32,7 @@ const CallToActionPage = () => {
                         >
                             <span className="italic">Meet Ebru Dargan</span>
                         </h1>
-                        <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                        <p className="text-xl italic text-gray-700 max-w-3xl mx-auto" style={{fontFamily: '"Playfair Display", serif'}}>
                             Movement is my language. Dance is my medicine. <br />
                             My mission is to hold a space where you can move with power, embody your truth, and live
                             with presence; fully and freely.
@@ -49,7 +49,7 @@ const CallToActionPage = () => {
                                 className="text-4xl font-bold text-[#3b3a2e] mb-6"
                                 style={{fontFamily: '"Playfair Display", serif'}}
                             >
-                                A Journey of Transformation
+                                My Story
                             </h2>
                             <p className="text-lg text-gray-700 mb-6">
                                 For years, I did everything “right.” I excelled in school, climbed the corporate ladder
@@ -114,15 +114,18 @@ const CallToActionPage = () => {
                     >
                         My Philosophy
                     </h2>
-                    <blockquote className="text-2xl text-gray-700 italic mb-8 leading-relaxed">
-                        "Every breath is an opportunity for transformation. Every movement is a chance to reconnect with
-                        your authentic self. I believe that within each of us lies the innate wisdom to heal, grow, and
-                        thrive."
+                    <blockquote className="text-lg text-gray-700 mb-6 ">
+                        Every breath is an opportunity for transformation.<br />  
+                         Every movement is a chance to reconnect with
+                        your authentic self. <br />
+                        I believe that within each of us lies the innate wisdom to heal, grow, and
+                        thrive.
                     </blockquote>
-                    <div className="bg-white rounded-lg shadow-lg p-8">
+                    <div >
                         <p className="text-lg text-gray-700 mb-6">
                             My approach is grounded in the belief that true healing happens when we create a safe,
-                            nurturing space for the body's natural intelligence to emerge. Through gentle guidance and
+                            nurturing space for the body's natural intelligence to emerge. <br />
+                            Through gentle guidance and
                             compassionate support, I help my clients discover their own path to their own spark.
                         </p>
                         <p className="text-lg text-gray-700">
@@ -143,7 +146,7 @@ const CallToActionPage = () => {
                         Ready to Begin Your Journey?
                     </h2>
                     <p className="text-xl text-gray-300 mb-8">
-                        I'd love to support you on your path to wellness and transformation
+                       new txt ??
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a

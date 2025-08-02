@@ -16,7 +16,7 @@ import PrivateCoaching from './pages/PrivateCoaching';
 import BannerPage from './pages/BannerPage';
 import BusinessPage from './pages/BusinessPage';
 import IndividualPage from './pages/IndividualPage';
-import WorkShopMB from './pages/WorkShopMB';
+import WorkShopB from './pages/WorkShopB';
 import TeamBuildingWorkShops from './pages/TeamBuildingWorkShops';
 import ExecutiveCoaching from './pages/ExecutiveCoaching';
 import EventEnergizer from './pages/EventEnergizer';
@@ -80,10 +80,10 @@ function App() {
             }
           /> 
           <Route
-            path="/workshopmb"
+            path="/workshopb"
             element={
               <Layout>
-                <WorkShopMB />
+                <WorkShopB />
               </Layout>
             }
           /> 

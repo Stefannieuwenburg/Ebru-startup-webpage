@@ -29,7 +29,7 @@ const BusinessPage = () => {
                                 Read more
                             </Link>
                             <h2 className="text-lg text-[#3b3a2e] mb-6 mt-6">
-                                <strong>Workshops (Movement & Breathwork)</strong>
+                                <strong>Workshops</strong>
                             </h2>
                             <p className="text-lg text-[#3b3a2e] mb-6">
                             Want your team to connect deeper and handle stress better?
@@ -37,7 +37,7 @@ const BusinessPage = () => {
                                
                             </p>
                             <Link
-                                to="/workshopmb"
+                                to="/workshopb"
                                 className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more

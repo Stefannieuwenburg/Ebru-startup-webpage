@@ -17,7 +17,7 @@ function Footer() {
                             Breath&<span className="italic">Body Movement</span>
                         </h3>
                         <p className="text-gray-300 mb-6">
-                            Transform your life through mindful movement, breathwork, and holistic wellness practices.
+                            new text ??
                         </p>
                     </div>
 

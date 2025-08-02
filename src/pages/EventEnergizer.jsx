@@ -25,14 +25,14 @@ const EventEnergizerPage = () => {
                             <p className="text-lg text-[#3b3a2e] mb-6">
                                 This dynamic 15–30 minute session uses movement and breathwork to help your group:
                             </p>
-                            <ul className="list-disc pl-6 text-[#3b3a2e] mb-6 space-y-2">
+                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2">
                                 <li>Shake off tension and release stuck energy</li>
                                 <li>Reset and regulate the nervous system</li>
                                 <li>Boost energy, focus, and mental clarity</li>
                                 <li>Foster collective presence and connection</li>
                                 <li>Return to meetings or activities feeling recharged and engaged</li>
                             </ul>
-                            <p className="text-lg text-[#3b3a2e] mb-8">
+                            <p className="text-lg text-[#3b3a2e] mb-6">
                                 Ideal for meetings, conferences, or team offsites that need a quick, powerful reset to
                                 enhance creativity and collaboration.
                             </p>
