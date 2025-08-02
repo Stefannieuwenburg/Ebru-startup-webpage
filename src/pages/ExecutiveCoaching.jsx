@@ -1,5 +1,5 @@
 
-import Executivecoaching from "../assets/image/ExecutiveCoaching.jpg";
+import Executive from "../assets/image/Executive.jpg";
 
 const ExecutiveCoachingPage = () => {
     return (
@@ -9,7 +9,7 @@ const ExecutiveCoachingPage = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
                             <img
-                                src={Executivecoaching}
+                                src={Executive}
                                 alt="Wellness and movement"
                                 className="rounded-lg shadow-lg w-full h-full object-cover"
                             />
