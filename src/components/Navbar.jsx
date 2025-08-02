@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { useState, useEffect } from "react";
-=======
-import { useState } from "react";
->>>>>>> 8f180610348bae356fcad0df12f09ab3258fbdf9
 import { FaBars, FaTimes } from "react-icons/fa";
 import { scroller } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -31,24 +27,10 @@ const Navbar = () => {
       if (location.pathname !== "/") {
         setPendingScroll(item.id);
         navigate("/");
-<<<<<<< HEAD
-=======
-        setTimeout(() => {
-          scroller.scrollTo(item.id, {
-            duration: 500,
-            smooth: true,
-            // De offset-regel is hier verwijderd
-          });
-        }, 100);
->>>>>>> 8f180610348bae356fcad0df12f09ab3258fbdf9
       } else {
         scroller.scrollTo(item.id, {
           duration: 500,
           smooth: true,
-<<<<<<< HEAD
-=======
-          // De offset-regel is hier verwijderd
->>>>>>> 8f180610348bae356fcad0df12f09ab3258fbdf9
         });
       }
     } else if (item.type === "route") {
@@ -127,3 +109,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+    
