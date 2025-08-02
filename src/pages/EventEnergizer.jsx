@@ -1,5 +1,5 @@
 
-import Eventenergizer from "../assets/image/EventEnergizer.jpg";
+import Event from "../assets/image/Event.jpg";
 
 const EventEnergizerPage = () => {
     return (
@@ -9,7 +9,7 @@ const EventEnergizerPage = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
                             <img
-                                src={Eventenergizer}
+                                src={Event}
                                 alt="Wellness and movement"
                                 className="rounded-lg shadow-lg w-full h-full object-cover"
                             />
