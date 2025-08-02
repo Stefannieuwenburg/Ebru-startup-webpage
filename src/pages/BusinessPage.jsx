@@ -24,7 +24,7 @@ const BusinessPage = () => {
                             </p>
                             <Link
                                 to="/event-energizer"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
                             </Link>
@@ -38,7 +38,7 @@ const BusinessPage = () => {
                             </p>
                             <Link
                                 to="/workshopb"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
                             </Link>
@@ -51,7 +51,7 @@ const BusinessPage = () => {
                             </p>
                             <Link
                                 to="/team-building-workshops"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
                             </Link>
@@ -64,7 +64,7 @@ const BusinessPage = () => {
                             </p>
                             <Link
                                 to="/executive-coaching"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors "
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors "
                             >
                                 Read more
                             </Link>

@@ -54,7 +54,7 @@ const AboutPage = () => {
             </h3>
             <a
               href="contact"
-              className="bg-[#6e6c50] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
+              className="bg-[#6e6c50] text-white px-8 py-3 rounded-3xl font-semibold hover:bg-[#5a5840] transition-colors"
             >
               Book a Free call
             </a>

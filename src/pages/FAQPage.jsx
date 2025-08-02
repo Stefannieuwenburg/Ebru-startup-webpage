@@ -39,6 +39,10 @@ const FAQPage = () => {
               header="How can your coaching help with mental clarity or stress?"
               text="Through somatic and embodiment practices, we gently guide the nervous system into regulation, helping manage stress and anxiety. This fosters deeper awareness, clears thought patterns, enhances mental clarity, and boosts creativity."
             />
+            <AccordionItem
+              header="Is this therapy?"
+              text="No, it’s not therapy — but it can be deeply therapeutic. This work complements therapy beautifully, especially if you’ve been doing mindset work and feel ready to bring the body into your healing journey."
+            />
           </div>
 
           <div className="w-full px-4 lg:w-1/2 space-y-4">
@@ -53,6 +57,10 @@ const FAQPage = () => {
             <AccordionItem
               header="What’s different about your approach?"
               text="I blend somatic coaching, conscious dance, qigong, and breathwork in a grounded, intuitive way. Each of these modalities offers a different path into the body."
+            />
+            <AccordionItem
+              header="What kind of results can I expect?"
+              text="Clients often report feeling more grounded, energized, emotionally clear, and in touch with their intuition. Over time, this creates shifts in how they show up — in relationships, leadership, creativity, and life direction. You’ll learn tools to regulate stress, express emotions, and reconnect to your body’s wisdom — even in the chaos of daily life."
             />
           </div>
         </div>

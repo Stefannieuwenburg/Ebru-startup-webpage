@@ -49,7 +49,7 @@ function Contact() {
               ></textarea>
               <button
                 type="submit"
-                className="bg-[#6e6c50] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
+                className="bg-[#6e6c50] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#5a5840] transition-colors"
               >
                 Send Message
               </button>

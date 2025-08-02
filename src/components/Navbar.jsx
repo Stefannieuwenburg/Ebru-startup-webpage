@@ -69,7 +69,7 @@ const Navbar = () => {
             <button
               key={item.name}
               onClick={() => handleNavClick(item)}
-              className="text-gray-600 hover:text-red-400 hover:-translate-y-1 duration-500 transition"
+              className="text-[#3b3a2e] hover:text-red-400 hover:-translate-y-1 duration-500 transition"
             >
               {item.name}
             </button>
@@ -97,7 +97,7 @@ const Navbar = () => {
             <button
               key={item.name}
               onClick={() => handleNavClick(item)}
-              className="font-fairplay italic text-left text-gray-600 text-lg hover:text-red-400 transition"
+              className="font-playfair italic text-left text-[#3b3a2e] text-lg hover:text-red-400 transition"
             >
               {item.name}
             </button>

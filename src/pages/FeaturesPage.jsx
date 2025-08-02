@@ -41,7 +41,7 @@ function FeaturesPage() {
                             </p>
                             <a
                                 href="#story"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 My Story
                             </a>
@@ -88,7 +88,7 @@ function FeaturesPage() {
                                     </p>
                                     <Link
                                         to={service.link}
-                                        className="bg-[#f7f7f7] text-[#3b3a2e] px-5 py-2 rounded-lg font-semibold hover:bg-[#e5e5e5] transition duration-300 ease-in-out"
+                                        className="bg-[#f7f7f7] text-[#3b3a2e] px-5 py-2 rounded-3xl font-semibold hover:bg-[#e5e5e5] transition duration-300 ease-in-out"
                                     >
                                         Learn More
                                     </Link>

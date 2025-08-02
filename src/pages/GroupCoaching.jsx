@@ -54,7 +54,7 @@ const GroupCoaching = () => {
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
                             </a>

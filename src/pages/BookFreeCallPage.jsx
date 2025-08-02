@@ -14,7 +14,7 @@ const BookFreeCallPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="contact"
-              className="bg-[#6e6c50] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#5a5840] transition-colors"
+              className="bg-[#6e6c50] text-white px-6 py-4 rounded-3xl font-semibold hover:bg-[#5a5840] transition-colors"
             >
               Book a Free Call
             </Link>
