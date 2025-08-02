@@ -27,17 +27,19 @@ function FeaturesPage() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div>
                             <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
-                                Your Journey to Wellness Starts Here
+                                Return to the Rhythm of Your Being
+
                             </h2>
                             <p className="text-lg text-gray-700 mb-6">
-                                I believe that true wellness comes from the harmony between breath, body, and mind.
-                                Through personalized coaching, transformative workshops, and comprehensive training
-                                programs, I guide you on a journey of self-discovery and healing.
+                               Wholeness is not something we chase — it’s something we return to.
+                               It lives in the quiet between your breaths, in the fluidity of your movements, in the stillness of your mind.
                             </p>
                             <p className="text-lg text-gray-700 mb-8">
-                                Whether you're seeking stress relief, improved physical health, or deeper spiritual
-                                connection, my holistic approach will help you unlock your body's natural wisdom and
-                                create lasting positive change.
+                               Through intimate coaching, immersive workshops, and embodied practices, I invite you to step into a space where your body speaks, your heart softens, and your spirit feels free to expand.
+
+                            </p>
+                            <p className="text-lg text-gray-700 mb-8">
+                               Whether you’re seeking to release the weight of stress, awaken your vitality, or reconnect with your deeper essence, we’ll journey together — listening to your body’s whispers, honoring its wisdom, and creating transformation that flows into every part of your life.
                             </p>
                             <a
                                 href="#story"
