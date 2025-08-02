@@ -62,7 +62,7 @@ const CallToActionPage = () => {
                                 <br />
                                 On the outside, it looked like I was thriving.
                                 <br />
-                                But inside, I felt disconnected; never quite enough, never truly fulfilled. <br />I kept
+                                But inside, I felt disconnected; never quite enough, never truly fulfilled. I kept
                                 pushing, hoping passion would follow achievement.
                             </p>
                             <p className="text-lg text-gray-700 mb-6">
@@ -72,12 +72,11 @@ const CallToActionPage = () => {
                             <p className="text-lg text-gray-700 mb-6">
                                 Unable to return to my old path, I shifted. I became a lecturer; my first real encounter
                                 with coaching; and something started to awaken in me.
-                                <br />I realized I wasn’t just burned out; I was out of alignment with myself.
+                                I realized I wasn’t just burned out; I was out of alignment with myself.
                             </p>
                             <p className="text-lg text-gray-700 mb-6">
                                 What started as a personal journey became my calling. Each training I took cracked me
                                 open.
-                                <br />
                                 Every practice helped shake something loose; old patterns, suppressed emotions, unspoken
                                 truths. Bit by bit, I shed what wasn’t mine and began hearing what was in my heart for
                                 this world.
@@ -95,7 +94,7 @@ const CallToActionPage = () => {
                                 offer grounded tools to support nervous system regulation, emotional release, and
                                 embodied alignment.
                             </p>
-                            <p className="text-lg text-gray-700 mb-6">
+                            <p className="text-lg italic bold text-gray-700 mb-6">
                                 My mission is simple: To help you feel more; so you can live, lead, and love with
                                 clarity, joy, and purpose.
                             </p>
@@ -107,6 +106,25 @@ const CallToActionPage = () => {
                                 className="rounded-lg shadow-lg w-full h-full object-cover"
                             />
                         </div>
+                    </div>
+                </div>
+            </section>
+             {/* Call to Action */}
+            <section className="bg-[#3b3a2e] py-16">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <h2
+                        className="text-4xl font-bold text-white mb-6"
+                        style={{fontFamily: '"Playfair Display", serif'}}
+                    >
+                        Ready to Begin Your Journey?
+                    </h2>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a
+                            href="mailto:ebru.dargan@gmail.com"
+                            className="bg-[#f5f3ef] text-[#3b3a2e] px-8 py-4 rounded-lg font-semibold hover:bg-[#edeae4] transition-colors text-lg"
+                        >
+                            Start your Journey
+                        </a>
                     </div>
                 </div>
             </section>
@@ -129,7 +147,7 @@ const CallToActionPage = () => {
                     <div >
                         <p className="text-lg text-gray-700 mb-6">
                             My approach is grounded in the belief that true healing happens when we create a safe,
-                            nurturing space for the body's natural intelligence to emerge. <br />
+                            nurturing space for the body's natural intelligence to emerge.
                             Through gentle guidance and
                             compassionate support, I help my clients discover their own path to their own spark.
                         </p>
@@ -141,34 +159,7 @@ const CallToActionPage = () => {
                     </div>
                 </div>
             </section>
-            {/* Call to Action */}
-            <section className="bg-[#3b3a2e] py-16">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <h2
-                        className="text-4xl font-bold text-white mb-6"
-                        style={{fontFamily: '"Playfair Display", serif'}}
-                    >
-                        Ready to Begin Your Journey?
-                    </h2>
-                    <p className="text-xl text-gray-300 mb-8">
-                       Your guide to awaken the deep wisdom of your body and breath; where heart, mind, and spirit dance as one.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
-                            href="mailto:ebru.dargan@gmail.com"
-                            className="bg-[#f5f3ef] text-[#3b3a2e] px-8 py-4 rounded-lg font-semibold hover:bg-[#edeae4] transition-colors text-lg"
-                        >
-                            Start your Journey
-                        </a>
-                        <a
-                            href="#about"
-                            className="border-2 border-[#f5f3ef] text-[#f5f3ef] px-8 py-4 rounded-lg font-semibold hover:bg-[#f5f3ef] hover:text-[#3b3a2e] transition-colors"
-                        >
-                            Learn More
-                        </a>
-                    </div>
-                </div>
-            </section>
+           
         </>
     );
 };
