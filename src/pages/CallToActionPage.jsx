@@ -37,7 +37,8 @@ const CallToActionPage = () => {
         style={{ fontFamily: '"Playfair Display", serif' }}
       >
         Movement is my language. Dance is my medicine. <br />
-        My mission is to hold a space where you can move with power, embody your truth, and live
+        My mission is to hold a space where you can move with power,<br />
+        embody your truth, and live
         with presence; fully and freely.
       </p>
     </div>

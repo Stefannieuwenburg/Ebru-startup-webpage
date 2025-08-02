@@ -64,9 +64,6 @@ function FeaturesPage() {
                         <h2 className="text-4xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }}>
                             How I Can Support You
                         </h2>
-                        <p className="text-lg text-gray-700 max-w-2xl mx-auto" >
-                            Choose the path that resonates with your current needs and wellness goals
-                        </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                         {services.map((service, index) => (

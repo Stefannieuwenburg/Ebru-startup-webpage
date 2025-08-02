@@ -9,7 +9,7 @@ const BannerPage = () => {
           <h1 className="text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"   style={{ fontFamily: '"Playfair Display", serif' }}>
               <span className="italic"> Breathe. Move. Transform.</span>
             </h1>
-          <h2 className="text-3xl text-gray-700 mb-10 mx-auto"style={{ fontFamily: '"Playfair Display", serif' }}>
+          <h2 className="text-xl text-gray-700 mb-10 mx-auto"style={{ fontFamily: '"Playfair Display", serif' }}>
             You want to have more clarity in your life, reconnect with your energy, and calm within? <br />
             You don’t need to do more. You need to feel more! <br/>
             Let your body lead you home. 
