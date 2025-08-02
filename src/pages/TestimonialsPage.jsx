@@ -72,21 +72,13 @@ const sliderSettings = {
   slidesToShow: 3,
   slidesToScroll: 3,
   responsive: [
-    {
-      breakpoint: 1024,
-      settings: { slidesToShow: 2, slidesToScroll: 2 },
-    },
-    {
-      breakpoint: 640,
-      settings: { slidesToShow: 1, slidesToScroll: 1 },
-    },
+    { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 2 } },
+    { breakpoint: 640, settings: { slidesToShow: 1, slidesToScroll: 1 } },
   ],
 };
 
-
 const TestimonialCard = ({ testimonial }) => {
   const [expanded, setExpanded] = useState(false);
-
   const getShortText = (text) => {
     const sentences = text.split('. ');
     return sentences.slice(0, 2).join('. ') + (sentences.length > 2 ? '...' : '');
@@ -95,7 +87,7 @@ const TestimonialCard = ({ testimonial }) => {
   const isLong = testimonial.text.split('. ').length > 2;
 
   return (
-    <div id="testimonials" className=" min-h-screen p-4">
+    <div className="p-4">
       <div className="h-full flex flex-col items-center justify-center bg-white rounded-lg p-6 shadow-md">
         <p className="text-gray-900 font-medium tracking-wider text-sm text-center">
           {expanded ? testimonial.text : getShortText(testimonial.text)}
@@ -119,12 +111,18 @@ const TestimonialCard = ({ testimonial }) => {
 
 const TestimonialsPage = () => {
   return (
-    <section className="min-h-screen bg-[#e8d5c0] flex items-center justify-center text-gray-600 body-font mt-24">
-      <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-4xl italic md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
-          Testimonials 
+    <section id="testimonials" className="h-screen bg-[#e8d5c0] flex items-center justify-center text-gray-600 body-font">
+      <div className="max-w-6xl w-full px-4">
+        <h1
+          className="text-4xl italic md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
+          style={{ fontFamily: '"Playfair Display", serif' }}
+        >
+          Testimonials
         </h1>
-        <h1 className="text-4xl md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
+        <h1
+          className="text-4xl md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
+          style={{ fontFamily: '"Playfair Display", serif' }}
+        >
           Breath&<span className="italic">Body Movement</span>
         </h1>
         <Slider {...sliderSettings}>
@@ -138,7 +136,3 @@ const TestimonialsPage = () => {
 };
 
 export default TestimonialsPage;
-
-
-
-//<section class="min-h-screen bg-[#e8d5c0] flex items-center justify-center text-gray-600 body-font mt-24">
