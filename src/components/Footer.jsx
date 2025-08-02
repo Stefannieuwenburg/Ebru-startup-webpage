@@ -5,18 +5,18 @@ import {Link} from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="bg-[#3b3a2e] text-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <footer id="footer" className="bg-[#3b3a2e] min-h-[20vh] text-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Brand */}
                     <div className="col-span-1 md:col-span-2">
                         <h3
-                            className="text-2xl  font-bold font-playfair mb-4"
+                            className="text-2xl font-bold font-playfair mb-4"
                             style={{fontFamily: '"Playfair Display", serif'}}
                         >
                             Breath&<span className="italic">Body Movement</span>
                         </h3>
-                        <p className="text-gray-300 mb-6">
+                        <p className="text-gray-300 mb-4">
                             new text ??
                         </p>
                     </div>
@@ -62,7 +62,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="border-t border-gray-600 mt-8 pt-8 text-center">
+                <div className="border-t border-gray-600 mt-4 pt-4 text-center">
                     <p className="text-gray-300">© 2025 breath&bodymovement. All rights reserved.</p>
                 </div>
             </div>

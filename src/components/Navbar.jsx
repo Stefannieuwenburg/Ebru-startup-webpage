@@ -1,5 +1,4 @@
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { scroller } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -7,11 +6,11 @@ import Logo from "../assets/image/Logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [pendingScroll, setPendingScroll] = useState(null);
   const navigate = useNavigate();
   const location = useLocation();
 
   const navItems = [
-   
     { name: "Home", type: "scroll", id: "hero" },
     { name: "About", type: "scroll", id: "about" },
     { name: "For Individuals", type: "route", path: "/individual" },
@@ -26,25 +25,28 @@ const Navbar = () => {
 
     if (item.type === "scroll") {
       if (location.pathname !== "/") {
+        setPendingScroll(item.id);
         navigate("/");
-        setTimeout(() => {
-          scroller.scrollTo(item.id, {
-            duration: 500,
-            smooth: true,
-            offset: -60,
-          });
-        }, 100);
       } else {
         scroller.scrollTo(item.id, {
           duration: 500,
           smooth: true,
-          offset: -60,
         });
       }
     } else if (item.type === "route") {
       navigate(item.path);
     }
   };
+
+  useEffect(() => {
+    if (location.pathname === "/" && pendingScroll) {
+      scroller.scrollTo(pendingScroll, {
+        duration: 500,
+        smooth: true,
+      });
+      setPendingScroll(null);
+    }
+  }, [location.pathname, pendingScroll]);
 
   return (
     <nav className="w-full fixed top-0 items-center z-50 justify-center">
@@ -55,9 +57,7 @@ const Navbar = () => {
             className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
             onClick={() => handleNavClick({ type: "scroll", id: "hero" })}
           >
-            <p
-              className="font-playfair text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] text-center drop-shadow-sm"
-            >
+            <p className="font-playfair text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] text-center drop-shadow-sm">
               Breath & <span className="italic">Body Movement</span>
             </p>
           </button>
