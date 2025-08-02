@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { scroller } from "react-scroll";
@@ -11,7 +10,6 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-   
     { name: "Home", type: "scroll", id: "hero" },
     { name: "About", type: "scroll", id: "about" },
     { name: "For Individuals", type: "route", path: "/individual" },
@@ -31,14 +29,14 @@ const Navbar = () => {
           scroller.scrollTo(item.id, {
             duration: 500,
             smooth: true,
-            offset: -60,
+            // De offset-regel is hier verwijderd
           });
         }, 100);
       } else {
         scroller.scrollTo(item.id, {
           duration: 500,
           smooth: true,
-          offset: -60,
+          // De offset-regel is hier verwijderd
         });
       }
     } else if (item.type === "route") {
@@ -109,7 +107,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-    
