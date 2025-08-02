@@ -1,5 +1,5 @@
-import {Link} from "react-router-dom";
-import WorkShops from "../assets/image/WorkShops.jpg";
+
+import Worshopsb from "../assets/image/WorkShops.jpg";
 
 const WorkShopB = () => {
     return (
@@ -9,7 +9,7 @@ const WorkShopB = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
                             <img
-                                src={WorkShops}
+                                src={Worshopsb}
                                 alt="Wellness and movement"
                                 className="rounded-lg shadow-lg w-full h-full object-cover"
                             />

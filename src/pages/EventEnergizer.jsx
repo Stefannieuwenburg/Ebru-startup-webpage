@@ -1,5 +1,5 @@
-import {Link} from "react-router-dom";
-import WorkShops from "../assets/image/WorkShops.jpg";
+
+import Eventenergizer from "../assets/image/EventEnergizer.jpg";
 
 const EventEnergizerPage = () => {
     return (
@@ -9,7 +9,7 @@ const EventEnergizerPage = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
                             <img
-                                src={WorkShops}
+                                src={Eventenergizer}
                                 alt="Wellness and movement"
                                 className="rounded-lg shadow-lg w-full h-full object-cover"
                             />
