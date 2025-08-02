@@ -17,7 +17,7 @@ function Footer() {
                             Breath&<span className="italic">Body Movement</span>
                         </h3>
                         <p className="text-gray-300 mb-4">
-                            new text ??
+                            Your guide to awaken the deep wisdom of your body and breath; where heart, mind, and spirit dance as one.
                         </p>
                     </div>
 

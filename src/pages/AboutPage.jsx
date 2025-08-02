@@ -10,7 +10,7 @@ const AboutPage = () => {
               Breath&<span className="italic">Body Movement</span>
             </h1>
             <p className="text-xl text-gray-700">
-              have to change text ??
+             Your guide to awaken the deep wisdom of your body and breath; where heart, mind, and spirit dance as one. 
             </p>
             
           </div>

@@ -17,29 +17,33 @@
 }
 
 import About from "../assets/image/AboutBreed.jpg";
-import {Link} from "react-router-dom";
+
 
 const CallToActionPage = () => {
     return (
         <>
-            {/* Founder Section */}
-            <section id="about" className="bg-[#d4d2c3] min-h-screen py-20">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center">
-                        <h1
-                            className="text-5xl md:text-6xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
-                            style={{fontFamily: '"Playfair Display", serif'}}
-                        >
-                            <span className="italic">Meet Ebru Dargan</span>
-                        </h1>
-                        <p className="text-xl italic text-gray-700 max-w-3xl mx-auto" style={{fontFamily: '"Playfair Display", serif'}}>
-                            Movement is my language. Dance is my medicine. <br />
-                            My mission is to hold a space where you can move with power, embody your truth, and live
-                            with presence; fully and freely.
-                        </p>
-                    </div>
-                </div>
-            </section>
+           {/* Founder Section */}
+<section id="about" className="h-screen bg-[#d4d2c3] flex items-center justify-center">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center">
+      <h1
+        className="text-5xl md:text-6xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
+        style={{ fontFamily: '"Playfair Display", serif' }}
+      >
+        <span className="italic">Meet Ebru Dargan</span>
+      </h1>
+      <p
+        className="text-xl italic text-gray-700 max-w-3xl mx-auto"
+        style={{ fontFamily: '"Playfair Display", serif' }}
+      >
+        Movement is my language. Dance is my medicine. <br />
+        My mission is to hold a space where you can move with power, embody your truth, and live
+        with presence; fully and freely.
+      </p>
+    </div>
+  </div>
+</section>
+
             {/* Founder Story */}
             <section id="story" className="bg-white min-h-screen py-16">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -146,7 +150,7 @@ const CallToActionPage = () => {
                         Ready to Begin Your Journey?
                     </h2>
                     <p className="text-xl text-gray-300 mb-8">
-                       new txt ??
+                       Your guide to awaken the deep wisdom of your body and breath; where heart, mind, and spirit dance as one.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
