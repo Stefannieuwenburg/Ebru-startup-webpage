@@ -1,5 +1,5 @@
 
-import Teambuildingworkshops from "../assets/image/Teambuildingworkshops.jpg";
+import Teambuilding from "../assets/image/Teambuilding.jpg";
 
 const TeamBuildingWorkShops = () => {
     return (
@@ -9,7 +9,7 @@ const TeamBuildingWorkShops = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
                             <img
-                                src={Teambuildingworkshops}
+                                src={Teambuilding}
                                 alt="Wellness and movement"
                                 className="rounded-lg shadow-lg w-full h-full object-cover"
                             />
