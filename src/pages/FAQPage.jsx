@@ -25,7 +25,7 @@ const FAQPage = () => {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap gap-y-8">
+        <div className="container mx-auto -mx-4 flex flex-wrap gap-y-4">
           <div className="w-full px-4 lg:w-1/2 space-y-4">
             <AccordionItem
               header="What does 'alignment' mean in this coaching?"
