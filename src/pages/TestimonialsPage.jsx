@@ -88,7 +88,9 @@ const TestimonialCard = ({ testimonial }) => {
 
   return (
     <div className="p-4">
-      <div className="h-full flex flex-col items-center justify-center bg-white rounded-lg p-6 shadow-md">
+      <div className="h-full flex flex-col items-center justify-center bg-white rounded-3xl border-2 border-[#3b3a2e] p-2 shadow-md">
+        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-lg text-center">{testimonial.name}</h2>
+        <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-2 mb-2"></span>
         <p className="text-gray-900 font-medium tracking-wider text-sm text-center">
           {expanded ? testimonial.text : getShortText(testimonial.text)}
         </p>
@@ -100,10 +102,10 @@ const TestimonialCard = ({ testimonial }) => {
             {expanded ? 'Show less' : 'Read more'}
           </button>
         )}
+        
         <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-2 mb-2"></span>
-        <h2 className="text-gray-900 font-medium tracking-wider text-sm text-center">{testimonial.name}</h2>
-        <h2 className="text-gray-900 font-medium tracking-wider text-sm text-center">{testimonial.role}</h2>
-        <h2 className="text-gray-900 font-medium tracking-wider text-sm text-center">{testimonial.county}</h2>
+        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-sm text-center">{testimonial.role}</h2>
+        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-sm text-center">{testimonial.county}</h2>
       </div>
     </div>
   );
@@ -111,7 +113,7 @@ const TestimonialCard = ({ testimonial }) => {
 
 const TestimonialsPage = () => {
   return (
-    <section id="testimonials" className="h-screen bg-[#e8d5c0] flex items-center justify-center text-gray-600 body-font">
+    <section id="testimonials" className="h-screen bg-[#eae6dc] flex items-center justify-center text-gray-600 body-font">
       <div className="max-w-6xl w-full px-4">
         <h1
           className="text-4xl italic md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"

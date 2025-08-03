@@ -72,6 +72,23 @@ center div <div className="min-h-screen flex items-center justify-center ">
 | CoachingsPage | Olijfgroen basis | #6e6c50 | bg-olijfgroen | 
 | WorkshopsPage | Licht beige | #e6ddcf | bg-[#e6ddcf] | 
 | TrainingsPage | Licht zand met grijs tint | #eae6dc | bg-[#eae6dc] | 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+HeroPage	Licht zandkleur	#f5f3ef	
+AboutPage	Beige	#d9cbb8	
+ServicePage	Licht olijfgroen	#b4b29a	
+FeaturesPage	Zacht wit	#ffffff	
+TestimonialsPage	Lichtbruin	#e8d5c0	
+FAQPage	Lichtgrijs/beige	#edeae4	
+CallToActionPage	Donkerbruin (contrast)	#3b3a2e	
+NewsLetterPage	Zandkleur met tint	#f0eae2	
+ContactPage	Lichtgroen/grijs	#d4d2c3	
+CoachingsPage	Olijfgroen basis	#6e6c50	
+WorkshopsPage	Licht beige	#e6ddcf	
+TrainingsPage	Licht zand met grijs	#eae6dc	
+
 #################################################################################################
 Waarom dit werkt
 - De kleuren zijn allemaal afgeleid van natuurlijke tinten: zand, aarde, bladeren, hout.

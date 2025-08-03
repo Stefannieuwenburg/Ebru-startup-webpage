@@ -5,10 +5,10 @@ import { Suspense, lazy } from 'react';
 import HeroPage from './pages/HeroPage';
 import AboutPage from './pages/AboutPage';
 import GroupCoaching from './pages/GroupCoaching';
-import FeaturesPage from './pages/FeaturesPage';
+import RhythmPage from './pages/RhythmPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import WorkShops from './pages/WorkShops';
-import CallToActionPage from './pages/CallToActionPage';
+import JourneyPage from './pages/JourneyPage';
 import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
 import BookFreeCallPage from './pages/BookFreeCallPage';
@@ -20,7 +20,10 @@ import WorkShopB from './pages/WorkShopB';
 import TeamBuildingWorkShops from './pages/TeamBuildingWorkShops';
 import ExecutiveCoaching from './pages/ExecutiveCoaching';
 import EventEnergizer from './pages/EventEnergizer';
-
+import ServicePage from './pages/ServicePage';
+import FounderBanner from './pages/FounderBanner';
+import FounderStory from './pages/FounderStory';
+import PhilosophyPage from './pages/PhilosophyPage';
 
 const Layout = lazy(() => import('./layout/Layout'));
 
@@ -37,10 +40,15 @@ function App() {
                 <HeroPage />
                 <AboutPage />
                 <BannerPage />
-                <FeaturesPage />
+                <RhythmPage/>
+                <ServicePage />
+                 <JourneyPage />
                 <TestimonialsPage />
                 <FAQPage />
-                <CallToActionPage />
+                <FounderBanner />
+                <FounderStory />
+                <JourneyPage />
+                <PhilosophyPage />
                 <BookFreeCallPage />
               </Layout>
             }
