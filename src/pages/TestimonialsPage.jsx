@@ -88,10 +88,10 @@ const TestimonialCard = ({ testimonial }) => {
 
   return (
     <div className="p-4">
-      <div className="h-full flex flex-col items-center justify-center bg-white rounded-3xl border-2 border-[#3b3a2e] p-2 shadow-md">
+      <div className="h-full flex flex-col items-center justify-center bg-[#f5f3ef] rounded-3xl border-2 border-[#f5f3ef] p-2 shadow-md">
         <h2 className="text-[#3b3a2e] font-medium tracking-wider text-lg text-center">{testimonial.name}</h2>
         <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-2 mb-2"></span>
-        <p className="text-gray-900 font-medium tracking-wider text-sm text-center">
+        <p className="text-gray-900 font-medium tracking-wider text-base text-center">
           {expanded ? testimonial.text : getShortText(testimonial.text)}
         </p>
         {isLong && (
@@ -104,8 +104,8 @@ const TestimonialCard = ({ testimonial }) => {
         )}
         
         <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-2 mb-2"></span>
-        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-sm text-center">{testimonial.role}</h2>
-        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-sm text-center">{testimonial.county}</h2>
+        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-base text-center">{testimonial.role}</h2>
+        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-base text-center">{testimonial.county}</h2>
       </div>
     </div>
   );
@@ -120,12 +120,6 @@ const TestimonialsPage = () => {
           style={{ fontFamily: '"Playfair Display", serif' }}
         >
           Testimonials
-        </h1>
-        <h1
-          className="text-4xl md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
-          style={{ fontFamily: '"Playfair Display", serif' }}
-        >
-          Breath&<span className="italic">Body Movement</span>
         </h1>
         <Slider {...sliderSettings}>
           {testimonials.map((t, index) => (
