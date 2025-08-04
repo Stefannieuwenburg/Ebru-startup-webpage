@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-const BookFreeCallPage = () => {
+
+const BookFreeCallPage = ({ setShowContactModal }) => {
   return (
     <>
       <section className="min-h-[50vh] flex items-center justify-center bg-[#f0eae2] py-16 px-6 md:px-12 lg:px-24">
@@ -12,13 +12,12 @@ const BookFreeCallPage = () => {
             Let your body lead you home
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="contact"
-              className="bg-[#6e6c50] text-white px-6 py-4 rounded-3xl font-semibold hover:bg-[#5a5840] transition-colors"
-            >
-              Book a Free Call
-            </Link>
-           
+           <button
+           onClick={() => setShowContactModal(true)}
+           className="bg-[#6e6c50] text-white px-6 py-4 rounded-3xl font-semibold hover:bg-[#5a5840] transition-colors"
+          >
+           Book a Free Call
+          </button>
           </div>
         </div>
       </section>

@@ -46,7 +46,7 @@ const PrivateCoaching = () => {
                             path that feels right for you.
                         </p>
 
-                        <h3 className="text-lg font-semibold mb-2">Coaching Journeys</h3>
+                      
 
                         <div className="mt-4">
                             {!showMore ? (
@@ -67,7 +67,9 @@ const PrivateCoaching = () => {
                         </div>
 
                         {showMore && (
+                            
                             <div className="space-y-6 mt-4">
+                                  <h3 className="text-lg font-semibold mb-2">Coaching Options</h3>
                                 <div>
                                     <strong>The Return - Coaching Journey 1</strong><br />
                                     Come home to yourself while cultivating presence and vitality.<br />

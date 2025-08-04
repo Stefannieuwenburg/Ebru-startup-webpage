@@ -1,7 +1,13 @@
-
+import { useState, Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Suspense, lazy } from 'react';
-// Importing pages wrapped in Layout
+
+//  Modal imported from components
+import ContactModal from './pages/ContactModal';
+
+// Lazy-loaded layout
+const Layout = lazy(() => import('./layout/Layout'));
+
+// Pages
 import HeroPage from './pages/HeroPage';
 import MyMissionPage from './pages/MyMissionPage';
 import GroupCoaching from './pages/GroupCoaching';
@@ -10,9 +16,8 @@ import TestimonialsPage from './pages/TestimonialsPage';
 import WorkShops from './pages/WorkShops';
 import JourneyPage from './pages/JourneyPage';
 import FAQPage from './pages/FAQPage';
-import ContactPage from './pages/ContactPage';
 import BookFreeCallPage from './pages/BookFreeCallPage';
-import PrivateCoaching from './pages/PrivateCoaching';  
+import PrivateCoaching from './pages/PrivateCoaching';
 import BannerPage from './pages/BannerPage';
 import BusinessPage from './pages/BusinessPage';
 import IndividualPage from './pages/IndividualPage';
@@ -25,116 +30,59 @@ import FounderBanner from './pages/FounderBanner';
 import FounderStory from './pages/FounderStory';
 import PhilosophyPage from './pages/PhilosophyPage';
 
-const Layout = lazy(() => import('./layout/Layout'));
-
 function App() {
+  const [showContactModal, setShowContactModal] = useState(false);
+
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Router>
+        <ContactModal
+          isOpen={showContactModal}
+          onClose={() => setShowContactModal(false)}
+        />
+
         <Routes>
-          {/* Home route with multiple sections */}
           <Route
             path="/"
             element={
-              <Layout>
+              <Layout setShowContactModal={setShowContactModal}>
                 <HeroPage />
-                <MyMissionPage />
+                <MyMissionPage setShowContactModal={setShowContactModal} /> 
                 <BannerPage />
-                <RhythmPage/>
+                <RhythmPage />
                 <ServicePage />
-                 <JourneyPage />
+                <JourneyPage />
                 <TestimonialsPage />
                 <FAQPage />
                 <FounderBanner />
                 <FounderStory />
                 <JourneyPage />
                 <PhilosophyPage />
-                <BookFreeCallPage />
+                <BookFreeCallPage setShowContactModal={setShowContactModal} />
               </Layout>
             }
           />
 
-          {/* Other individual pages wrapped in Layout */}
           <Route
             path="/contact"
             element={
-              <Layout>
-                <ContactPage />
+              <Layout setShowContactModal={setShowContactModal}>
+                <div className="p-8 text-center font-sans text-lg">
+                  Contact us via the modal or drop us a note anytime.
+                </div>
               </Layout>
             }
           />
-          <Route
-            path="/private-coaching"
-            element={
-              <Layout>
-                <PrivateCoaching />
-              </Layout>
-            }
-          />
-          <Route
-            path="/group-coaching"
-            element={
-              <Layout>
-                <GroupCoaching />
-              </Layout>
-            }
-          />
-          <Route
-            path="/workshops"
-            element={
-              <Layout>
-                <WorkShops />
-              </Layout>
-            }
-          /> 
-          <Route
-            path="/workshopb"
-            element={
-              <Layout>
-                <WorkShopB />
-              </Layout>
-            }
-          /> 
-          <Route
-            path="/team-building-workshops"
-            element={
-              <Layout>
-                <TeamBuildingWorkShops />
-              </Layout>
-            }
-          />
-          <Route
-            path="/executive-coaching"
-            element={
-              <Layout>
-                <ExecutiveCoaching />
-              </Layout>
-            }
-          />
-          <Route
-            path="/event-energizer"
-            element={
-              <Layout>
-                <EventEnergizer />
-              </Layout>
-            }
-          />
-          <Route
-            path="/business"
-            element={
-              <Layout>
-                <BusinessPage />
-              </Layout>
-            }
-          />
-          <Route
-            path="/individual"
-            element={
-              <Layout>
-                <IndividualPage />
-              </Layout>
-            }
-          />
+
+          <Route path="/private-coaching" element={<Layout setShowContactModal={setShowContactModal}><PrivateCoaching /></Layout>} />
+          <Route path="/group-coaching" element={<Layout setShowContactModal={setShowContactModal}><GroupCoaching /></Layout>} />
+          <Route path="/workshops" element={<Layout setShowContactModal={setShowContactModal}><WorkShops /></Layout>} />
+          <Route path="/workshopb" element={<Layout setShowContactModal={setShowContactModal}><WorkShopB /></Layout>} />
+          <Route path="/team-building-workshops" element={<Layout setShowContactModal={setShowContactModal}><TeamBuildingWorkShops /></Layout>} />
+          <Route path="/executive-coaching" element={<Layout setShowContactModal={setShowContactModal}><ExecutiveCoaching /></Layout>} />
+          <Route path="/event-energizer" element={<Layout setShowContactModal={setShowContactModal}><EventEnergizer /></Layout>} />
+          <Route path="/business" element={<Layout setShowContactModal={setShowContactModal}><BusinessPage /></Layout>} />
+          <Route path="/individual" element={<Layout setShowContactModal={setShowContactModal}><IndividualPage /></Layout>} />
         </Routes>
       </Router>
     </Suspense>
@@ -142,3 +90,4 @@ function App() {
 }
 
 export default App;
+
