@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 // Importing pages wrapped in Layout
 import HeroPage from './pages/HeroPage';
-import AboutPage from './pages/AboutPage';
+import MyMissionPage from './pages/MyMissionPage';
 import GroupCoaching from './pages/GroupCoaching';
 import RhythmPage from './pages/RhythmPage';
 import TestimonialsPage from './pages/TestimonialsPage';
@@ -38,7 +38,7 @@ function App() {
             element={
               <Layout>
                 <HeroPage />
-                <AboutPage />
+                <MyMissionPage />
                 <BannerPage />
                 <RhythmPage/>
                 <ServicePage />

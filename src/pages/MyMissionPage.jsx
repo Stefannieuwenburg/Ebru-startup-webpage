@@ -1,7 +1,7 @@
 
 import MyMission from "../assets/image/MyMission.jpg";
 
-const AboutPage = () => {
+const MyMissionPage = () => {
   return (
     <div id="about" className="relative bg-[#f0eae2] min-h-screen py-16">
       {/* Decorative brush background layer */}
@@ -15,7 +15,7 @@ const AboutPage = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1
+          {/* <h1
             className="text-4xl md:text-5xl font-bold text-[#3b3a2e] mb-6 tracking-tight"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
@@ -23,7 +23,7 @@ const AboutPage = () => {
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed">
             Your guide to awaken the deep wisdom of your body and breath; where heart, mind, and spirit dance as one.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -85,4 +85,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default MyMissionPage;
