@@ -3,7 +3,7 @@ import MyMission from "../assets/image/MyMission.jpg";
 
 const MyMissionPage = ({ setShowContactModal }) => {
   return (
-    <div id="about" className="relative bg-[#f0eae2] min-h-screen py-16">
+    <div id="about" className="relative bg-[#f0eae2] min-h-screen">
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
         <img
           src="/assets/decorative-brush.svg"

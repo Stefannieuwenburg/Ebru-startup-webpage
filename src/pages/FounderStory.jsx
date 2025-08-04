@@ -3,7 +3,7 @@ import About from "../assets/image/AboutBreed.jpg";
 const FounderStory = () => {
   return (
     <>
-      <section id="story" className="relative bg-white min-h-screen py-16">
+      <section id="story" className="relative bg-white min-h-screen">
         {/* Ambient background brush layer */}
         <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
           <img
@@ -14,10 +14,10 @@ const FounderStory = () => {
         </div>
 
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 space-y-6">
               <h2
-                className="text-4xl font-bold text-[#3b3a2e]"
+                className="text-4xl mt-16 font-bold text-[#3b3a2e]"
                 style={{ fontFamily: '"Playfair Display", serif' }}
               >
                 My Story

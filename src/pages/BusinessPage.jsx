@@ -3,7 +3,7 @@ import CorporateTrainings from "../assets/image/CorporateTrainings.jpg";
 const BusinessPage = () => {
     return (
         <>
-            <section id="business" className="bg-[#f0eae2] min-h-screen py-16">
+            <section id="business" className="bg-[#f0eae2] min-h-screen">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">
@@ -14,10 +14,10 @@ const BusinessPage = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-lg text-[#3b3a2e] mb-6">
+                            <h2 className="text-lg text-[#3b3a2e] mb-4">
                                 <strong>Event Energizer</strong>
                             </h2>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-lg text-[#3b3a2e] mb-4">
                             Energize your event with a 15–30 minute breath and movement reset.
                             Help your group release tension and return refreshed and focused.
 
@@ -28,10 +28,10 @@ const BusinessPage = () => {
                             >
                                 Read more
                             </Link>
-                            <h2 className="text-lg text-[#3b3a2e] mb-6 mt-6">
+                            <h2 className="text-lg text-[#3b3a2e] mb-4 mt-4">
                                 <strong>Workshops</strong>
                             </h2>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-lg text-[#3b3a2e] mb-4">
                             Want your team to connect deeper and handle stress better?
                             These breath and movement workshops build trust, presence, and clear communication. 
                                
@@ -42,10 +42,10 @@ const BusinessPage = () => {
                             >
                                 Read more
                             </Link>
-                            <h2 className="text-lg text-[#3b3a2e] mb-6 mt-6">
+                            <h2 className="text-lg text-[#3b3a2e] mb-4 mt-4">
                                 <strong>Team Building Workshop</strong>
                             </h2>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-lg text-[#3b3a2e] mb-4">
                             Your team’s wellbeing powers your success: let’s help them feel happier, healthier, and more connected.
                             These immersive breath and movement workshops recharge your group and deepen their bonds.
                             </p>
@@ -55,10 +55,10 @@ const BusinessPage = () => {
                             >
                                 Read more
                             </Link>
-                             <h2 className="text-lg text-[#3b3a2e] mb-6 mt-6">
+                             <h2 className="text-lg text-[#3b3a2e] mb-4 mt-4">
                                 <strong>Executive Coaching</strong>
                             </h2>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-lg text-[#3b3a2e] mb-4">
                             Is your organization ready to develop leaders who lead with presence and authenticity?
                             Discover coaching that unlocks deeper layers of strength and resilience.  
                             </p>

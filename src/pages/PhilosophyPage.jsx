@@ -4,7 +4,7 @@ const PhilosophyPage = () => {
     <>
       <section
         id="philosophy"
-        className="relative bg-[#d9cbb8] min-h-screen py-16"
+        className="relative bg-[#d9cbb8] min-h-screen"
       >
         {/* Decorative background layer */}
         <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">

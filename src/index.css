@@ -10,8 +10,21 @@
   --font-playfair: "Playfair Display", serif;
   --font-karla: "Karla", sans-serif;
   --font-satoshi: "Satoshi", sans-serif;
+  --font-sans: "sans-serif";
 
-  --color-about-500: #d9cbb8;
+  /* 🎨 Page-specific background colors */
+  --color-sand: #f5f3ef;
+  --color-beige: #d9cbb8;
+  --color-olijf-light: #b4b29a;
+  --color-white-soft: #ffffff;
+  --color-lichtbruin: #e8d5c0;
+  --color-beige-lightgray: #edeae4;
+  --color-donkerbruin: #3b3a2e;
+  --color-zandtint: #f0eae2;
+  --color-groen-grijs: #d4d2c3;
+  --color-olijf: #6e6c50;
+  --color-beige-light: #e6ddcf;
+  --color-zandgrijs: #eae6dc;
 }
 
 /* ✅ Global base layer */
@@ -20,20 +33,80 @@
     scroll-behavior: smooth;
   }
 }
+
 /* ✅ Global utility layer */
 @layer utilities {
-  .text-hero {
-    @apply text-4xl font-bold text-center;
+  /* ✨ Typography utilities */
+  .font-playfair {
+    font-family: var(--font-playfair);
   }
 
-  .text-subtitle {
-    @apply text-2xl font-semibold text-center;
+  .font-karla {
+    font-family: var(--font-karla);
   }
 
-  .text-body {
-    @apply text-base leading-relaxed;
+  .font-oswald {
+    font-family: var(--font-oswald);
   }
 
+  .font-satoshi {
+    font-family: var(--font-satoshi);
+  }
+  .font-sans-serif {
+    font-family: var(--font-sans-serif);
+  }
+
+  
+  /* 🪴 Background color utilities per page */
+  .bg-sand {
+    background-color: var(--color-sand);
+  }
+
+  .bg-beige {
+    background-color: var(--color-beige);
+  }
+
+  .bg-b4b29a {
+    background-color: var(--color-olijf-light);
+  }
+
+  .bg-white {
+    background-color: var(--color-white-soft);
+  }
+
+  .bg-e8d5c0 {
+    background-color: var(--color-lichtbruin);
+  }
+
+  .bg-edeae4 {
+    background-color: var(--color-beige-lightgray);
+  }
+
+  .bg-donker {
+    background-color: var(--color-donkerbruin);
+  }
+
+  .bg-f0eae2 {
+    background-color: var(--color-zandtint);
+  }
+
+  .bg-d4d2c3 {
+    background-color: var(--color-groen-grijs);
+  }
+
+  .bg-olijfgroen {
+    background-color: var(--color-olijf);
+  }
+
+  .bg-e6ddcf {
+    background-color: var(--color-beige-light);
+  }
+
+  .bg-eae6dc {
+    background-color: var(--color-zandgrijs);
+  }
+
+  /* ⚪️ Generic backgrounds */
   .bg-primary {
     @apply bg-gray-100;
   }
@@ -41,4 +114,5 @@
   .bg-secondary {
     @apply bg-white;
   }
-} 
+}
+/* ✅ Custom styles for specific components */

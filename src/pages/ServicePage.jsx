@@ -22,7 +22,7 @@ const ServicePage = () => {
     return (
     <>
             {/* Services Section */}
-            <section className="bg-[#f0eae2] w-full min-h-screen py-20">
+            <section className="bg-[#f0eae2] w-full min-h-screen">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl font-bold text-[#3b3a2e] mb-4" style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }}>

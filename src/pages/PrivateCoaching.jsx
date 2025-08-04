@@ -6,7 +6,7 @@ const PrivateCoaching = () => {
     const toggleText = () => setShowMore(!showMore);
 
     return (
-        <section id="privatecoaching" className="bg-[#f0eae2] font-sans text-base min-h-screen py-16 text-[#3b3a2e]">
+        <section id="privatecoaching" className="bg-[#f0eae2] text-base min-h-screen text-[#3b3a2e]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="relative">
@@ -18,7 +18,7 @@ const PrivateCoaching = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-bold mb-2">1-1 Coaching</h2>
+                        <h2 className="font-playfair italic text-2xl font-bold mb-2">1-1 Coaching</h2>
 
                         <p className="mb-2">
                             Do you feel foggy, stuck in your head or disconnected from your body — like you’re just
