@@ -35,6 +35,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 name="first_name"
                 placeholder="First Name"
                 required
+                title="Please enter a First Name"
                 className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
               />
               <input
@@ -42,6 +43,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 name="last_name"
                 placeholder="Last Name"
                 required
+                title="Please enter a Last Name"
                 className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
               />
               <input
@@ -49,7 +51,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 name="email"
                 placeholder="Email"
                 required
-                pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+                pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" 
                 title="Please enter a valid email address"
                 className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
               />
