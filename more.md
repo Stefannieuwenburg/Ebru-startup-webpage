@@ -90,6 +90,9 @@ WorkshopsPage	Licht beige	#e6ddcf
 TrainingsPage	Licht zand met grijs	#eae6dc	
 
 #################################################################################################
+ContactForm
+ Link:https://formsubmit.co/
+ 
 Waarom dit werkt
 - De kleuren zijn allemaal afgeleid van natuurlijke tinten: zand, aarde, bladeren, hout.
 - Ze zorgen voor rust en consistentie, maar geven elke pagina een subtiel eigen karakter.

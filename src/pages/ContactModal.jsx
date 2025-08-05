@@ -16,7 +16,7 @@ const ContactModal = ({ isOpen, onClose }) => {
         </button>
 
         <h1 className="text-2xl font-bold text-center mb-4 font-playfair">
-          Contact Us 
+          Contact Us
         </h1>
         <p className="text-sm text-center mb-6 max-w-xl mx-auto">
           We would love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.
@@ -25,12 +25,52 @@ const ContactModal = ({ isOpen, onClose }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-xl font-semibold mb-4">Contact Form</h2>
-            <form className="space-y-4">
-              <input type="text" placeholder="First Name" className="w-full p-3 border border-gray-500 rounded" required />
-              <input type="text" placeholder="Last Name" className="w-full p-3 border border-gray-500 rounded" required />
-              <input type="email" placeholder="Email" className="w-full p-3 border border-gray-500 rounded" required />
-              <textarea placeholder="Message" rows="4" className="w-full p-3 border border-gray-500 rounded" required />
-              <button type="submit" className="bg-[#6e6c50] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#5a5840] transition">
+            <form
+              action="https://formsubmit.co/ebru.dargan@gmail.com"
+              method="POST"
+              className="space-y-4"
+            >
+              <input
+                type="text"
+                name="first_name"
+                placeholder="First Name"
+                required
+                className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
+              />
+              <input
+                type="text"
+                name="last_name"
+                placeholder="Last Name"
+                required
+                className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+                title="Please enter a valid email address"
+                className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
+              />
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Message"
+                required
+                className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] transition"
+              />
+
+              <input
+                type="hidden"
+                name="_next"
+                value="https://yourdomain.com/thank-you"
+              />
+
+              <button
+                type="submit"
+                className="bg-[#6e6c50] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#5a5840] transition"
+              >
                 Send Message
               </button>
             </form>
@@ -39,15 +79,28 @@ const ContactModal = ({ isOpen, onClose }) => {
           <div>
             <h2 className="text-xl font-semibold mb-4">Contact Information</h2>
             <div className="space-y-2">
-              <a href="mailto:ebru.dargan@gmail.com" className="flex items-center">
+              <a
+                href="mailto:ebru.dargan@gmail.com"
+                className="flex items-center"
+              >
                 <MdOutlineEmail className="mr-2" />
                 Email
               </a>
-              <a href="https://www.instagram.com/ebruuudrgn/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+              <a
+                href="https://www.instagram.com/ebruuudrgn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
                 <CiInstagram className="mr-2" />
                 Instagram
               </a>
-              <a href="https://www.linkedin.com/in/ebrudargan" target="_blank" rel="noopener noreferrer" className="flex items-center">
+              <a
+                href="https://www.linkedin.com/in/ebrudargan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
                 <CiLinkedin className="mr-2" />
                 LinkedIn
               </a>
