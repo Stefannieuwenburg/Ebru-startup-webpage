@@ -37,7 +37,7 @@ const HeroPage = () => {
         </p>
         <a
           href="#intro"
-          className="text-white px-6 py-4 rounded-3xl border-1 border-white hover:bg-[#6e6c50] transition"
+          className="text-white px-6 py-4 rounded-3xl border-1 border-white hover:bg-white hover:text-[#d9cbb8] transition"
           rel="noopener noreferrer"
         >
           Start your journey

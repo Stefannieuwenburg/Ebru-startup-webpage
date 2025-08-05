@@ -4,7 +4,7 @@ const PhilosophyPage = () => {
     <>
       <section
         id="philosophy"
-        className="relative bg-[#d9cbb8] min-h-screen"
+        className="relative bg-[#d9cbb8] min-h-screen flex items-center justify-center"
       >
         {/* Decorative background layer */}
         <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
@@ -15,7 +15,8 @@ const PhilosophyPage = () => {
           />
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        {/* Centered content container */}
+        <div className="relative z-10 max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2
             className="text-5xl font-bold text-[#3b3a2e] mb-10 tracking-tight"
             style={{ fontFamily: '"Playfair Display", serif' }}

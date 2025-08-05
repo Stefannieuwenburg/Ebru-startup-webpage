@@ -29,6 +29,8 @@ import ServicePage from './pages/ServicePage';
 import FounderBanner from './pages/FounderBanner';
 import FounderStory from './pages/FounderStory';
 import PhilosophyPage from './pages/PhilosophyPage';
+import NotFound from './pages/NotFound';
+
 
 function App() {
   const [showContactModal, setShowContactModal] = useState(false);
@@ -73,7 +75,7 @@ function App() {
               </Layout>
             }
           />
-
+          <Route path="*" element={<NotFound />} />
           <Route path="/private-coaching" element={<Layout setShowContactModal={setShowContactModal}><PrivateCoaching /></Layout>} />
           <Route path="/group-coaching" element={<Layout setShowContactModal={setShowContactModal}><GroupCoaching /></Layout>} />
           <Route path="/workshops" element={<Layout setShowContactModal={setShowContactModal}><WorkShops /></Layout>} />
