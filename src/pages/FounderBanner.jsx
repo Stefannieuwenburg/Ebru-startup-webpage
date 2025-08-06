@@ -5,14 +5,12 @@ const FounderBanner = () => {
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center">
       <h1
-        className="text-5xl md:text-6xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
-        style={{ fontFamily: '"Playfair Display", serif' }}
+        className="font-playfair italic text-5xl md:text-6xl font-bold text-center text-[#3b3a2e] mb-6"
       >
         <span className="italic">Meet Ebru Dargan</span>
       </h1>
       <p
-        className="text-xl italic text-gray-700 max-w-3xl mx-auto"
-        style={{ fontFamily: '"Playfair Display", serif' }}
+        className="font-playfair italic text-xl text-gray-700 mb-10 mx-auto"
       >
         Movement is my language. Dance is my medicine. <br />
         My mission is to hold a space where you can move with power,<br />

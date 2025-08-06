@@ -36,24 +36,6 @@ sand: '#f5f3ef',
         donker: '#3b3a2e',
 Daarna kun je ze gebruiken zoals bg-bruin, text-olijfgroen, border-beige, enzovoort.
 Bv hero section
-<section class="bg-sand text-donker py-20 px-6">
-  <div class="max-w-4xl mx-auto text-center">
-    <h1 class="text-4xl md:text-5xl font-bold mb-6 text-bruin">
-      Welkom bij Natuurlijke Harmonie
-    </h1>
-    <p class="text-lg md:text-xl mb-8 text-olijfgroen">
-      Ontdek de rust van natuurlijke kleuren en tijdloze eenvoud.
-    </p>
-    <div class="flex justify-center gap-4">
-      <a href="#start" class="bg-bruin text-white px-6 py-3 rounded-md hover:bg-[#7a5835] transition">
-        Aan de slag
-      </a>
-      <a href="#meer" class="border-2 border-olijfgroen text-olijfgroen px-6 py-3 rounded-md hover:bg-olijfgroen hover:text-white transition">
-        Meer informatie
-      </a>
-    </div>
-  </div>
-</section>
 
 center div <div className="min-h-screen flex items-center justify-center ">
 
@@ -74,22 +56,31 @@ center div <div className="min-h-screen flex items-center justify-center ">
 | TrainingsPage | Licht zand met grijs tint | #eae6dc | bg-[#eae6dc] | 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&
+New :
+HeroPage | video no bg| 
+MyMissionPage |[#f0eae2] | 
+BannerBreathe | [#f5f3ef]| 
+ServicePage |[#f5f3ef] | 
+TestimonialsPage | [#f5f3ef]| 
+FAQPage |[#d4d2c3] | 
+BannerJourney | | 
+RhythmPage | | 
+FounderBanner | | 
+FounderStory | | 
+BannerBookFreeCall | | 
+PhilosophyPage | | 
+NotFound | | 
+private-coaching | | 
+group-coaching | | 
+workshops | | 
+workshopb | | 
+team-building-workshops | | 
+executive-coaching | | 
+event-energizer | | 
+business | | 
 
 
-HeroPage	Licht zandkleur	#f5f3ef	
-AboutPage	Beige	#d9cbb8	
-ServicePage	Licht olijfgroen	#b4b29a	
-FeaturesPage	Zacht wit	#ffffff	
-TestimonialsPage	Lichtbruin	#e8d5c0	
-FAQPage	Lichtgrijs/beige	#edeae4	
-CallToActionPage	Donkerbruin (contrast)	#3b3a2e	
-NewsLetterPage	Zandkleur met tint	#f0eae2	
-ContactPage	Lichtgroen/grijs	#d4d2c3	
-CoachingsPage	Olijfgroen basis	#6e6c50	
-WorkshopsPage	Licht beige	#e6ddcf	
-TrainingsPage	Licht zand met grijs	#eae6dc	
-
-#################################################################################################
+##################################################################################
 ContactForm
  Link:https://formsubmit.co/
  

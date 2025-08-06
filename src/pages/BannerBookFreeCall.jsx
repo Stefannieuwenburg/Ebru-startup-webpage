@@ -1,5 +1,5 @@
 
-const BookFreeCallPage = ({ setShowContactModal }) => {
+const BannerBookFreeCall = ({ setShowContactModal }) => {
   return (
     <>
       <section className="min-h-[50vh] flex items-center justify-center bg-[#f0eae2] py-16 px-6 md:px-12 lg:px-24">
@@ -7,7 +7,7 @@ const BookFreeCallPage = ({ setShowContactModal }) => {
           <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6 leading-tight"style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }} >
             Breathe. Move. Transform.
           </h1>
-          <h2 className="text-3xl text-gray-700 mb-10 max-w-3xl mx-auto">
+          <h2 className="font-playfair italic text-xl text-gray-700 mb-10 mx-auto">
             You want to have more clarity in your life, reconnect with your energy, and calm within. <br/>
             Let your body lead you home
           </h2>
@@ -24,4 +24,4 @@ const BookFreeCallPage = ({ setShowContactModal }) => {
     </>
   );
 };
-export default BookFreeCallPage;
+export default BannerBookFreeCall;

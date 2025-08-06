@@ -21,7 +21,7 @@ const ServicePage = () => {
   return (
     <>
       {/* Services Section */}
-      <section className="bg-[#f0eae2] w-full min-h-screen flex items-center justify-center">
+      <section className="bg-[ #f5f3ef] w-full min-h-screen flex items-center justify-center">
         <div className="max-w-7xl w-full h-full px-4 sm:px-6 flex flex-col justify-center items-center">
           <div className="text-center mb-12 mt-10">
             <h2
@@ -35,7 +35,7 @@ const ServicePage = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full mb-6">
             {services.map((service, index) => (
               <div
                 key={index}

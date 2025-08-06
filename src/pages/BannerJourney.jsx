@@ -1,9 +1,8 @@
 
 
-const JourneyPage = () => {
+const BannerJourney = () => {
     return (
         <>
-             {/* Call to Action */}
             <section className="bg-[#3b3a2e] py-16">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2
@@ -26,4 +25,4 @@ const JourneyPage = () => {
     );
 };
 
-export default JourneyPage;
+export default BannerJourney;

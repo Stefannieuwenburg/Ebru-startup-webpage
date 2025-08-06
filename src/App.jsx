@@ -14,11 +14,9 @@ import GroupCoaching from './pages/GroupCoaching';
 import RhythmPage from './pages/RhythmPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import WorkShops from './pages/WorkShops';
-import JourneyPage from './pages/JourneyPage';
 import FAQPage from './pages/FAQPage';
-import BookFreeCallPage from './pages/BookFreeCallPage';
+import BannerBookFreeCall from './pages/BannerBookFreeCall';
 import PrivateCoaching from './pages/PrivateCoaching';
-import BannerPage from './pages/BannerPage';
 import BusinessPage from './pages/BusinessPage';
 import IndividualPage from './pages/IndividualPage';
 import WorkShopB from './pages/WorkShopB';
@@ -30,6 +28,8 @@ import FounderBanner from './pages/FounderBanner';
 import FounderStory from './pages/FounderStory';
 import PhilosophyPage from './pages/PhilosophyPage';
 import NotFound from './pages/NotFound';
+import BannerBreathe from './pages/BannerBreathe';
+import BannerJourney from './pages/BannerJourney';
 
 
 function App() {
@@ -50,17 +50,16 @@ function App() {
               <Layout setShowContactModal={setShowContactModal}>
                 <HeroPage />
                 <MyMissionPage setShowContactModal={setShowContactModal} /> 
-                <BannerPage />
-                <RhythmPage />
+                <BannerBreathe />
                 <ServicePage />
-                <JourneyPage />
                 <TestimonialsPage />
                 <FAQPage />
+                <BannerJourney />
+                <RhythmPage />
                 <FounderBanner />
                 <FounderStory />
-                <JourneyPage />
+                <BannerBookFreeCall setShowContactModal={setShowContactModal} />
                 <PhilosophyPage />
-                <BookFreeCallPage setShowContactModal={setShowContactModal} />
               </Layout>
             }
           />

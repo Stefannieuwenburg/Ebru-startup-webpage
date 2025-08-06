@@ -24,7 +24,7 @@ const MyMissionPage = ({ setShowContactModal }) => {
           </div>
 
           {/* Textual block */}
-          <div>
+          <div className="text-center lg:text-left mb-6">
             <h2
               className="text-4xl italic font-bold text-[#3b3a2e] mb-6"
               style={{ fontFamily: '"Playfair Display", serif' }}

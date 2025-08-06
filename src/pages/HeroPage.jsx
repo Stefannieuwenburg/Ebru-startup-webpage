@@ -14,7 +14,7 @@ const HeroPage = () => {
   return (
     <section
       id="hero"
-      className="bg-[#d9cbb8] relative w-full min-h-screen md:h-[80vh] flex items-center justify-center text-white overflow-hidden mt-16 md:mt-0"
+      className="w-full min-h-screen md:h-[80vh] flex items-center justify-center text-white overflow-hidden mt-16 md:mt-0"
     >
       <video
         ref={videoRef}
