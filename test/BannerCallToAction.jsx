@@ -1,6 +1,6 @@
 const BannerCallToAction = () => {
   return (
-    <div id='banner-call-to-action' className="bg-[#3b3a2e] text-white py-16">
+    <div id='banner-call-to-action' className="bg-[#3b3a2e] min-h-screen pt-12 pb-20 scroll-mt-16 text-white ">
        <section>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>

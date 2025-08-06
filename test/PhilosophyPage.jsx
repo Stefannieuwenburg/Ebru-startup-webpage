@@ -1,7 +1,7 @@
 const PhilosophyPage = () => {
   return (
     <div>
-      <section id="philosophy" className="bg-[#d9cbb8] py-16">
+      <section id="philosophy" className="bg-[#d9cbb8] min-h-screen pt-12 pb-20 scroll-mt-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-[#3b3a2e] mb-8" style={{ fontFamily: '"Playfair Display", serif' }}>
             My Philosophy

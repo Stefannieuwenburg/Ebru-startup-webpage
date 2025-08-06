@@ -21,7 +21,7 @@ const ServicePage = () => {
   return (
     <>
       {/* Services Section */}
-      <section className="bg-[ #f5f3ef] w-full min-h-screen flex items-center justify-center">
+      <section className="bg-[ #f5f3ef] min-h-screen pt-12 pb-20 scroll-mt-16 w-full flex items-center justify-center">
         <div className="max-w-7xl w-full h-full px-4 sm:px-6 flex flex-col justify-center items-center">
           <div className="text-center mb-12 mt-10">
             <h2

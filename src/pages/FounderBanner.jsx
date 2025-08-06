@@ -1,7 +1,7 @@
 const FounderBanner = () => {
     return (
         <>
-        <section id="about" className="py-16 bg-[#f0eae2] flex items-center justify-center">
+        <section id="about" className="bg-[#f0eae2] min-h-[50vh] pt-12 pb-20 scroll-mt-16 flex items-center justify-center">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center">
       <h1

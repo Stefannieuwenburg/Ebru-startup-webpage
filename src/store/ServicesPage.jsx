@@ -35,7 +35,7 @@ const categories = {
 const ServicesPage = () => {
   return (
     <>
-      <section className="min-h-screen bg-[#b4b29a] text-gray-600 body-font">
+      <section className="min-h-screen pt-12 pb-20 scroll-mt-16 bg-[#b4b29a] text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             

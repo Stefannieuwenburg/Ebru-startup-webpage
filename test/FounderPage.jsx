@@ -1,6 +1,6 @@
 const FounderPage = () => {
   return (
-    <div  id="Founder" className="bg-[#d4d2c3] text-[#3b3a2e]">
+    <div  id="Founder" className="bg-[#d4d2c3] min-h-screen pt-12 pb-20 scroll-mt-16 text-[#3b3a2e]">
       <section   className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">

@@ -4,7 +4,7 @@ import Executive from "../assets/image/Executive.jpg";
 const ExecutiveCoachingPage = () => {
     return (
         <>
-            <section id="ExecutiveCoaching" className="bg-[#f0eae2] min-h-screen">
+            <section id="ExecutiveCoaching" className="bg-[#f0eae2] min-h-screen pt-12 pb-20 scroll-mt-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="relative">

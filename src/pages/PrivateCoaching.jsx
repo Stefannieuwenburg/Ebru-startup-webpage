@@ -6,7 +6,7 @@ const PrivateCoaching = () => {
     const toggleText = () => setShowMore(!showMore);
 
     return (
-        <section id="privatecoaching" className="bg-[#f0eae2] text-base min-h-screen text-[#3b3a2e]">
+        <section id="privatecoaching" className="bg-[#f0eae2] min-h-screen pt-12 pb-20 scroll-mt-16 text-base text-[#3b3a2e]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="relative">

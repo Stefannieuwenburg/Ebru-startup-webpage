@@ -3,7 +3,7 @@ const BannerBreathe = () => {
   return (
     <>
       {/* Banner Section - Full Screen */}
-      <section className="bg-[#f5f3ef] py-16 flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#f5f3ef] min-h-[50vh] pt-12 pb-20 scroll-mt-16 flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl w-full text-center">
          
           <h1 className="font-playfair text-4xl md:text-5xl font-bold font-playfair text-[#3b3a2e] mb-6"  >

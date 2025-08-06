@@ -4,7 +4,7 @@ const PhilosophyPage = () => {
     <>
       <section
         id="philosophy"
-        className="relative bg-[#d9cbb8] min-h-screen flex items-center justify-center"
+        className="relative bg-[#d9cbb8] min-h-screen pt-12 pb-20 scroll-mt-16 flex items-center justify-center"
       >
         {/* Decorative background layer */}
         <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
