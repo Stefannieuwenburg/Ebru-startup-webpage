@@ -42,18 +42,18 @@ center div <div className="min-h-screen flex items-center justify-center ">
 🎨 Aanbevolen achtergrondkleuren per pagina
 | Pagina | Aanbevolen achtergrondkleur | HEX-code | Tailwind class (custom) | 
 #########################################################################################
-| HeroPage | Licht zandkleur | #f5f3ef | bg-sand | 
-| AboutPage | Beige | #d9cbb8 | bg-beige | 
-| ServicePage | Licht olijfgroen | #b4b29a | bg-[#b4b29a] | 
-| FeaturesPage | Zacht wit | #ffffff | bg-white | 
-| TestimonialsPage | Lichtbruin | #e8d5c0 | bg-[#e8d5c0] | 
-| FAQPage | Lichtgrijs/beige | #edeae4 | bg-[#edeae4] | 
-| CallToActionPage | Donkerbruin (contrast) | #3b3a2e | bg-donker | 
-| NewsLetterPage | Zandkleur met tint | #f0eae2 | bg-[#f0eae2] | 
-| ContactPage | Lichtgroen/grijs | #d4d2c3 | bg-[#d4d2c3] | 
-| CoachingsPage | Olijfgroen basis | #6e6c50 | bg-olijfgroen | 
-| WorkshopsPage | Licht beige | #e6ddcf | bg-[#e6ddcf] | 
-| TrainingsPage | Licht zand met grijs tint | #eae6dc | bg-[#eae6dc] | 
+| HeroPage | Licht zandkleur | [#f5f3ef] | bg-sand | 
+| AboutPage | Beige | [#d9cbb8] | bg-beige | 
+| ServicePage | Licht olijfgroen | bg-[#b4b29a] | 
+| FeaturesPage | Zacht wit | [#ffffff] | bg-white | 
+| TestimonialsPage | Lichtbruin  bg-[#e8d5c0] | 
+| FAQPage | Lichtgrijs/beige | bg-[#edeae4] | 
+| CallToActionPage | Donkerbruin (contrast) | [#3b3a2e] | 
+| NewsLetterPage | Zandkleur met tint | bg-[#f0eae2] | 
+| ContactPage | Lichtgroen/grijs | bg-[#d4d2c3] | 
+| CoachingsPage | Olijfgroen basis | [#6e6c50] |
+| WorkshopsPage | Licht beige | bg-[#e6ddcf] | 
+| TrainingsPage | Licht zand met grijs tint | bg-[#eae6dc] | 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&
 New :
