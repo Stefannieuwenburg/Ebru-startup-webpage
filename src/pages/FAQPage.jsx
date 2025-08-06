@@ -5,7 +5,7 @@ const FAQPage = () => {
   return (
     <section
       id="faq"
-      className="min-h-screen pt-12 pb-20 scroll-mt-16 relative z-20 overflow-hidden pb-12 pt-20 bg-[#d4d2c3]"
+      className="bg-[#d4d2c3] min-h-screen pb-12 pt-20 scroll-mt-16 relative z-20 overflow-hidden "
     >
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">

@@ -37,7 +37,7 @@ sand: '#f5f3ef',
 Daarna kun je ze gebruiken zoals bg-bruin, text-olijfgroen, border-beige, enzovoort.
 Bv hero section
 
-center div <div className="min-h-screen flex items-center justify-center ">
+center div <div className="min-h-screen pt-12 pb-20 scroll-mt-16 flex items-center justify-center ">
 
 🎨 Aanbevolen achtergrondkleuren per pagina
 | Pagina | Aanbevolen achtergrondkleur | HEX-code | Tailwind class (custom) | 
@@ -57,27 +57,28 @@ center div <div className="min-h-screen flex items-center justify-center ">
 
 &&&&&&&&&&&&&&&&&&&&&&&&&
 New :
+
 HeroPage | video no bg| 
 MyMissionPage |[#f0eae2] | 
 BannerBreathe | [#f5f3ef]| 
 ServicePage |[#f5f3ef] | 
 TestimonialsPage | [#f5f3ef]| 
 FAQPage |[#d4d2c3] | 
-BannerJourney | | 
-RhythmPage | | 
-FounderBanner | | 
-FounderStory | | 
-BannerBookFreeCall | | 
-PhilosophyPage | | 
-NotFound | | 
-private-coaching | | 
-group-coaching | | 
-workshops | | 
-workshopb | | 
-team-building-workshops | | 
-executive-coaching | | 
-event-energizer | | 
-business | | 
+BannerJourney | bg-[#3b3a2e]| 
+RhythmPage | bg-[#d4d2c3]| 
+FounderBanner |bg-[#f0eae2] | 
+FounderStory | bg-white | 
+BannerBookFreeCall | bg-[#f0eae2]| 
+PhilosophyPage | bg-[#d9cbb8] | 
+NotFound | bg-gray-950| 
+private-coaching | bg-[#f0eae2]| 
+group-coaching | bg-[#f0eae2]| 
+workshops | bg-[#f0eae2]| 
+workshopb |bg-[#f0eae2] | 
+team-building-workshops | bg-[#f0eae2]| 
+executive-coaching | bg-[#f0eae2]| 
+event-energizer |bg-[#f0eae2]  | 
+business |bg-[#f0eae2] | 
 
 
 ##################################################################################
