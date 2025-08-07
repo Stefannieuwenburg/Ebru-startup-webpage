@@ -17,10 +17,10 @@ function RhythmPage() {
                                 Wholeness is not something we chase — it’s something we return to.
                                 It lives in the quiet between your breaths, in the fluidity of your movements, in the stillness of your mind.
                             </p>
-                            <p className="text-lg text-gray-700 mb-8">
+                            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-8">
                                 Through intimate coaching, immersive workshops, and embodied practices, I invite you to step into a space where your body speaks, your heart softens, and your spirit feels free to expand.
                             </p>
-                            <p className="text-lg text-gray-700 mb-8">
+                            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-8">
                                 Whether you’re seeking to release the weight of stress, awaken your vitality, or reconnect with your deeper essence, we’ll journey together — listening to your body’s whispers, honoring its wisdom, and creating transformation that flows into every part of your life.
                             </p>
                             <a

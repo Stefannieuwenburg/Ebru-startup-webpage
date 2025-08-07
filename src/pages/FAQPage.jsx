@@ -12,12 +12,11 @@ const FAQPage = () => {
           <div className="w-full px-4">
             <div className="mx-auto mb-12 max-w-[620px] text-center">
               <h1
-                className="mb-4 text-4xl italic font-bold text-[#3b3a2e] sm:text-[40px]/[48px]"
-                style={{ fontFamily: '"Playfair Display", serif' }}
+                className="fonts-playfair mb-4 text-4xl italic font-bold text-[#3b3a2e] sm:text-[40px]/[48px]"
               >
                 Frequently Asked Questions
               </h1>
-              <p className="text-lg italic text-[#3b3a2e] mb-10 leading-relaxed">
+              <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-10 leading-relaxed">
                 Here are some common questions about my coaching services. <br />
                 If you have more questions, feel free to reach out!
               </p>
@@ -96,7 +95,7 @@ const AccordionItem = ({ header, text }) => {
         className="flex w-full text-left items-center gap-3"
         onClick={() => setActive(!active)}
       >
-        <div className="flex h-8 w-8 items-center justify-center text-[#3b3a2e]">
+        <div className="flex h-8 w-8 items-center justify-center text-lg italic text-[#3b3a2e] leading-relaxed">
           <svg
             className={`transform duration-300 ${active ? "rotate-180" : ""}`}
             width="18"
@@ -112,14 +111,14 @@ const AccordionItem = ({ header, text }) => {
             />
           </svg>
         </div>
-        <h4 className="text-lg font-medium text-[#3b3a2e] font-playfair">
+        <h4 className="font-playfair text-lg text-[#3b3a2e] leading-relaxed font-medium ">
           {header}
         </h4>
       </button>
 
       {active && (
         <div className="mt-2 pl-10">
-          <p className="text-base text-[#4b493d] leading-relaxed">
+          <p className="text-lg italic text-[#3b3a2e] leading-relaxed ">
             {text}
           </p>
         </div>

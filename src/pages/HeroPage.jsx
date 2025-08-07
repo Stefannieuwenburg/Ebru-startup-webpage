@@ -35,7 +35,7 @@ const HeroPage = () => {
         >
           Breathe. Move. Transform.
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+        <p className="text-lg italic leading-relaxed md:text-xl max-w-2xl mx-auto mb-8">
           Reconnect with your body’s innate wisdom through conscious movement and breath and discover your inner strength.
         </p>
         <a

@@ -30,7 +30,7 @@ const PhilosophyPage = () => {
             I believe that within each of us lies the innate wisdom to heal, grow, and thrive.
           </blockquote>
 
-          <div className="text-lg text-gray-700 space-y-6">
+          <div className="text-lg italic text-[#3b3a2e] leading-relaxed space-y-6">
             <p>
               My approach is grounded in the belief that true healing happens when we create a{" "}
               <span className="text-[#6e6c50] font-semibold">safe, nurturing space</span> for the body’s{" "}

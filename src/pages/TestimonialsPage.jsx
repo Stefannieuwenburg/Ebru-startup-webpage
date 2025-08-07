@@ -91,7 +91,7 @@ const TestimonialCard = ({ testimonial }) => {
       <div className="h-full flex flex-col items-center justify-center bg-[#f5f3ef] rounded-3xl border-2 border-[#f5f3ef] p-2 shadow-md">
         <h2 className="text-[#3b3a2e] font-medium tracking-wider text-lg text-center">{testimonial.name}</h2>
         <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-2 mb-2"></span>
-        <p className="text-gray-900 font-medium tracking-wider text-base text-center">
+        <p className="text-lg italic leading-relaxed text-gray-900 font-medium text-base text-center">
           {expanded ? testimonial.text : getShortText(testimonial.text)}
         </p>
         {isLong && (
@@ -104,8 +104,8 @@ const TestimonialCard = ({ testimonial }) => {
         )}
         
         <span className="inline-block h-1 w-10 rounded bg-[#3b3a2e] mt-2 mb-2"></span>
-        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-base text-center">{testimonial.role}</h2>
-        <h2 className="text-[#3b3a2e] font-medium tracking-wider text-base text-center">{testimonial.county}</h2>
+        <h2 className="text-[#3b3a2e] italic leading-relaxed font-medium tracking-wider text-center">{testimonial.role}</h2>
+        <h2 className="text-[#3b3a2e] italic leading-relaxed font-medium tracking-wider text-center">{testimonial.county}</h2>
       </div>
     </div>
   );
@@ -116,8 +116,7 @@ const TestimonialsPage = () => {
     <section id="testimonials" className="bg-[#e8d5c0] min-h-screen pt-12 pb-20 scroll-mt-16 flex items-center justify-center text-gray-600 body-font">
       <div className="max-w-6xl w-full px-4">
         <h1
-          className="text-4xl italic md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
-          style={{ fontFamily: '"Playfair Display", serif' }}
+          className="font-playfair text-4xl italic md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
         >
           Testimonials
         </h1>
