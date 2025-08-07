@@ -3,7 +3,6 @@ import ArenaSmal from "../assets/image/ArenaSmal.jpg";
 
 
 function RhythmPage() {
-   
     return (
         <>
             {/* Intro Section */}
@@ -11,10 +10,10 @@ function RhythmPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div>
-                            <h2 className="text-4xl font-bold text-[#3b3a2e] mb-6" style={{ fontFamily: '"Playfair Display", serif' }}>
+                            <h2 className="font-playfair text-4xl font-bold text-[#3b3a2e] mb-6">
                                 Return to the Rhythm of Your Being
                             </h2>
-                            <p className="text-lg text-gray-700 mb-6">
+                            <p className="text-lg italic text-[#3b3a2e] mb-10 leading-relaxed">
                                 Wholeness is not something we chase — it’s something we return to.
                                 It lives in the quiet between your breaths, in the fluidity of your movements, in the stillness of your mind.
                             </p>

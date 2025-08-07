@@ -42,20 +42,39 @@ center div <div className="min-h-screen pt-12 pb-20 scroll-mt-16 flex items-cent
 🎨 Aanbevolen achtergrondkleuren per pagina
 | Pagina | Aanbevolen achtergrondkleur | HEX-code | Tailwind class (custom) | 
 #########################################################################################
-| HeroPage | Licht zandkleur | [#f5f3ef] | bg-sand | 
-| AboutPage | Beige | [#d9cbb8] | bg-beige | 
-| ServicePage | Licht olijfgroen | bg-[#b4b29a] | 
-| FeaturesPage | Zacht wit | [#ffffff] | bg-white | 
-| TestimonialsPage | Lichtbruin  bg-[#e8d5c0] | 
-| FAQPage | Lichtgrijs/beige | bg-[#edeae4] | 
-| CallToActionPage | Donkerbruin (contrast) | [#3b3a2e] | 
-| NewsLetterPage | Zandkleur met tint | bg-[#f0eae2] | 
-| ContactPage | Lichtgroen/grijs | bg-[#d4d2c3] | 
-| CoachingsPage | Olijfgroen basis | [#6e6c50] |
-| WorkshopsPage | Licht beige | bg-[#e6ddcf] | 
-| TrainingsPage | Licht zand met grijs tint | bg-[#eae6dc] | 
 
-&&&&&&&&&&&&&&&&&&&&&&&&&
+HeroPage	  #f5f3ef (licht zandkleur)	Fris en luchtig als eerste indruk
+MyMissionPage	  #f0eae2 (zandkleur met tint)	Warm en uitnodigend, versterkt missiegevoel
+BannerBreathe	  #edeae4 (lichtgrijs/beige)	Ademruimte, visuele pauze
+ServicePage	  #b4b29a (licht olijfgroen)	Aards en betrouwbaar, past bij aanbod
+TestimonialsPage  #e8d5c0 (lichtbruin)	Zacht en menselijk, versterkt authenticiteit
+FAQPage	          #eae6dc (licht zand met grijs tint)	Neutraal en helder, goed voor informatie
+BannerJourney	  #3b3a2e (donkerbruin)	Contrastmoment, visuele diepte
+RhythmPage	  #d4d2c3 (lichtgroen/grijs)	Ritmisch en kalm, ondersteunt flow
+FounderBanner	  #e6ddcf (licht beige)	Elegant en warm, overgang naar persoonlijk verhaal
+FounderStory	  #ffffff (zacht wit)	Puur en helder, versterkt authenticiteit
+BannerBookFreeCall #d9cbb8 (beige)	Verfijnd en uitnodigend, call-to-action zonder schreeuwerigheid
+PhilosophyPage	  #6e6c50 (olijfgroen basis)	Diep en reflectief, past bij filosofie
+
+Overweeg om #d9cbb8 of #e8d5c0 als accentkleur te gebruiken voor headings of knoppen.
+
+🎨 Kleuradvies per Pagina met Hex-codes
+Pagina	Emotie / Doel	Semantische class	Hex-code
+
+/contact	        Open, uitnodigend, neutraal	bg-breathe	#edeae4
+(NotFound)	         Rustig, niet schreeuwerig	bg-rhythm	#d4d2c3
+/private-coaching        Vertrouwelijk, warm, persoonlijk	bg-founder-banner	#e6ddcf
+/group-coaching	         Samenwerking, energie, lichtheid	bg-testimonial	#e8d5c0
+/workshops	         Creatief, inspirerend, toegankelijk	bg-book-call	#d9cbb8
+/workshopb	         Variant, mag iets dieper of neutraler	bg-mission	#f0eae2
+/team-building-workshops Dynamisch, verbindend, levendig	bg-service	#b4b29a
+/executive-coaching	 Autoriteit, rust, diepgang	bg-philosophy	#6e6c50
+/event-energizer	 Energie, fun, beweging	bg-faq	#eae6dc
+/business	         Zakelijk, helder, betrouwbaar	bg-founder-story	#ffffff
+/individual	         Persoonlijk, zacht, introspectief	bg-mission	#f0eae2
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 New :
 
 HeroPage | video no bg| 
@@ -79,6 +98,18 @@ team-building-workshops | bg-[#f0eae2]|
 executive-coaching | bg-[#f0eae2]| 
 event-energizer |bg-[#f0eae2]  | 
 business |bg-[#f0eae2] | 
+ContactMondal |bg-[#edeae4]
+#######################################################
+
+❌ Nog Niet Gebruikte Kleuren
+Deze kleuren zijn nieuw en nog niet in je huidige palet toegepast:
+
+ #b4b29a	Licht olijfgroen – subtiel aards
+ #e8d5c0	Lichtbruin – warm en zacht
+ #edeae4	Lichtgrijs/beige – luchtig
+ #6e6c50	Olijfgroen basis – diepte
+ #e6ddcf	Licht beige – iets koeler
+ #eae6dc	Zand met grijze tint – neutraal
 
 
 ##################################################################################

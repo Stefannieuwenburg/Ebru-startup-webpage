@@ -7,7 +7,7 @@ const ContactModal = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center px-4">
-      <div className="bg-[#d4d2c3] max-w-3xl w-full p-6 rounded-xl relative overflow-y-auto max-h-[90vh] font-sans text-base text-[#3b3a2e]">
+      <div className="bg-[#edeae4] max-w-3xl w-full p-6 rounded-xl relative overflow-y-auto max-h-[90vh] font-sans text-base text-[#3b3a2e]">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-[#3b3a2e] text-lg hover:text-red-500"

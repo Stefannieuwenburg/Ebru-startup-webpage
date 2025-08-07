@@ -13,18 +13,24 @@
   --font-sans: "sans-serif";
 
   /* 🎨 Page-specific background colors */
-  --color-sand: #f5f3ef;
-  --color-beige: #d9cbb8;
-  --color-olijf-light: #b4b29a;
-  --color-white-soft: #ffffff;
-  --color-lichtbruin: #e8d5c0;
-  --color-beige-lightgray: #edeae4;
-  --color-donkerbruin: #3b3a2e;
-  --color-zandtint: #f0eae2;
-  --color-groen-grijs: #d4d2c3;
-  --color-olijf: #6e6c50;
-  --color-beige-light: #e6ddcf;
-  --color-zandgrijs: #eae6dc;
+  --color-hero: #f5f3ef;
+  --color-mission: #f0eae2;
+  --color-breathe: #edeae4;
+  --color-service: #b4b29a;
+  --color-testimonial: #e8d5c0;
+  --color-faq: #eae6dc;
+  --color-journey: #3b3a2e;
+  --color-rhythm: #d4d2c3;
+  --color-founder-banner: #e6ddcf;
+  --color-founder-story: #ffffff;
+  --color-book-call: #d9cbb8;
+  --color-philosophy: #6e6c50;
+
+  /* 🖋️ Text colors */
+  --text-dark: #2c2c2c;
+  --text-soft-dark: #3b3a2e;
+  --text-muted: #5a5a5a;
+  --text-light: #ffffff;
 }
 
 /* ✅ Global base layer */
@@ -52,58 +58,107 @@
   .font-satoshi {
     font-family: var(--font-satoshi);
   }
+
   .font-sans-serif {
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-sans);
   }
 
-  
-  /* 🪴 Background color utilities per page */
-  .bg-sand {
-    background-color: var(--color-sand);
+  /* 🧩 Semantic section backgrounds */
+  .bg-hero {
+    background-color: var(--color-hero);
   }
 
-  .bg-beige {
-    background-color: var(--color-beige);
+  .bg-mission {
+    background-color: var(--color-mission);
   }
 
-  .bg-b4b29a {
-    background-color: var(--color-olijf-light);
+  .bg-breathe {
+    background-color: var(--color-breathe);
   }
 
-  .bg-white {
-    background-color: var(--color-white-soft);
+  .bg-service {
+    background-color: var(--color-service);
   }
 
-  .bg-e8d5c0 {
-    background-color: var(--color-lichtbruin);
+  .bg-testimonial {
+    background-color: var(--color-testimonial);
   }
 
-  .bg-edeae4 {
-    background-color: var(--color-beige-lightgray);
+  .bg-faq {
+    background-color: var(--color-faq);
   }
 
-  .bg-donker {
-    background-color: var(--color-donkerbruin);
+  .bg-journey {
+    background-color: var(--color-journey);
   }
 
-  .bg-f0eae2 {
-    background-color: var(--color-zandtint);
+  .bg-rhythm {
+    background-color: var(--color-rhythm);
   }
 
-  .bg-d4d2c3 {
-    background-color: var(--color-groen-grijs);
+  .bg-founder-banner {
+    background-color: var(--color-founder-banner);
   }
 
-  .bg-olijfgroen {
-    background-color: var(--color-olijf);
+  .bg-founder-story {
+    background-color: var(--color-founder-story);
   }
 
-  .bg-e6ddcf {
-    background-color: var(--color-beige-light);
+  .bg-book-call {
+    background-color: var(--color-book-call);
   }
 
-  .bg-eae6dc {
-    background-color: var(--color-zandgrijs);
+  .bg-philosophy {
+    background-color: var(--color-philosophy);
+  }
+
+  /* 🖋️ Semantic text colors per section */
+  .text-hero {
+    color: var(--text-soft-dark);
+  }
+
+  .text-mission {
+    color: var(--text-soft-dark);
+  }
+
+  .text-breathe {
+    color: var(--text-muted);
+  }
+
+  .text-service {
+    color: var(--text-light);
+  }
+
+  .text-testimonial {
+    color: var(--text-soft-dark);
+  }
+
+  .text-faq {
+    color: var(--text-muted);
+  }
+
+  .text-journey {
+    color: var(--text-light);
+  }
+
+  .text-rhythm {
+    color: var(--text-dark);
+  }
+
+  .text-founder-banner {
+    color: var(--text-soft-dark);
+  }
+
+  .text-founder-story {
+    color: var(--text-dark);
+  }
+
+  .text-book-call {
+    color: var(--text-soft-dark);
+  }
+
+  .text-philosophy {
+    color: var(--text-light);
   }
 
   /* ⚪️ Generic backgrounds */
@@ -115,4 +170,3 @@
     @apply bg-white;
   }
 }
-/* ✅ Custom styles for specific components */

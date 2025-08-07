@@ -5,7 +5,7 @@ const FAQPage = () => {
   return (
     <section
       id="faq"
-      className="bg-[#d4d2c3] min-h-screen pb-12 pt-20 scroll-mt-16 relative z-20 overflow-hidden "
+      className="bg-[#eae6dc] min-h-screen pb-12 pt-20 scroll-mt-16 relative z-20 overflow-hidden "
     >
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
@@ -17,7 +17,7 @@ const FAQPage = () => {
               >
                 Frequently Asked Questions
               </h1>
-              <p className="text-base text-[#4b493d]">
+              <p className="text-lg italic text-[#3b3a2e] mb-10 leading-relaxed">
                 Here are some common questions about my coaching services. <br />
                 If you have more questions, feel free to reach out!
               </p>

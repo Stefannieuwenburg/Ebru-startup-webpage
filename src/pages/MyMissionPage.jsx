@@ -34,7 +34,7 @@ const MyMissionPage = ({ setShowContactModal }) => {
               My Mission
             </h2>
 
-            <div className="space-y-6 text-base text-gray-700 leading-relaxed">
+            <div className="text-lg italic text-[#3b3a2e] mb-10 leading-relaxed">
               <p>
                 I am dedicated to awakening the innate power within each person to heal, transform, and embody their fullest potential.
               </p>

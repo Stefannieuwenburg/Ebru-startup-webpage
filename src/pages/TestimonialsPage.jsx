@@ -113,7 +113,7 @@ const TestimonialCard = ({ testimonial }) => {
 
 const TestimonialsPage = () => {
   return (
-    <section id="testimonials" className="bg-[#eae6dc] min-h-screen pt-12 pb-20 scroll-mt-16 flex items-center justify-center text-gray-600 body-font">
+    <section id="testimonials" className="bg-[#e8d5c0] min-h-screen pt-12 pb-20 scroll-mt-16 flex items-center justify-center text-gray-600 body-font">
       <div className="max-w-6xl w-full px-4">
         <h1
           className="text-4xl italic md:text-4xl font-bold font-playfair text-center text-[#3b3a2e] mb-6"
