@@ -14,10 +14,11 @@ function Footer() {
                             className="text-2xl font-bold font-playfair mb-4"
                             style={{fontFamily: '"Playfair Display", serif'}}
                         >
-                            Breath&<span className="italic">Body Movement</span>
+                            Breath &<span className=""> Body Movement </span>
                         </h3>
                         <p className="text-gray-300 mb-4">
-                            Your guide to awaken the deep wisdom of your body and breath; where heart, mind, and spirit dance as one.
+                            Your guide to awaken the deep wisdom of your body and breath; <br/>
+                            where heart, mind, and spirit dance as one.
                         </p>
                     </div>
 
@@ -63,11 +64,11 @@ function Footer() {
                     </div>
                 </div>
                <div className="border-t border-gray-600 mt-4 pt-4 text-center">
-  <p className="text-gray-300">© 2025 breath&amp;bodymovement. All rights reserved.</p>
-  <p className="text-gray-300 text-sm mt-1">
-    Crafted with care by <a href="https://webdevstefan.nl" className="underline hover:text-gray-400 transition-colors">WebDevStefan.nl</a>
-  </p>
-</div>
+               <p className="text-gray-300">© 2025 breath&amp;bodymovement. All rights reserved.</p>
+               <p className="text-gray-300 text-sm mt-1">
+               Crafted with care by <a href="https://webdevstefan.nl" className="underline hover:text-gray-400 transition-colors">WebDevStefan.nl</a>
+              </p>
+             </div>
             </div>
         </footer>
     );

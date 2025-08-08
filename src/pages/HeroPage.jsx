@@ -30,8 +30,7 @@ const HeroPage = () => {
 
       <div className="relative z-10 text-center px-4">
         <h1
-          className="text-4xl italic md:text-6xl font-extrabold leading-tight md:leading-snug mb-4"
-          style={{ fontFamily: '"Playfair Display", serif' }}
+          className="fonts-playfair text-4xl italic md:text-6xl font-extrabold leading-tight md:leading-snug mb-4" 
         >
           Breathe. Move. Transform.
         </h1>

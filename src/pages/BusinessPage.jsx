@@ -20,7 +20,7 @@ const BusinessPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-4 font-semibold">
               Event Energizer
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-4">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-4">
               Energize your event with a 15–30 minute breath and movement reset.
               Help your group release tension and return refreshed and focused.
             </p>
@@ -34,7 +34,7 @@ const BusinessPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-4 mt-10 font-semibold">
               Workshops
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-4">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-4">
               Want your team to connect deeper and handle stress better?
               These breath and movement workshops build trust, presence, and clear communication.
             </p>
@@ -48,7 +48,7 @@ const BusinessPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-4 mt-10 font-semibold">
               Team Building Workshop
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-4">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-4">
               Your team’s wellbeing powers your success: let’s help them feel happier, healthier, and more connected.
               These immersive breath and movement workshops recharge your group and deepen their bonds.
             </p>
@@ -62,7 +62,7 @@ const BusinessPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-4 mt-10 font-semibold">
               Executive Coaching
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-4">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-4">
               Is your organization ready to develop leaders who lead with presence and authenticity?
               Discover coaching that unlocks deeper layers of strength and resilience.
             </p>

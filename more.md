@@ -130,3 +130,5 @@ Navigatieadvies
   cd breathandbodymovement
   npm install
   npm run dev
+
+themplate:groupcoaching

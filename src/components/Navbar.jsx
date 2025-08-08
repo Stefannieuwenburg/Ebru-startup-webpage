@@ -63,14 +63,14 @@ const Navbar = () => {
               className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
               onClick={() => handleNavClick({ type: "scroll", id: "hero" })}
             >
-              <p className="font-playfair text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] text-center drop-shadow-sm">
-                Breath & <span className="italic">Body Movement</span>
+              <p className="font-playfair leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] text-center drop-shadow-sm">
+                Breath & <span className="">Body Movement</span>
               </p>
             </button>
           </div>
 
           {/* Desktop Menu */}
-          <div className="font-playfair italic hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">
+          <div className="font-playfair leading-relaxed hidden md:flex flex-row gap-10 justify-center no-underline text-xl flex-1">
             {navItems.map((item) => (
               <button
                 key={item.name}
@@ -103,7 +103,7 @@ const Navbar = () => {
               <button
                 key={item.name}
                 onClick={() => handleNavClick(item)}
-                className="font-playfair italic text-left text-[#3b3a2e] text-lg hover:text-red-400 transition"
+                className="font-playfair leading-relaxed text-left text-[#3b3a2e] text-lg hover:text-red-400 transition"
               >
                 {item.name}
               </button>

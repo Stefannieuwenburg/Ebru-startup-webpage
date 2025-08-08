@@ -39,7 +39,7 @@ const FounderStory = () => {
                 Whether you're navigating burnout, emotional blocks, or just craving more aliveness, I offer grounded tools to support nervous system regulation, emotional release, and embodied alignment.
               </p>
               <p className="text-lg italic text-[#3b3a2e] leading-relaxed">
-                My mission is simple: To help you feel more; so you can live, lead, and love with clarity, joy, and purpose.
+               <strong>My mission is simple: To help you feel more; so you can live, lead, and love with clarity, joy, and purpose.</strong> 
               </p>
             </div>
 

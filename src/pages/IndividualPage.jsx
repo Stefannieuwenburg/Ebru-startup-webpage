@@ -21,7 +21,7 @@ const individualPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-6 font-semibold">
               1:1 Coaching
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-6">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-6">
               You’re holding it all together; but inside, you feel foggy, disconnected, or off track.
               It’s time to pause, reconnect, and realign with what truly matters to you.
             </p>
@@ -35,7 +35,7 @@ const individualPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-6 mt-10 font-semibold">
               Group Coaching Program
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-6">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-6">
               Ready to break free from what’s holding you back and step into your full power?
               Join a supportive community that guides you to release blocks, balance your emotions, and ignite your inner fire.
             </p>
@@ -49,7 +49,7 @@ const individualPage = () => {
             <h2 className="text-lg text-[#3b3a2e] mb-6 mt-10 font-semibold">
               Workshops
             </h2>
-            <p className="text-lg text-[#3b3a2e] mb-6">
+            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-6">
               Step into your body’s wisdom through movement, breathwork, and embodiment.
               Join my live workshops to awaken your power and release what holds you back.
             </p>

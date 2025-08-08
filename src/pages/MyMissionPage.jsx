@@ -28,8 +28,7 @@ const MyMissionPage = ({ setShowContactModal }) => {
           {/* Textual block */}
           <div className="text-center lg:text-left mb-6">
             <h2
-              className="text-4xl italic font-bold text-[#3b3a2e] mb-6"
-              style={{ fontFamily: '"Playfair Display", serif' }}
+              className="fonts-playfair text-4xl italic font-bold text-[#3b3a2e] mb-6"
             >
               My Mission
             </h2>
@@ -67,7 +66,7 @@ const MyMissionPage = ({ setShowContactModal }) => {
 
             <button
               onClick={() => setShowContactModal(true)}
-              className="inline-block bg-[#6e6c50] text-white px-8 py-3 rounded-3xl font-semibold hover:bg-[#5a5840] transition-colors"
+              className="inline-block bg-[#6e6c50] text-white px-8 py-3 rounded-3xl hover:bg-[#5a5840] transition-colors"
             >
               Book a Free call
             </button>

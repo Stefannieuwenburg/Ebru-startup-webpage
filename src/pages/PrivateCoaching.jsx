@@ -20,12 +20,12 @@ const PrivateCoaching = () => {
                     <div>
                         <h2 className="font-playfair italic text-2xl font-bold mb-2">1-1 Coaching</h2>
 
-                        <p className="mb-2">
+                        <p className="text-[#3b3a2e] leading-relaxed mb-2">
                             Do you feel foggy, stuck in your head or disconnected from your body — like you’re just
                             going through the motions? Maybe emotions feel confusing or distant, and you’re
                             overwhelmed or questioning your purpose.
                         </p>
-                        <p className="mb-2">
+                        <p className="text-[#3b3a2e] leading-relaxed mb-2">
                             You don’t have to carry this alone. Together, we’ll create a safe space where you can
                             soften, reset, and realign with your true self. This isn’t about quick fixes — it’s a
                             holistic journey blending somatic awareness, coaching, nervous system regulation, and
@@ -40,7 +40,7 @@ const PrivateCoaching = () => {
                             <li>Reconnect with your joy, power, and feminine energy</li>
                             <li>Step into your embodied self with confidence and presence</li>
                         </ul>
-                        <p className="mb-4">
+                        <p className="text-[#3b3a2e] leading-relaxed mb-4">
                             Whether you’re seeking a deep, ongoing journey or a powerful one-time reset, I offer different
                             1:1 coaching and somatic packages to meet you where you are. Explore the options and find the
                             path that feels right for you.
@@ -48,7 +48,7 @@ const PrivateCoaching = () => {
 
                       
 
-                        <div className="mt-4">
+                        <div className="text-[#3b3a2e] leading-relaxed mt-4">
                             {!showMore ? (
                                 <button
                                     onClick={toggleText}
@@ -68,7 +68,7 @@ const PrivateCoaching = () => {
 
                         {showMore && (
                             
-                            <div className="space-y-6 mt-4">
+                            <div className="text-[#3b3a2e] leading-relaxed space-y-6 mt-4">
                                   <h3 className="text-lg font-semibold mb-2">Coaching Options</h3>
                                 <div>
                                     <strong>The Return - Coaching Journey 1</strong><br />
@@ -110,7 +110,7 @@ const PrivateCoaching = () => {
                                         <li>Find emotional balance and clarity</li>
                                         <li>Embrace holistic well-being</li>
                                     </ul>
-                                    <p className="mt-2">
+                                    <p className="text-[#3b3a2e] leading-relaxed mt-2">
                                         This is your unique path to transformation through breath.
                                     </p>
                                 </div>
