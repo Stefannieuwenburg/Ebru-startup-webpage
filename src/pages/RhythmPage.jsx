@@ -10,22 +10,22 @@ function RhythmPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div>
-                            <h2 className="font-playfair text-4xl font-bold text-[#3b3a2e] mb-6">
+                            <h2 className=" fonts-playfair text-4xl italic font-bold text-[#3b3a2e] mb-6">
                                 Return to the Rhythm of Your Being
                             </h2>
-                            <p className="text-lg italic text-[#3b3a2e] mb-10 leading-relaxed">
+                            <p className="text-lg italic text-[#3b3a2e] mb-4 mt-4 leading-loose">
                                 Wholeness is not something we chase — it’s something we return to.
                                 It lives in the quiet between your breaths, in the fluidity of your movements, in the stillness of your mind.
                             </p>
-                            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-8">
+                            <p className="text-lg italic text-[#3b3a2e] leading-loose mb-4">
                                 Through intimate coaching, immersive workshops, and embodied practices, I invite you to step into a space where your body speaks, your heart softens, and your spirit feels free to expand.
                             </p>
-                            <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-8">
+                            <p className="text-lg italic text-[#3b3a2e] leading-loose mb-8">
                                 Whether you’re seeking to release the weight of stress, awaken your vitality, or reconnect with your deeper essence, we’ll journey together — listening to your body’s whispers, honoring its wisdom, and creating transformation that flows into every part of your life.
                             </p>
                             <a
                                 href="#story"
-                                className="bg-[#3b3a2e] text-white px-6 py-4 rounded-3xl hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-8 py-4 rounded-3xl hover:bg-[#2d2c22] transition-colors"
                             >
                                 My Story
                             </a>

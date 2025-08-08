@@ -16,7 +16,7 @@ const FAQPage = () => {
               >
                 Frequently Asked Questions
               </h1>
-              <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-10 leading-relaxed">
+              <p className="text-lg text-[#3b3a2e] leading-loose mb-10 leading-relaxed">
                 Here are some common questions about my coaching services. <br />
                 If you have more questions, feel free to reach out!
               </p>
@@ -95,7 +95,7 @@ const AccordionItem = ({ header, text }) => {
         className="flex w-full text-left items-center gap-3"
         onClick={() => setActive(!active)}
       >
-        <div className="flex h-8 w-8 items-center justify-center text-lg italic text-[#3b3a2e] leading-relaxed">
+        <div className="flex h-8 w-8 items-center justify-center leading-loose text-[#3b3a2e]">
           <svg
             className={`transform duration-300 ${active ? "rotate-180" : ""}`}
             width="18"

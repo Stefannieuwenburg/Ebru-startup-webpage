@@ -6,7 +6,7 @@ const BannerJourney = () => {
             <section className="bg-[#3b3a2e] min-h-[30vh] pt-12 pb-20 scroll-mt-16">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2
-                        className="fonts-playfair text-4xl font-bold text-white mb-6"
+                        className="text-5xl leading-tight fonts-playfair font-bold text-white mb-6"
                     >
                         Ready to Begin Your Journey?
                     </h2>

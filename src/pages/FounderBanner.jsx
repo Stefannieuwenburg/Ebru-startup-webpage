@@ -5,7 +5,7 @@ const FounderBanner = () => {
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center">
       <h1
-        className="font-playfair italic text-5xl md:text-6xl font-bold text-center text-[#3b3a2e] mb-6"
+        className="text-5xl font-bold text-[#3b3a2e] mb-6 leading-tight "
       >
         <span className="italic">Meet Ebru Dargan</span>
       </h1>

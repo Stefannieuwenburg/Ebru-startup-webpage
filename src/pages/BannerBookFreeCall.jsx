@@ -4,7 +4,7 @@ const BannerBookFreeCall = ({ setShowContactModal }) => {
     <>
       <section className="min-h-[50vh] pt-12 pb-20 scroll-mt-16 flex items-center justify-center bg-[#f0eae2]  px-6 md:px-12 lg:px-24">
          <div className="max-w-7xl w-full text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#3b3a2e] mb-6 leading-tight"style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }} >
+          <h1 className="text-5xl font-bold text-[#3b3a2e] mb-6 leading-tight"style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic' }} >
             Breathe. Move. Transform.
           </h1>
           <h2 className="leading-loose italic text-xl text-gray-700 mb-10 mx-auto">

@@ -61,7 +61,7 @@ const MyMissionPage = ({setShowContactModal}) => {
                             className="text-2xl font-bold text-[#3b3a2e] mt-8 mb-6"
                             style={{fontFamily: '"Playfair Display", serif'}}
                         >
-                            Ready to Start Your Journey?
+                            Want to Learn More?
                         </h3>
 
                         <button
