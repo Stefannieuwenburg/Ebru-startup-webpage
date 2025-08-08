@@ -50,7 +50,7 @@ function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/ebruuudrgn/" className="mb-2 flex items-center">
+                                    <a href="https://www.instagram.com/breathandbodymovement/" className="mb-2 flex items-center">
                                         <CiInstagram className="mr-2" />Instagram
                                     </a>
                                 </li>

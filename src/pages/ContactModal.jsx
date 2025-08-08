@@ -89,7 +89,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 Email
               </a>
               <a
-                href="https://www.instagram.com/ebruuudrgn/"
+                href="https://www.instagram.com/breathandbodymovement/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center"

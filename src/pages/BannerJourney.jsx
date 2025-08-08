@@ -10,10 +10,10 @@ const BannerJourney = () => {
                     >
                         Ready to Begin Your Journey?
                     </h2>
-                    <h2 className="font-playfair italic text-xl text-white mb-10 mx-auto">
+                    <h2 className="leading-loose italic text-xl text-white mb-10 mx-auto">
                     You want to have more clarity in your life, reconnect with your energy, and calm within? <br />
                     You don’t need to do more. You need to feel more! <br/>
-                    Let your body lead you home
+                    Let your body lead you home...
                    </h2>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
