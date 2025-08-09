@@ -1,5 +1,5 @@
 
-import Teambuilding from "../assets/image/RoundArena.jpg";
+import Teambuilding from "../assets/image/Roundarena.jpg";
 
 const TeamBuildingWorkShops = () => {
     return (
