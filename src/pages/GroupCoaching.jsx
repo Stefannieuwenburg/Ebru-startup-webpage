@@ -15,9 +15,6 @@ const GroupCoaching = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-lg text-[#3b3a2e] bold leading-loose mb-6">
-                                <strong> Group Coaching</strong>
-                            </h2>
                             <p className="text-[#3b3a2e] bold leading-loose mb-6">
                                <strong>Ignite Your Next Chapter</strong> 
                             </p>

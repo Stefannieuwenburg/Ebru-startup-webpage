@@ -38,6 +38,8 @@ Daarna kun je ze gebruiken zoals bg-bruin, text-olijfgroen, border-beige, enzovo
 Bv hero section
 
 center div <div className="min-h-screen pt-12 pb-20 scroll-mt-16 flex items-center justify-center ">
+extra aandacht punt for business en for individuals scrolling test:
+themplate:groupcoaching
 
 🎨 Aanbevolen achtergrondkleuren per pagina
 | Pagina | Aanbevolen achtergrondkleur | HEX-code | Tailwind class (custom) | 
@@ -131,4 +133,3 @@ Navigatieadvies
   npm install
   npm run dev
 
-themplate:groupcoaching
