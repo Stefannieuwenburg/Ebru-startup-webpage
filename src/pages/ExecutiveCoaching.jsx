@@ -15,16 +15,16 @@ const ExecutiveCoachingPage = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6 mt-4">
+                            <h2 className="text-xl font-bold text-[#3b3a2e] mb-6 mt-4">
                                 Executive Coaching for Embodied Leadership
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
                                 Lead with presence. Inspire with authenticity.
                             </h3>
-                            <p className="text-lg text-[#3b3a2e] mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 True leadership isn’t just about strategy and decision-making — it’s about the quality of presence a leader brings to every interaction. Through embodiment and somatic coaching, executives learn to lead from a grounded, aware, and authentic place, inspiring trust and driving meaningful impact.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 Our coaching helps leaders:
                             </p>
                             <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
@@ -34,18 +34,18 @@ const ExecutiveCoachingPage = () => {
                                 <li>Access intuition and creativity beyond the limits of intellect</li>
                                 <li>Model resilience and wellbeing for a healthy workplace culture</li>
                             </ul>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 This work goes beyond skill-building — it transforms how leaders show up in every room, conversation, and decision. When leaders are embodied, they lead with both strength and humanity, creating an environment where people and performance can thrive.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 Tailored executive coaching packages are available for individuals and leadership teams, designed to meet your organization’s unique challenges and goals.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-8">
+                            <p className="text-[#3b3a2e] leading-loosemb-8">
                                 Because leadership that starts from the body lasts far longer than leadership driven by the mind alone.
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
                             </a>
