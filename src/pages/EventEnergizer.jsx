@@ -18,7 +18,7 @@ const EventEnergizerPage = () => {
                             <h3 className="text-lg font-semibold text-[#3b3a2e] mb-4 mt-4">
                                 Movement & Breathwork Energizer
                             </h3>
-                            <p className="text-lg italic text-[#3b3a2e] mb-4 mt-4">
+                            <p className="text-xl italic text-[#3b3a2e] mb-4 mt-4">
                                 Recharge focus and energy in just 30–45 minutes.
                             </p>
                             <p className="text-[#3b3a2e] leading-loose mb-4">
