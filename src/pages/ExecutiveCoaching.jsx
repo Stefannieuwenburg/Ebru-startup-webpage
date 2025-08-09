@@ -15,7 +15,7 @@ const ExecutiveCoachingPage = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-xl font-bold text-[#3b3a2e] mb-6 mt-4">
+                            <h2 className="text-lg font-bold text-[#3b3a2e] mb-6 mt-4">
                                 Executive Coaching for Embodied Leadership
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
@@ -27,17 +27,17 @@ const ExecutiveCoachingPage = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-6">
                                 Our coaching helps leaders:
                             </p>
-                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 space-y-2 mb-4 ">
                                 <li>Develop embodied presence that commands respect without force</li>
                                 <li>Navigate high-pressure situations with calm, clarity, and confidence</li>
                                 <li>Build deeper connection and trust with teams and stakeholders</li>
                                 <li>Access intuition and creativity beyond the limits of intellect</li>
                                 <li>Model resilience and wellbeing for a healthy workplace culture</li>
                             </ul>
-                            <p className="text-[#3b3a2e] leading-loose mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 This work goes beyond skill-building — it transforms how leaders show up in every room, conversation, and decision. When leaders are embodied, they lead with both strength and humanity, creating an environment where people and performance can thrive.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 Tailored executive coaching packages are available for individuals and leadership teams, designed to meet your organization’s unique challenges and goals.
                             </p>
                             <p className="text-[#3b3a2e] leading-loose mb-8">
