@@ -8,7 +8,7 @@ const MyMissionPage = ({setShowContactModal}) => {
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center pt-12 pb-16">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start pt-12 pb-16">
                     {/* Image block */}
                     <div className="relative">
                         <img
@@ -19,10 +19,10 @@ const MyMissionPage = ({setShowContactModal}) => {
                     </div>
 
                     {/* Textual block */}
-                    <div className="text-center lg:text-left mb-6">
-                        <h2 className="fonts-playfair text-4xl italic font-bold text-[#3b3a2e] mb-6">My Mission</h2>
+                    <div className="text-center lg:text-left mt-12">
+                        <h2 className="fonts-playfair text-4xl italic font-bold text-[#3b3a2e] mb-4">My Mission</h2>
 
-                        <div className="text-lg italic text-[#3b3a2e] mb-5 mt-4 leading-relaxed">
+                        <div className="text-lg italic text-[#3b3a2e] mb-4 mt-2 leading-relaxed">
                             <p>
                                 I am dedicated to awakening the innate power within each person to heal, transform, and
                                 embody their fullest potential.
@@ -32,7 +32,7 @@ const MyMissionPage = ({setShowContactModal}) => {
                                 their body’s wisdom.
                             </p>
                             </div>
-                            <div className="text-lg italic text-[#3b3a2e] mb-5 mt-4 leading-relaxed">
+                            <div className="text-lg italic text-[#3b3a2e] mb-4  leading-relaxed">
                                 <p>
                                     My approach embraces emotional, physical, mental, and spiritual well-being,
                                     supporting authentic embodiment and lasting transformation.
@@ -45,7 +45,7 @@ const MyMissionPage = ({setShowContactModal}) => {
                                 </p>
                             </div>
                         
-                        <div className="text-lg italic text-[#3b3a2e] mb-5 mt-4 leading-relaxed">
+                        <div className="text-lg italic text-[#3b3a2e] mb-4 leading-relaxed">
                             <p>
                                 Whether you're new to wellbeing practices or looking to deepen your journey, I'm here to
                                 support you every step of the way.
@@ -56,9 +56,9 @@ const MyMissionPage = ({setShowContactModal}) => {
                             </p>
                         </div>
 
-                        <div className="text-lg italic text-[#3b3a2e] mb-5 mt-4 leading-relaxed"></div>
+                        <div className="text-lg italic text-[#3b3a2e] mb-4 mt-2 leading-relaxed"></div>
                         <h3
-                            className="text-2xl font-bold text-[#3b3a2e] mt-8 mb-6"
+                            className="text-2xl font-bold text-[#3b3a2e] mt-4 mb-4"
                             style={{fontFamily: '"Playfair Display", serif'}}
                         >
                             Want to Learn More?
