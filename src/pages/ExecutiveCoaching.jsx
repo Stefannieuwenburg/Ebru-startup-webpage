@@ -27,7 +27,7 @@ const ExecutiveCoachingPage = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-6">
                                 Our coaching helps leaders:
                             </p>
-                            <ul className="text-[#3b3a2e] list-disc pl-5 space-y-2 mb-4 ">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 space-y-2 mb-6 ">
                                 <li>Develop embodied presence that commands respect without force</li>
                                 <li>Navigate high-pressure situations with calm, clarity, and confidence</li>
                                 <li>Build deeper connection and trust with teams and stakeholders</li>
