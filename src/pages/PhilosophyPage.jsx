@@ -18,20 +18,20 @@ const PhilosophyPage = () => {
         {/* Centered content container */}
         <div className="relative z-10 max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2
-            className="text-5xl font-bold text-[#3b3a2e] mb-10 tracking-tight"
-            style={{ fontFamily: '"Playfair Display", serif' }}
+            className="fonts-playfair italic text-5xl font-bold text-[#3b3a2e] mb-10 tracking-tight"
           >
             My Philosophy
           </h2>
 
           <blockquote className="text-xl italic text-[#3b3a2e] mb-10 leading-relaxed">
             “Every breath is an opportunity for transformation.” <br />
-            “Every movement is a chance to reconnect with your authentic self.” <br />
-            I believe that within each of us lies the innate wisdom to heal, grow, and thrive.
+            “Every movement is a chance to reconnect with your authentic self.”
+           
           </blockquote>
 
           <div className="text-lg italic text-[#3b3a2e] leading-relaxed space-y-6">
             <p>
+              I believe that within each of us lies the innate wisdom to heal, grow, and thrive.
               My approach is grounded in the belief that true healing happens when we create a{" "}
               <span className="text-[#6e6c50] font-semibold">safe, nurturing space</span> for the body’s{" "}
               <span className="text-[#6e6c50] font-semibold">natural intelligence</span> to emerge.
