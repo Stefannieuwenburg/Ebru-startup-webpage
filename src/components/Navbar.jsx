@@ -63,7 +63,7 @@ const Navbar = () => {
               className="mt-2 mx-2 hover:-translate-y-1 hover:text-gray-300 transition duration-200"
               onClick={() => handleNavClick({ type: "scroll", id: "hero" })}
             >
-              <p className="font-playfair leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl text-[#d95c5c] text-center drop-shadow-sm">
+              <p className="font-playfair leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl text-[#A65E2E] text-center">
                 Breath & <span className="">Body Movement</span>
               </p>
             </button>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <button
                 key={item.name}
                 onClick={() => handleNavClick(item)}
-                className="text-[#3b3a2e] hover:text-red-400 hover:-translate-y-1 duration-500 transition"
+                className="text-[#3b3a2e] hover:text-[#A65E2E] hover:-translate-y-1 duration-500 transition"
               >
                 {item.name}
               </button>
@@ -103,7 +103,7 @@ const Navbar = () => {
               <button
                 key={item.name}
                 onClick={() => handleNavClick(item)}
-                className="font-playfair leading-relaxed text-left text-[#3b3a2e] text-lg hover:text-red-400 transition"
+                className="font-playfair leading-relaxed text-left text-[#3b3a2e] text-lg hover:text-[#A65E2E] transition"
               >
                 {item.name}
               </button>
