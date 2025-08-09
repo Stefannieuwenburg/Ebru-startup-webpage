@@ -15,7 +15,7 @@ const WorkShopB = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-xl font-bold text-[#3b3a2e] mb-6 mt-4">
+                            <h2 className="text-xl font-bold text-[#3b3a2e] mb-6 mt-6">
                                 Corporate Wellbeing with a Nervous System Approach
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
@@ -30,7 +30,7 @@ const WorkShopB = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-6">
                                 We bring science-backed, experiential workshops using breathwork, qigong, and somatic movement directly into your workplace — boardrooms, Zoom meetings, and team off-sites — to help your teams and leaders:
                             </p>
-                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2 mb-6 ">
                                 <li>Recharge energy and reduce stress on the spot</li>
                                 <li>Regulate under pressure for clearer thinking and better decisions</li>
                                 <li>Increase self-awareness and emotional intelligence</li>
