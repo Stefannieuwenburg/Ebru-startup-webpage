@@ -40,7 +40,7 @@ const ExecutiveCoachingPage = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-6">
                                 Tailored executive coaching packages are available for individuals and leadership teams, designed to meet your organization’s unique challenges and goals.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loosemb-8">
+                            <p className="text-[#3b3a2e] leading-loose mb-8">
                                 Because leadership that starts from the body lasts far longer than leadership driven by the mind alone.
                             </p>
                             <a

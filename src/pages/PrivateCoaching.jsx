@@ -16,7 +16,6 @@ const PrivateCoaching = () => {
                             className="rounded-lg shadow-lg w-full h-full object-cover"
                         />
                     </div>
-
                     <div>
                         <p className="text-[#3b3a2e] leading-loose mb-2">
                             Do you feel foggy, stuck in your head or disconnected from your body — like you’re just
@@ -43,9 +42,6 @@ const PrivateCoaching = () => {
                             1:1 coaching and somatic packages to meet you where you are. Explore the options and find the
                             path that feels right for you.
                         </p>
-
-                      
-
                         <div className="text-[#3b3a2e] leading-loose mt-4">
                             {!showMore ? (
                                 <button
