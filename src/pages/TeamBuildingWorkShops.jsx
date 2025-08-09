@@ -15,7 +15,7 @@ const TeamBuildingWorkShops = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6 mt-4">
+                            <h2 className="text-lg font-bold text-[#3b3a2e] mb-6 mt-4">
                                 Team Building Through Breath, Movement & Dance
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
@@ -24,17 +24,17 @@ const TeamBuildingWorkShops = () => {
                             <p className="text-lg text-[#3b3a2e] mb-4">
                                 This uplifting, interactive workshop gets your team moving, laughing, and connecting in ways that go far beyond everyday work conversations.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-lg text-[#3b3a2e] mb-4">
                                 Through a blend of playful breathwork, movement, and dance, participants are invited to:
                             </p>
-                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
+                            <ul className="text-[#3b3a2e]list-disc pl-5 space-y-2 mb-4 ">
                                 <li>Slow down and be fully present</li>
                                 <li>Move together in a fun, energizing way</li>
                                 <li>Spark creativity and fresh ideas</li>
                                 <li>Build trust and open communication</li>
                                 <li>Strengthen collaboration through shared experiences</li>
                             </ul>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-lg text-[#3b3a2e] mb-4">
                                 Tailored formats are available to match your group’s size, goals, and energy — from short energizers to full-length workshops.
                             </p>
                             <p className="text-lg text-[#3b3a2e] mb-8">
