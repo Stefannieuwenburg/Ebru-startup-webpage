@@ -15,8 +15,7 @@ const WorkShops = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6">Workshops</h2>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6 mt-4">
                                 I am passionate about bringing embodiment, movement, and breathwork workshops to
                                 communities worldwide. These spaces are sacred invitations to step fully into your
                                 body’s intelligence, awaken your inner wisdom, and embrace transformation.
@@ -40,12 +39,12 @@ const WorkShops = () => {
                                     cultivate vitality
                                 </li>
                             </ul>
-                            <p className="text-lg text-[#3b3a2e] mb-8">
+                            <p className="text-[#3b3a2e] leading-loose mb-8">
                                 Interested in hosting a workshop or joining upcoming sessions? Reach out anytime.
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
                             </a>
