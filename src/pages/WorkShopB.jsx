@@ -15,7 +15,7 @@ const WorkShopB = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-xl font-bold text-[#3b3a2e] mb-6 mt-6">
+                            <h2 className="text-lg font-bold text-[#3b3a2e] mb-6 mt-6">
                                 Corporate Wellbeing with a Nervous System Approach
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
