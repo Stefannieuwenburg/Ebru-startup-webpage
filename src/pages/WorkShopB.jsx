@@ -37,13 +37,13 @@ const WorkShopB = () => {
                                 <li>Strengthen trust and collaboration across teams</li>
                                 <li>Build resilience that lasts far beyond the session</li>
                             </ul>
-                            <p className="text-[#3b3a2e] leading-loose mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-2">
                                 When employees are grounded, present, and connected, they bring more creativity, focus, and engagement to their work — which means better results for your business.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-2">
                                 We offer customized wellbeing programs designed to reduce overwhelm, improve retention, and foster a culture where people can truly thrive.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-2">
                                 Because when your people work well, your business works better.
                             </p>
                             <a
