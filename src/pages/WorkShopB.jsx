@@ -43,7 +43,7 @@ const WorkShopB = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-2">
                                 We offer customized wellbeing programs designed to reduce overwhelm, improve retention, and foster a culture where people can truly thrive.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-8">
                                 Because when your people work well, your business works better.
                             </p>
                             <a
