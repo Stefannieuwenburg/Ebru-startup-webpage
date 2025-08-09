@@ -21,7 +21,7 @@ const BusinessPage = () => {
               Event Energizer
             </h2>
             <p className="text-lg italic text-[#3b3a2e] leading-relaxed mb-4">
-              Energize your event with a 15–30 minute breath and movement reset.
+              Energize your event with a 30–45 minute breath and movement reset.
               Help your group release tension and return refreshed and focused.
             </p>
             <Link

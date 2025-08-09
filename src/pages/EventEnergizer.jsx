@@ -21,10 +21,10 @@ const EventEnergizerPage = () => {
                             <p className="text-lg italic text-[#3b3a2e] mb-4 mt-4">
                                 Recharge focus and energy in just 30–45 minutes.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 At the start of an event, participants often arrive rushed and distracted. After lunch, energy drops and focus fades.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 The Movement & Breathwork Energizer is a short, impactful session that uses simple movement and breathing techniques to:
                             </p>
                             <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
@@ -33,15 +33,15 @@ const EventEnergizerPage = () => {
                                 <li>Boost energy, clarity, and engagement</li>
                                 <li>Build a sense of presence and connection</li>
                             </ul>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 In just minutes, your group will return to work recharged, focused, and ready to contribute.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 Perfect for team offsites, corporate events, conferences, and workshops — whenever your audience needs a quick, powerful reset to spark creativity and collaboration.
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
                             </a>
