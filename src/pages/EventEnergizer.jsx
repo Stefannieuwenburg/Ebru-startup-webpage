@@ -15,7 +15,7 @@ const EventEnergizerPage = () => {
                             />
                         </div>
                         <div>
-                            <h3 className="text-xl font-semibold text-[#3b3a2e] mb-4 mt-4">
+                            <h3 className="text-lg font-semibold text-[#3b3a2e] mb-4 mt-4">
                                 Movement & Breathwork Energizer
                             </h3>
                             <p className="text-lg italic text-[#3b3a2e] mb-4 mt-4">
