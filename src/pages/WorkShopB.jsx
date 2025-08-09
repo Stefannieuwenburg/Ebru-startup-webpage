@@ -15,19 +15,19 @@ const WorkShopB = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6 mt-4">
+                            <h2 className="text-xl font-bold text-[#3b3a2e] mb-6 mt-4">
                                 Corporate Wellbeing with a Nervous System Approach
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
                                 Resilient people. Connected teams. Better business outcomes.
                             </h3>
-                            <p className="text-lg text-[#3b3a2e] mb-4">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 Stress, burnout, and disengagement are costing companies more than ever — in lost productivity, absenteeism, and high turnover. The truth is, no strategy, KPI, or innovation can thrive if the people behind it are running on empty.
                             </p>
                             <p className="text-lg italic text-[#3b3a2e] mb-6">
                                 "The key is simple yet powerful: help people feel grounded, clear, and recharged from the inside out."
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 We bring science-backed, experiential workshops using breathwork, qigong, and somatic movement directly into your workplace — boardrooms, Zoom meetings, and team off-sites — to help your teams and leaders:
                             </p>
                             <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
@@ -37,18 +37,18 @@ const WorkShopB = () => {
                                 <li>Strengthen trust and collaboration across teams</li>
                                 <li>Build resilience that lasts far beyond the session</li>
                             </ul>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 When employees are grounded, present, and connected, they bring more creativity, focus, and engagement to their work — which means better results for your business.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-6">
                                 We offer customized wellbeing programs designed to reduce overwhelm, improve retention, and foster a culture where people can truly thrive.
                             </p>
-                            <p className="text-lg text-[#3b3a2e] mb-8">
+                            <p className="text-[#3b3a2e] leading-loose mb-8">
                                 Because when your people work well, your business works better.
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"
-                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl font-semibold hover:bg-[#2d2c22] transition-colors"
+                                className="bg-[#3b3a2e] text-white px-6 py-3 rounded-3xl hover:bg-[#2d2c22] transition-colors"
                             >
                                 Contact Us
                             </a>
