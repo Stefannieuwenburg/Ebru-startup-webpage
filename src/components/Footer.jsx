@@ -24,10 +24,10 @@ function Footer() {
               where heart, mind, and spirit dance as one.
             </p>
              {/* Footer Images */}
-        <div className="mt-8 flex flex-col sm:flex-row items-start gap-6">
-          <img src={logo1} alt="Logo 1" className="h-12 w-auto" />
-          <img src={logo2} alt="Logo 2" className="h-12 w-auto" />
-          <img src={logo3} alt="Logo 3" className="h-12 w-auto" />
+        <div className="mt-8 flex flex-row items-start gap-6">
+          <img src={logo1} alt="Logo 1" className="h-16 w-auto" />
+          <img src={logo2} alt="Logo 2" className="h-16 w-auto" />
+          <img src={logo3} alt="Logo 3" className="h-16 w-auto" />
         </div>
           </div>
 
