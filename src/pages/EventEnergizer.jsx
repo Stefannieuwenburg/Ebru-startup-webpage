@@ -27,7 +27,7 @@ const EventEnergizerPage = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-6">
                                 The Movement & Breathwork Energizer is a short, impactful session that uses simple movement and breathing techniques to:
                             </p>
-                            <ul className="text-[#3b3a2e] mb-6 space-y-2 list-disc">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2 mb-6 ">
                                 <li>Shake off tension and release stuck energy</li>
                                 <li>Reset and regulate the nervous system</li>
                                 <li>Boost energy, clarity, and engagement</li>
