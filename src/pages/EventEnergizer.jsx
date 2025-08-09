@@ -15,26 +15,29 @@ const EventEnergizerPage = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6">Event Energizer</h2>
-                            <h3 className="text-xl font-semibold text-[#3b3a2e] mb-4">
+                            <h3 className="text-xl font-semibold text-[#3b3a2e] mb-4 mt-4">
                                 Movement & Breathwork Energizer
                             </h3>
+                            <p className="text-lg italic text-[#3b3a2e] mb-4 mt-4">
+                                Recharge focus and energy in just 30–45 minutes.
+                            </p>
                             <p className="text-lg text-[#3b3a2e] mb-4">
-                                Participants often arrive rushed and unfocused, or hit a mid-day energy slump.
+                                At the start of an event, participants often arrive rushed and distracted. After lunch, energy drops and focus fades.
                             </p>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                This dynamic 15–30 minute session uses movement and breathwork to help your group:
+                                The Movement & Breathwork Energizer is a short, impactful session that uses simple movement and breathing techniques to:
                             </p>
-                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2">
+                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
                                 <li>Shake off tension and release stuck energy</li>
                                 <li>Reset and regulate the nervous system</li>
-                                <li>Boost energy, focus, and mental clarity</li>
-                                <li>Foster collective presence and connection</li>
-                                <li>Return to meetings or activities feeling recharged and engaged</li>
+                                <li>Boost energy, clarity, and engagement</li>
+                                <li>Build a sense of presence and connection</li>
                             </ul>
                             <p className="text-lg text-[#3b3a2e] mb-6">
-                                Ideal for meetings, conferences, or team offsites that need a quick, powerful reset to
-                                enhance creativity and collaboration.
+                                In just minutes, your group will return to work recharged, focused, and ready to contribute.
+                            </p>
+                            <p className="text-lg text-[#3b3a2e] mb-6">
+                                Perfect for team offsites, corporate events, conferences, and workshops — whenever your audience needs a quick, powerful reset to spark creativity and collaboration.
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"

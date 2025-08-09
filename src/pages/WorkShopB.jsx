@@ -15,42 +15,36 @@ const WorkShopB = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-lg text-[#3b3a2e] mb-6">
-                                <strong>Workshops</strong>
+                            <h2 className="text-2xl font-bold text-[#3b3a2e] mb-6 mt-4">
+                                Corporate Wellbeing with a Nervous System Approach
                             </h2>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
-                                Is your team striving for deeper connection, resilience, and collaboration?
-                            </p>
-                            <p className="text-lg text-[#3b3a2e] mb-6">
-                                These experiential workshops use breathwork and movement to help your team:
-                            </p>
-
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Recharge and regulate stress</li>
-                                <li>Increase self-awareness and presence</li>
-                                <li>Improve communication and trust</li>
-                                <li>Access collective intelligence for better decisions</li>
-                            </ul>
-                            <p className="text-lg text-[#3b3a2e] mt-4 mb-8">
-                                Walk away with practical tools to reduce overwhelm and foster a conscious,
-                                well-connected team culture.
-                            </p>
-                            <h3 className="mb-4 mt-4">
-                                <strong>Corporate Wellness with Nervous System Approach</strong>
+                            <h3 className="text-xl italic text-[#3b3a2e] mb-4">
+                                Resilient people. Connected teams. Better business outcomes.
                             </h3>
-                            <p className="text-lg text-[#3b3a2e] mt-4 mb-8">
-                                Stress and burnout are common but don’t have to be normal. We offer somatic,
-                                movement-based workshops to help your teams and leaders
+                            <p className="text-lg text-[#3b3a2e] mb-4">
+                                Stress, burnout, and disengagement are costing companies more than ever — in lost productivity, absenteeism, and high turnover. The truth is, no strategy, KPI, or innovation can thrive if the people behind it are running on empty.
                             </p>
-                            <ul className="text-lg text-[#3b3a2e] ">
-                                <li>Reconnect with their bodies</li>
-                                <li>Regulate their nervous systems</li>
-                                <li>Respond to pressure with calm and clarity</li>
+                            <p className="text-lg italic text-[#3b3a2e] mb-6">
+                                "The key is simple yet powerful: help people feel grounded, clear, and recharged from the inside out."
+                            </p>
+                            <p className="text-lg text-[#3b3a2e] mb-6">
+                                We bring science-backed, experiential workshops using breathwork, qigong, and somatic movement directly into your workplace — boardrooms, Zoom meetings, and team off-sites — to help your teams and leaders:
+                            </p>
+                            <ul className="text-lg pl-4 text-[#3b3a2e] mb-6 space-y-2 list-disc">
+                                <li>Recharge energy and reduce stress on the spot</li>
+                                <li>Regulate under pressure for clearer thinking and better decisions</li>
+                                <li>Increase self-awareness and emotional intelligence</li>
+                                <li>Strengthen trust and collaboration across teams</li>
+                                <li>Build resilience that lasts far beyond the session</li>
                             </ul>
-
-                            <p className="text-lg text-[#3b3a2e] mt-4 mb-8  ">
-                                Customized wellbeing workshops; from one-off sessions to retreats; promote long-term
-                                mental fitness, emotional regulation, and authentic workplace connection.
+                            <p className="text-lg text-[#3b3a2e] mb-6">
+                                When employees are grounded, present, and connected, they bring more creativity, focus, and engagement to their work — which means better results for your business.
+                            </p>
+                            <p className="text-lg text-[#3b3a2e] mb-6">
+                                We offer customized wellbeing programs designed to reduce overwhelm, improve retention, and foster a culture where people can truly thrive.
+                            </p>
+                            <p className="text-lg text-[#3b3a2e] mb-8">
+                                Because when your people work well, your business works better.
                             </p>
                             <a
                                 href="mailto:ebru.dargan@gmail.com"
