@@ -15,7 +15,7 @@ const WorkShopB = () => {
                             />
                         </div>
                         <div>
-                            <h2 className="text-lg font-bold text-[#3b3a2e] mb-6 mt-6">
+                            <h2 className="text-lg font-bold text-[#3b3a2e] mb-4 mt-6">
                                 Corporate Wellbeing with a Nervous System Approach
                             </h2>
                             <h3 className="text-xl italic text-[#3b3a2e] mb-4">
@@ -24,26 +24,26 @@ const WorkShopB = () => {
                             <p className="text-[#3b3a2e] leading-loose mb-4">
                                 Stress, burnout, and disengagement are costing companies more than ever — in lost productivity, absenteeism, and high turnover. The truth is, no strategy, KPI, or innovation can thrive if the people behind it are running on empty.
                             </p>
-                            <p className="text-lg italic text-[#3b3a2e] mb-6">
+                            <p className="text-lg italic text-[#3b3a2e] mb-4">
                                 "The key is simple yet powerful: help people feel grounded, clear, and recharged from the inside out."
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 We bring science-backed, experiential workshops using breathwork, qigong, and somatic movement directly into your workplace — boardrooms, Zoom meetings, and team off-sites — to help your teams and leaders:
                             </p>
-                            <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2 mb-6 ">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2 mb-4 ">
                                 <li>Recharge energy and reduce stress on the spot</li>
                                 <li>Regulate under pressure for clearer thinking and better decisions</li>
                                 <li>Increase self-awareness and emotional intelligence</li>
                                 <li>Strengthen trust and collaboration across teams</li>
                                 <li>Build resilience that lasts far beyond the session</li>
                             </ul>
-                            <p className="text-[#3b3a2e] leading-loose mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 When employees are grounded, present, and connected, they bring more creativity, focus, and engagement to their work — which means better results for your business.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-6">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 We offer customized wellbeing programs designed to reduce overwhelm, improve retention, and foster a culture where people can truly thrive.
                             </p>
-                            <p className="text-[#3b3a2e] leading-loose mb-8">
+                            <p className="text-[#3b3a2e] leading-loose mb-4">
                                 Because when your people work well, your business works better.
                             </p>
                             <a
