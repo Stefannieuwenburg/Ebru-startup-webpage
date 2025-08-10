@@ -27,7 +27,7 @@ const TeamBuildingWorkShops = () => {
                             <p className="text-lg text-[#3b3a2e] mb-4">
                                 Through a blend of playful breathwork, movement, and dance, participants are invited to:
                             </p>
-                            <ul className="text-[#3b3a2e]list-disc pl-5 space-y-2 mb-4 ">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2">
                                 <li>Slow down and be fully present</li>
                                 <li>Move together in a fun, energizing way</li>
                                 <li>Spark creativity and fresh ideas</li>
