@@ -21,7 +21,7 @@ const WorkShops = () => {
                                 body’s intelligence, awaken your inner wisdom, and embrace transformation.
                             </p>
                             <h3 className="text-xl font-semibold text-[#3b3a2e] mb-4">Workshop Options:</h3>
-                            <ul className="list-disc pl-6 text-[#3b3a2e] mb-6 space-y-2">
+                            <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2 ">
                                 <li>
                                     Somatic Movement: Gentle, conscious movement to increase body awareness and release
                                     tension
