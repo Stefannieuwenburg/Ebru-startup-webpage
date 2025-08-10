@@ -22,13 +22,13 @@ const WorkShopB = () => {
                                 Resilient people. Connected teams. Better business outcomes.
                             </h3>
                             <p className="text-[#3b3a2e] leading-loose mb-4">
-                                Stress, burnout, and disengagement are costing companies more than ever — in lost productivity, absenteeism, and high turnover. The truth is, no strategy, KPI, or innovation can thrive if the people behind it are running on empty.
+                                Stress, burnout, and disengagement are costing companies more than ever in lost productivity, absenteeism, and high turnover. The truth is, no strategy, KPI, or innovation can thrive if the people behind it are running on empty.
                             </p>
                             <p className="text-lg text-[#3b3a2e] mb-4">
                                 "The key is simple yet powerful: help people feel grounded, clear, and recharged from the inside out."
                             </p>
                             <p className="text-[#3b3a2e] leading-loose mb-4">
-                                We bring science-backed, experiential workshops using breathwork, qigong, and somatic movement directly into your workplace — boardrooms, Zoom meetings, and team off-sites — to help your teams and leaders:
+                                We bring science-backed, experiential workshops using breathwork, qigong, and somatic movement directly into your workplace boardrooms, Zoom meetings, and team off-sites to help your teams and leaders:
                             </p>
                             <ul className="text-[#3b3a2e] list-disc pl-5 mb-4 space-y-2 mb-4 ">
                                 <li>Recharge energy and reduce stress on the spot</li>
@@ -38,7 +38,7 @@ const WorkShopB = () => {
                                 <li>Build resilience that lasts far beyond the session</li>
                             </ul>
                             <p className="text-[#3b3a2e] leading-loose mb-2">
-                                When employees are grounded, present, and connected, they bring more creativity, focus, and engagement to their work — which means better results for your business.
+                                When employees are grounded, present, and connected, they bring more creativity, focus, and engagement to their work which means better results for your business.
                             </p>
                             <p className="text-[#3b3a2e] leading-loose mb-2">
                                 We offer customized wellbeing programs designed to reduce overwhelm, improve retention, and foster a culture where people can truly thrive.
