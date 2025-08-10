@@ -27,7 +27,7 @@ const GroupCoaching = () => {
                                     <strong>Join if you:</strong>
                                 </li>
                             </ul>
-                            <ul className="text-[#3b3a2e] leading-loose list-disc pl-5 space-y-2">
+                            <ul className="text-[#3b3a2e] leading-loose list-disc pl-5">
                                 <li>Feel trapped in a chapter that no longer serves you</li>
                                 <li>Want connection with others committed to growth</li>
                                 <li>Need body-based tools to manage stress and overwhelm</li>
@@ -39,7 +39,7 @@ const GroupCoaching = () => {
                                     <strong>You’ll receive:</strong>
                                 </li>
                             </ul>
-                            <ul className="text-[#3b3a2e] leading-loose list-disc pl-5 space-y-2">
+                            <ul className="text-[#3b3a2e] leading-loose list-disc pl-5">
                                 <li>Weekly live coaching, movement, and sharing sessions</li>
                                 <li>Guided somatic and embodiment practices to reset your nervous system</li>
                                 <li>Tools to release stuck energy and cultivate resilience</li>
