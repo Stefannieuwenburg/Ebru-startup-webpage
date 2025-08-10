@@ -5,15 +5,13 @@ const FAQPage = () => {
   return (
     <section
       id="faq"
-      className="bg-[#eae6dc] min-h-screen pb-12 pt-20 scroll-mt-16 relative z-20 overflow-hidden "
+      className="bg-[#eae6dc] min-h-screen pb-12 pt-20 scroll-mt-16 relative z-10 overflow-hidden"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto relative z-20">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-12 max-w-[620px] text-center">
-              <h1
-                className="fonts-playfair mb-4 text-4xl italic font-bold text-[#3b3a2e] sm:text-[40px]/[48px]"
-              >
+              <h1 className="fonts-playfair mb-4 text-4xl italic font-bold text-[#3b3a2e] sm:text-[40px]/[48px]">
                 Frequently Asked Questions
               </h1>
               <p className="text-lg text-[#3b3a2e] leading-loose mb-10 leading-relaxed">
@@ -24,7 +22,7 @@ const FAQPage = () => {
           </div>
         </div>
 
-        <div className="container mx-auto -mx-4 flex flex-wrap gap-y-4">
+        <div className="-mx-4 flex flex-wrap gap-y-4">
           <div className="w-full px-4 lg:w-1/2 space-y-4">
             <AccordionItem
               header="What does 'alignment' mean in this coaching?"
@@ -64,22 +62,6 @@ const FAQPage = () => {
           </div>
         </div>
       </div>
-
-      <div className="absolute bottom-0 right-0 z-[-1]">
-        <svg
-          width="1440"
-          height="886"
-          viewBox="0 0 1440 886"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            opacity="0.5"
-            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
-            fill="url(#paint0_linear)"
-          />
-        </svg>
-      </div>
     </section>
   );
 };
@@ -111,14 +93,14 @@ const AccordionItem = ({ header, text }) => {
             />
           </svg>
         </div>
-        <h4 className="font-playfair text-lg text-[#3b3a2e] leading-relaxed font-medium ">
+        <h4 className="font-playfair text-lg text-[#3b3a2e] leading-relaxed font-medium">
           {header}
         </h4>
       </button>
 
       {active && (
         <div className="mt-2 pl-10">
-          <p className="text-lg italic text-[#3b3a2e] leading-relaxed ">
+          <p className="text-lg italic text-[#3b3a2e] leading-relaxed">
             {text}
           </p>
         </div>
