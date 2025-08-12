@@ -75,14 +75,12 @@ function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-gray-600 mt-4 pt-4 text-center">
-          <p className="text-gray-300">© 2025 breath&amp;bodymovement. All rights reserved.</p>
-          <p className="text-gray-300 text-sm mt-1">
-            Crafted with care by{" "}
+          <p className="text-gray-300 text-sm">
+            © 2025 breath&amp;bodymovement · KvK: 92664717 · Crafted with care by{" "}
             <a href="https://webdevstefan.nl" className="underline hover:text-gray-400 transition-colors">
               WebDevStefan.nl
             </a>
           </p>
-          <p className="text-gray-300 text-sm mt-1">KvK: 92664717</p>
         </div>
       </div>
     </footer>
@@ -90,4 +88,5 @@ function Footer() {
 }
 
 export default Footer;
+
 
