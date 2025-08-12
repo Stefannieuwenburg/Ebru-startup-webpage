@@ -23,12 +23,12 @@ function Footer() {
               Your guide to awaken the deep wisdom of your body and breath; <br />
               where heart, mind, and spirit dance as one.
             </p>
-             {/* Footer Images */}
-        <div className="mt-8 flex flex-row items-start gap-6">
-          <img src={logo1} alt="Logo 1" className="h-16 w-auto" />
-          <img src={logo2} alt="Logo 2" className="h-16 w-auto" />
-          <img src={logo3} alt="Logo 3" className="h-16 w-auto" />
-        </div>
+            {/* Footer Images */}
+            <div className="mt-8 flex flex-row items-start gap-6">
+              <img src={logo1} alt="Logo 1" className="h-16 w-auto" />
+              <img src={logo2} alt="Logo 2" className="h-16 w-auto" />
+              <img src={logo3} alt="Logo 3" className="h-16 w-auto" />
+            </div>
           </div>
 
           {/* Links */}
@@ -82,6 +82,7 @@ function Footer() {
               WebDevStefan.nl
             </a>
           </p>
+          <p className="text-gray-300 text-sm mt-1">KvK: 92664717</p>
         </div>
       </div>
     </footer>
