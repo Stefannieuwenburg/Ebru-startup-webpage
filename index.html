@@ -1,36 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Charset & Viewport -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/dance.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Breath & Body Movement" />
 
+    <!-- Title & Favicon -->
     <title>Breath & Body Movement</title>
+    <link rel="icon" href="/dance.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.png" type="image/png" />
+    <meta name="theme-color" content="#000000" />
 
-<!-- Meta-informatie voor SEO -->
-<meta name="description" content="Breath & Body Movement Reconnect with your body’s innate wisdom through conscious movement and breath and discover your inner strength.." />
-<meta name="keywords" content="Breath & Body Movement,somatic coaching, embodiment, conscious movement, breathing, breathwork, somatic healing, team building through movement and dance, team workshops for nervous system regulation, nervous system regulation, qigong and mindfullness, body connection, burnout prevention, healing through breath, accessing body wisdom, corporate wellbeing, Coaching, life coaching, holistic coaching, Amsterdam, Bali, Thailand, Global, listening to your body, emotional, physical, mental and spiritual wellbeing, life purpose, group coaching for stepping into your next chapter, workshops, dance workshops, executive coaching, embodied leadership, resilience, somatic coaching, coactive coaching, body focused coaching, empowering leaders, unlock your potential, reconnect to your body, strengthen your teams, breath, move, transform, discover your inner strength, discover yourself, find alignment, connect to your body, mind, soul and heart" />
-<meta name="author" content="Ebru Dargan from Breath & Body Movement,Stefan van WebDevStefan.nl" />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Reconnect with your body’s innate wisdom through conscious movement and breath. Discover your inner strength through somatic coaching, breathwork, and embodied leadership." />
+    <meta name="keywords" content="Breath & Body Movement, somatic coaching, embodiment, breathwork, conscious movement, nervous system regulation, team building through dance, burnout prevention, healing through breath, body wisdom, corporate wellbeing, holistic coaching, emotional wellbeing, executive coaching, embodied leadership, resilience, reconnect to your body, life purpose, workshops, Amsterdam, Bali, Thailand" />
+    <meta name="author" content="Ebru Dargan & Stefan van WebDevStefan.nl" />
 
-<!-- Open Graph-tags voor social media previews -->
-<meta property="og:title" content="Breath & Body Movement | Deep wisdom of your body and breath to transform your life" />
-<meta property="og:description" content="Ontdek een serene en interactieve webapp rond ademhaling en lichaamsbewustzijn." />
-<meta property="og:image" content="https://www.webdevstefan.nl/assets/bbm-preview.png" />
-<meta property="og:url" content="https://www.webdevstefan.nl/breath-body" />
-<meta property="og:type" content="website" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Breath & Body Movement | Deep wisdom of your body and breath to transform your life" />
+    <meta property="og:description" content="Ontdek een serene en interactieve webapp rond ademhaling en lichaamsbewustzijn." />
+    <meta property="og:image" content="https://www.webdevstefan.nl/assets/bbm-preview.png" />
+    <meta property="og:url" content="https://www.webdevstefan.nl/breath-body" />
+    <meta property="og:type" content="website" />
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXLTMHFH2S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Breath & Body Movement" />
+    <meta name="twitter:description" content="Reconnect with your body’s wisdom through breath and movement." />
+    <meta name="twitter:image" content="https://www.webdevstefan.nl/assets/bbm-preview.png" />
 
-  gtag('config', 'G-NXLTMHFH2S');
-</script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXLTMHFH2S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NXLTMHFH2S');
+    </script>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Breath & Body Movement",
+      "url": "https://www.webdevstefan.nl/breath-body",
+      "logo": "https://www.webdevstefan.nl/assets/bbm-preview.png",
+      "description": "Reconnect with your body’s innate wisdom through conscious movement and breath. Discover your inner strength through somatic coaching, breathwork, and embodied leadership.",
+      "sameAs": [
+        "https://www.instagram.com/breathbodymovement",
+        "https://www.facebook.com/breathbodymovement",
+        "https://www.linkedin.com/company/breathbodymovement"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Ebru Dargan"
+      }
+    }
+    </script>
   </head>
+
   <body>
+    <noscript>
+      <div style="padding: 1rem; background: #fdd; color: #900; text-align: center;">
+        This site works best with JavaScript enabled.
+      </div>
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
