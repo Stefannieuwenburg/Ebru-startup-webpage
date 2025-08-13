@@ -1,92 +1,106 @@
-import { CiInstagram } from "react-icons/ci";
-import { MdOutlineEmail } from "react-icons/md";
-import { CiLinkedin } from "react-icons/ci";
-import logo1 from "../assets/image/coachingcf.png";
-import logo2 from "../assets/image/coachingsmalcf.png";
-import logo3 from "../assets/image/coachingcfsmall.png";
-import { Link } from "react-router-dom";
+import { BsInstagram } from "react-icons/bs";
+import { ImWhatsapp } from "react-icons/im";
+import { CgMail } from "react-icons/cg";
 
-function Footer() {
+export const Footer = () => {
   return (
-    <footer id="footer" className="bg-[#3b3a2e] min-h-[20vh] text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
-          <div className="col-span-1 md:col-span-2">
-            <h3
-              className="text-2xl font-bold font-playfair mb-4"
-              style={{ fontFamily: '"Playfair Display", serif' }}
-            >
-              Breath &<span className=""> Body Movement </span>
-            </h3>
-            <p className="text-gray-300 mb-4">
-              Your guide to awaken the deep wisdom of your body and breath; <br />
-              where heart, mind, and spirit dance as one.
-            </p>
-            {/* Footer Images */}
-            <div className="mt-8 flex flex-row items-start gap-6">
-              <img src={logo1} alt="Logo 1" className="h-16 w-auto" />
-              <img src={logo2} alt="Logo 2" className="h-16 w-auto" />
-              <img src={logo3} alt="Logo 3" className="h-16 w-auto" />
-            </div>
+    <>
+      <div id="Informatie" className="bg-[#f7f7f7] text-black">
+        <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
+          <div className="w-full md:w-1/4 place-items-center justify-center">
+            <h2 className="mb-6 text-2xl font-bold">
+              Go4<span className="text-[#d8aa46]">Hair</span>
+            </h2>
           </div>
-
-          {/* Links */}
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/individual" className="text-gray-300 hover:text-white transition-colors">
-                  For Individuals
-                </Link>
-              </li>
-              <li>
-                <Link to="/business" className="text-gray-300 hover:text-white transition-colors">
-                  For Business
-                </Link>
-              </li>
-            </ul>
+            <h1 className="text-[#9b7d3e] font-medium text-xl pb-4 pt-5 md:pt-0">
+              Behandelmethodes
+            </h1>
+            <nav className="flex flex-col gap-2">
+              <a className="hover:underline cursor-pointer" href="#Behandelmethodes">
+                Follicular Unit Transplantation (FUT)
+              </a>
+              <a className="hover:underline cursor-pointer" href="#Behandelmethodes">
+                Follicular Unit Extraction (FUE)
+              </a>
+              <a className="hover:underline cursor-pointer" href="#Behandelmethodes">
+                Sapphire (FUE)
+              </a>
+              <a className="hover:underline cursor-pointer" href="#Behandelmethodes">
+                Ice (FUE)
+              </a>
+              <a className="hover:underline cursor-pointer" href="#Behandelmethodes">
+                Direct Hair Implantation (DHI)
+              </a>
+            </nav>
           </div>
-
-          {/* Socials */}
           <div>
-            <h4 className="font-semibold mb-4">Socials</h4>
-            <ul className="space-y-2">
-              <div>
-                <li>
-                  <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center">
-                    <MdOutlineEmail className="mr-2" />Email
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/breathandbodymovement/" className="mb-2 flex items-center">
-                    <CiInstagram className="mr-2" />Instagram
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center">
-                    <CiLinkedin className="mr-2" />LinkedIn
-                  </a>
-                </li>
-              </div>
-            </ul>
+            <h1 className="text-[#9b7d3e] font-medium text-xl pb-4 pt-5 md:pt-0">
+              Contact
+            </h1>
+            <nav className="flex flex-col gap-2">
+              <a className="hover:underline cursor-pointer" href="#Contact">
+                Email
+              </a>
+              <a className="hover:underline cursor-pointer" href="#Contact">
+                WhatsApp
+              </a>
+              <a className="hover:underline cursor-pointer" href="#Contact">
+                Afspraak maken
+              </a>
+            </nav>
+          </div>
+          <div>
+            <h1 className="text-[#9b7d3e] font-medium text-xl pb-4 pt-5 md:pt-2">
+              Media
+            </h1>
+            <nav className="flex flex-col items-start md:items-center gap-2">
+              <a
+                target="_blank"
+                aria-label="Instagram"
+                href="https://www.instagram.com/go4hair_clinic/"
+              >
+                <BsInstagram
+                  size={30}
+                  className="hover:cursor-pointer"
+                  style={{ color: "purple" }}
+                />
+              </a>
+              <a
+                target="_blank"
+                aria-label="Chat on WhatsApp"
+                href="https://wa.me/31630360329"
+              >
+                <ImWhatsapp
+                  className="hover:cursor-pointer"
+                  size={30}
+                  style={{ color: "Green" }}
+                />
+              </a>
+              <a href="mailto:Go4hairclinic@gmail.com?body=Beste go4hair">
+                <CgMail
+                  className="hover:cursor-pointer"
+                  size={35}
+                  style={{ color: "Red" }}
+                />
+              </a>
+            </nav>
           </div>
         </div>
-
-        {/* Copyright */}
-        <div className="border-t border-gray-600 mt-4 pt-4 text-center">
-          <p className="text-gray-300 text-sm">
-            © 2025 breath&amp;bodymovement · KvK: 92664717 · Crafted with care by{" "}
-            <a href="https://webdevstefan.nl" className="underline hover:text-gray-400 transition-colors">
+        <div>
+          <p className="text-center py-4">
+            Crafted with care by{" "}
+            <a
+              href="https://webdevstefan.nl"
+              className="underline hover:text-gray-400 transition-colors"
+            >
               WebDevStefan.nl
             </a>
           </p>
         </div>
       </div>
-    </footer>
+    </>
   );
-}
-
+};
 export default Footer;
-
 
