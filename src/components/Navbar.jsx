@@ -75,7 +75,7 @@ const Navbar = () => {
               <button
                 key={item.name}
                 onClick={() => handleNavClick(item)}
-                className="text-[#3b3a2e] hover:text-[#A65E2E] hover:-translate-y-1 duration-500 transition"
+                className="text-[#A65E2E] hover:text-[#3b3a2e] hover:-translate-y-1 duration-500 transition"
               >
                 {item.name}
               </button>
@@ -103,7 +103,7 @@ const Navbar = () => {
               <button
                 key={item.name}
                 onClick={() => handleNavClick(item)}
-                className="font-playfair leading-relaxed text-left text-[#3b3a2e] text-lg hover:text-[#A65E2E] transition"
+                className="font-playfair leading-relaxed text-left text-[#A65E2E] text-lg hover:text-[#3b3a2e] transition"
               >
                 {item.name}
               </button>
