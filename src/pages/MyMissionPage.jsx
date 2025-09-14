@@ -1,5 +1,5 @@
 import MyMission from "../assets/image/MyMission.jpg";
-import WhatsAppButtonGreen from '../assets/image/WhatsAppButtonGreen.png';
+import WhatsAppButtonGreen from "../assets/image/WhatsAppButtonGreen.png";
 const MyMissionPage = ({setShowContactModal}) => {
     return (
         <div id="about" className="relative bg-[#f0eae2] min-h-screen scroll-mt-16">
@@ -31,20 +31,20 @@ const MyMissionPage = ({setShowContactModal}) => {
                                 Through breathwork, movement, and qigong, I guide individuals to reconnect deeply with
                                 their body’s wisdom.
                             </p>
-                            </div>
-                            <div className="text-lg italic text-[#3b3a2e] mb-4  leading-relaxed">
-                                <p>
-                                    My approach embraces emotional, physical, mental, and spiritual well-being,
-                                    supporting authentic embodiment and lasting transformation.
-                                </p>
-                                <p>
-                                    I believe our bodies hold the key to deep healing. When we move, breathe, and feel,
-                                    we don’t just release tension; we unlock clarity, freedom, and inner power.
-                                    Because movement isn’t just exercise; it’s medicine. And breath isn’t just calming; it’s a
-                                    path home.
-                                </p>
-                            </div>
-                        
+                        </div>
+                        <div className="text-lg italic text-[#3b3a2e] mb-4  leading-relaxed">
+                            <p>
+                                My approach embraces emotional, physical, mental, and spiritual well-being, supporting
+                                authentic embodiment and lasting transformation.
+                            </p>
+                            <p>
+                                I believe our bodies hold the key to deep healing. When we move, breathe, and feel, we
+                                don’t just release tension; we unlock clarity, freedom, and inner power. Because
+                                movement isn’t just exercise; it’s medicine. And breath isn’t just calming; it’s a path
+                                home.
+                            </p>
+                        </div>
+
                         <div className="text-lg italic text-[#3b3a2e] mb-4 leading-relaxed">
                             <p>
                                 Whether you're new to wellbeing practices or looking to deepen your journey, I'm here to
@@ -74,12 +74,12 @@ const MyMissionPage = ({setShowContactModal}) => {
                 </div>
             </div>
             <a
-  className="fixed bottom-4 right-8 z-50"
-  aria-label="Chat on WhatsApp"
-  href="https://wa.me/31647235318?text=Hi%20Ebru%2C%20I%20found%20your%20website%20and%20wanted%20to%20connect!"
->
-  <img className="w-14 h-auto" alt="Chat on WhatsApp" src={WhatsAppButtonGreen} />
-</a>
+                className="fixed bottom-4 right-8 z-50"
+                aria-label="Chat on WhatsApp"
+                href="https://wa.me/31647235318?text=Hi%20Ebru%2C%20I%20found%20your%20website%20and%20wanted%20to%20connect!"
+            >
+                <img className="w-14 h-auto" alt="Chat on WhatsApp" src={WhatsAppButtonGreen} />
+            </a>
         </div>
     );
 };
