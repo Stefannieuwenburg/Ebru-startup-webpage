@@ -73,13 +73,14 @@ const MyMissionPage = ({setShowContactModal}) => {
                     </div>
                 </div>
             </div>
-            <a
-                className="fixed bottom-4 right-8 z-50"
+            <div className="fixed bottom-8 right-12 z-50">
+                 <a
                 aria-label="Chat on WhatsApp"
                 href="https://wa.me/31647235318?text=Hi%20Ebru%2C%20I%20found%20your%20website%20and%20wanted%20to%20connect!"
             >
-                <img className="w-14 h-auto" alt="Chat on WhatsApp" src={WhatsAppButtonGreen} />
+                <img className="w-12 h-auto" alt="Chat on WhatsApp" src={WhatsAppButtonGreen} />
             </a>
+            </div>
         </div>
     );
 };
