@@ -15,7 +15,7 @@ import RhythmPage from './pages/RhythmPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import WorkShops from './pages/WorkShops';
 import FAQPage from './pages/FAQPage';
-import BannerBookFreeCall from './pages/BannerBookFreeCall';
+import BannerNewsletter from './pages/BannerNewsletter';
 import PrivateCoaching from './pages/PrivateCoaching';
 import BusinessPage from './pages/BusinessPage';
 import IndividualPage from './pages/IndividualPage';
@@ -58,7 +58,7 @@ function App() {
                 <RhythmPage />
                 <FounderBanner />
                 <FounderStory />
-                <BannerBookFreeCall setShowContactModal={setShowContactModal} />
+                <BannerNewsletter />
                 <PhilosophyPage />
               </Layout>
             }

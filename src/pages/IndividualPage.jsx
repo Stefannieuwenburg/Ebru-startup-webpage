@@ -84,10 +84,12 @@ const IndividualPage = () => {
             className="text-4xl font-bold text-white mb-6"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
-            Ready to Begin Your Transformation?
+             Ready to Begin Your Journey?
           </h2>
           <p className="text-xl text-white mb-8">
-            Take the first step towards a more balanced, mindful, and vibrant life
+           You want to have more clarity in your life, reconnect with your energy, and calm within? <br />
+           You don’t need to do more. You need to feel more! <br/>
+           Let your body lead you home...
           </p>
           <a
             href="https://hipsy.nl/breath-body-movement"

@@ -54,9 +54,18 @@ function Footer() {
                   For Business
                 </Link>
               </li>
+              <li>
+               <a
+            href="https://hipsy.nl/breath-body-movement"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-white transition-colors"
+          >
+            Subscribe to Newsletter
+          </a>
+              </li>
             </ul>
           </div>
-
           {/* Socials */}
           <div>
             <h4 className="font-semibold mb-4">Socials</h4>

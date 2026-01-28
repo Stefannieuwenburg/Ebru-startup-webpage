@@ -1,6 +1,8 @@
 import { CiInstagram, CiLinkedin } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuTreeDeciduous } from "react-icons/lu";
+import { MdEmail } from "react-icons/md";
+
 
 const ContactModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -114,7 +116,15 @@ const ContactModal = ({ isOpen, onClose }) => {
                 <CiLinkedin className="mr-2" />
                 LinkedIn
               </a>
-
+ <a
+            href="https://hipsy.nl/breath-body-movement"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-[#3b3a2e] hover:text-[#6e6c50] transition"
+            >
+            <MdEmail className="mr-2" />
+            Subscribe to Newsletter
+          </a>
               {/* Linktree */}
               <a
                 href="https://linktr.ee/breathandbodymovement"
