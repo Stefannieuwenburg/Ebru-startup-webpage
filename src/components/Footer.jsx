@@ -1,6 +1,7 @@
 import { CiInstagram } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
+import { LuTreeDeciduous } from "react-icons/lu";
 import logo1 from "../assets/image/coachingcf.png";
 import logo2 from "../assets/image/coachingsmalcf.png";
 import logo3 from "../assets/image/coachingcfsmall.png";
@@ -11,6 +12,7 @@ function Footer() {
     <footer id="footer" className="bg-[#3b3a2e] min-h-[20vh] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3
@@ -23,6 +25,7 @@ function Footer() {
               Your guide to awaken the deep wisdom of your body and breath; <br />
               where heart, mind, and spirit dance as one.
             </p>
+
             {/* Footer Images */}
             <div className="mt-8 flex flex-row items-start gap-6">
               <img src={logo1} alt="Logo 1" className="h-16 w-auto" />
@@ -36,12 +39,18 @@ function Footer() {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/individual" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/individual"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   For Individuals
                 </Link>
               </li>
               <li>
-                <Link to="/business" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/business"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   For Business
                 </Link>
               </li>
@@ -52,23 +61,38 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Socials</h4>
             <ul className="space-y-2">
-              <div>
-                <li>
-                  <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center">
-                    <MdOutlineEmail className="mr-2" />Email
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/breathandbodymovement/" className="mb-2 flex items-center">
-                    <CiInstagram className="mr-2" />Instagram
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/ebrudargan" className="mb-2 flex items-center">
-                    <CiLinkedin className="mr-2" />LinkedIn
-                  </a>
-                </li>
-              </div>
+              <li>
+                <a href="mailto:ebru.dargan@gmail.com" className="mb-2 flex items-center text-gray-300 hover:text-white transition-colors">
+                  <MdOutlineEmail className="mr-2" />Email
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/breathandbodymovement/"
+                  className="mb-2 flex items-center text-gray-300 hover:text-white transition-colors"
+                >
+                  <CiInstagram className="mr-2" />Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ebrudargan"
+                  className="mb-2 flex items-center text-gray-300 hover:text-white transition-colors"
+                >
+                  <CiLinkedin className="mr-2" />LinkedIn
+                </a>
+              </li>
+
+              {/* Linktree */}
+              <li>
+                <a
+                  href="https://linktr.ee/breathandbodymovement"
+                  className="mb-2 flex items-center text-gray-300 hover:text-white transition-colors"
+                >
+                  <LuTreeDeciduous className="mr-2" />
+                   Explore all offerings & channels 
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -77,12 +101,13 @@ function Footer() {
         <div className="border-t border-gray-600 mt-4 pt-4 text-center">
           <p className="text-gray-300 text-sm">
             © 2025 breath&amp;bodymovement · KvK: 92664717 · Crafted with care by{" "}
-
-            <a href="https://webdevstefan.nl" className="underline hover:text-gray-400 transition-colors">
+            <a
+              href="https://webdevstefan.nl"
+              className="underline hover:text-gray-400 transition-colors"
+            >
               WebDevStefan.nl
             </a>
           </p>
-
         </div>
       </div>
     </footer>

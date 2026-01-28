@@ -1,6 +1,6 @@
-
 import { CiInstagram, CiLinkedin } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
+import { LuTreeDeciduous } from "react-icons/lu";
 
 const ContactModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -8,6 +8,8 @@ const ContactModal = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center px-4">
       <div className="bg-[#edeae4] max-w-3xl w-full p-6 rounded-xl relative overflow-y-auto max-h-[90vh] font-sans text-base text-[#3b3a2e]">
+        
+        {/* Close Button */}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-[#3b3a2e] text-lg hover:text-red-500"
@@ -15,6 +17,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           Close
         </button>
 
+        {/* Title */}
         <h1 className="text-2xl font-bold text-center mb-4 font-playfair">
           Contact Us
         </h1>
@@ -23,6 +26,8 @@ const ContactModal = ({ isOpen, onClose }) => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          {/* Contact Form */}
           <div>
             <h2 className="text-xl font-semibold mb-4">Contact Form</h2>
             <form
@@ -51,7 +56,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 name="email"
                 placeholder="Email"
                 required
-                pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" 
+                pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
                 title="Please enter a valid email address"
                 className="w-full p-3 border border-gray-500 rounded focus:outline-none focus:border-[#6e6c50] invalid:border-red-500 transition"
               />
@@ -78,36 +83,51 @@ const ContactModal = ({ isOpen, onClose }) => {
             </form>
           </div>
 
+          {/* Contact Information */}
           <div>
             <h2 className="text-xl font-semibold mb-4">Contact Information</h2>
             <div className="space-y-2">
               <a
                 href="mailto:ebru.dargan@gmail.com"
-                className="flex items-center"
+                className="flex items-center text-[#3b3a2e] hover:text-[#6e6c50] transition"
               >
                 <MdOutlineEmail className="mr-2" />
                 Email
               </a>
+
               <a
                 href="https://www.instagram.com/breathandbodymovement/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center"
+                className="flex items-center text-[#3b3a2e] hover:text-[#6e6c50] transition"
               >
                 <CiInstagram className="mr-2" />
                 Instagram
               </a>
+
               <a
                 href="https://www.linkedin.com/in/ebrudargan"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center"
+                className="flex items-center text-[#3b3a2e] hover:text-[#6e6c50] transition"
               >
                 <CiLinkedin className="mr-2" />
                 LinkedIn
               </a>
+
+              {/* Linktree */}
+              <a
+                href="https://linktr.ee/breathandbodymovement"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-[#3b3a2e] hover:text-[#6e6c50] transition"
+              >
+                <LuTreeDeciduous className="mr-2" />
+                Explore all offerings & channels 
+              </a>
             </div>
           </div>
+
         </div>
       </div>
     </div>
